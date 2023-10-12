@@ -90,20 +90,12 @@ const NavBar = () => {
                         className="mx-4"
                     />
                     <CustomLink
-                        href="/designs"
-                        title="Designs"
+                        href="/work"
+                        title="Work"
                         className="ml-4"
                     />
                 </nav>
                 <nav className=" flex items-center justify-center flex-wrap">
-                    <motion.a
-                        href="https://twitter.com"
-                        target={"_blank"}
-                        whileHover={{ y: -2 }}
-                        whileTap={{ scale: 0.9 }}
-                        className="w-7 mr-3">
-                        <TwitterIcon />
-                    </motion.a>
                     <motion.a
                         href="https://twitter.com"
                         target={"_blank"}
@@ -161,20 +153,12 @@ const NavBar = () => {
                             toggle={handleClick}
                         />
                         <CustomMobileLink
-                            href="/"
-                            title="Articles"
+                            href="/work"
+                            title="Work"
                             toggle={handleClick}
                         />
                     </nav>
                     <nav className=" flex items-center justify-center flex-wrap mt-2">
-                        <motion.a
-                            href="https://twitter.com"
-                            target={"_blank"}
-                            whileHover={{ y: -2 }}
-                            whileTap={{ scale: 0.9 }}
-                            className="w-7 mr-3 sm: mx-1">
-                            <TwitterIcon />
-                        </motion.a>
                         <motion.a
                             href="https://twitter.com"
                             target={"_blank"}

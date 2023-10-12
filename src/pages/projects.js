@@ -5,12 +5,12 @@ import AnimatedText from "@/components/AnimatedText";
 import Link from "next/link";
 import Image from "next/image";
 import { GithubIcon } from "@/components/Icons";
-import project1 from "../../public/images/projects/crypto-screener-cover-image.jpg";
+import WSpic from "../../public/images/wspic.jpg"; 
 import { motion } from "framer-motion";
 
 const FramerImage = motion(Image);
 
-const FeaturedProject = ({ type, title, summary, img, link, github }) => {
+const FeaturedProject = ({ type, title, summary, img, link }) => {
     return (
         <article
             className="w-full flex items-center justify-between rounded-3xl 
@@ -48,9 +48,6 @@ const FeaturedProject = ({ type, title, summary, img, link, github }) => {
                     {summary}
                 </p>
                 <div className="mt-2 flex items-center">
-                    <Link href={github} target="_blank" className="w-10">
-                        <GithubIcon />
-                    </Link>
                     <Link
                         href={link}
                         target="_self"
@@ -129,31 +126,25 @@ const projects = () => {
                         className="mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl"
                     />
                     <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
-                        <div className="col-span-12">
+                        <div className="col-span-12 ">
                             <FeaturedProject
                                 title="Social Hero"
-                                img={project1}
+                                img={WSpic} {/*Change Image */}
                                 link="/projects/socialhero"
-                                github="/"
-                                type="Featured UI UX Project"
-                                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                            It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                            local currency."
+                                type="UI UX Research and Design Project"
+                                summary="Ongoing research project that seeks to understand how a virtual playful environment could foster social interactions which the internal team dubbed 'Social Hero'."
                             />
                         </div>
                         <div className="col-span-12">
                             <FeaturedProject
                                 title="Work Scheduler Application"
-                                img={project1}
-                                link="/"
-                                github="/"
-                                type="Featured Software Development Project"
-                                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                            It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                            local currency."
+                                img={WSpic}
+                                link="/projects/workscheduler"
+                                type="Software Development Project"
+                                summary="Undergraduate Capstone Project where we created cross-platform mobile application to help organise a company's work schedule."
                             />
                         </div>
-                        <div className="col-span-6 sm:col-span-12">
+                        {/*<div className="col-span-6 sm:col-span-12">
                             <Project
                                 title="Crypto Screener Application"
                                 img={project1}
@@ -171,7 +162,7 @@ const projects = () => {
                                 github="/"
                                 type="Data Visualization Project"
                             />
-                        </div>
+                            </div>*/}
                     </div>
                 </Layout>
             </main>

@@ -7,7 +7,7 @@ const Details = ({ type, time, place, info }) => {
     return (
         <li
             ref={ref}
-            className="my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-center justify-between md:w-[80%]">
+            className="my-8 first:mt-0 last:mb-0 w-[80%] mx-auto flex flex-col items-center justify-between md:w-[80%]">
             <LiIcon reference={ref} />
             <motion.div
                 initial={{ y: 50 }}
@@ -32,31 +32,30 @@ const Education = () => {
         offset: ["start end", "center start"],
     });
     return (
-        <div className="my-64">
-            <h2 className="font-bold text-8xl mb-32 w-full text-center md:text-6xl xs:text-4xl md:mb-16">
+        <div>
+            <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75">
                 Education
             </h2>
 
             <div
                 ref={ref}
-                className="w-[75%] mx-auto relative lg:w-[90%] md:w-full">
-                <motion.div
+                className="mx-auto relative w-full">
+                {/*<motion.div
                     style={{ scaleY: scrollYProgress }}
-                    className="absolute left-9 top-0 w-[4px] h-full bg-dark dark:bg-light origin-top
-                    md:w-[2px] md:left-[30px] xs:left-[20px]"
-                />
+                    className="absolute left-[20px] top-0 w-[4px] h-full bg-dark dark:bg-light origin-top"
+    />*/}
                 <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
                     <Details
                         type="Bachelor Of Science In Computer Science"
-                        time="2016-2020"
-                        place="Massachusetts Institute Of Technology (MIT)"
-                        info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial Intelligence."
+                        time="2019-2022"
+                        place="University of San Francisco"
+                        info="Relevant courses: Data Visualization"
                     />
                     <Details
-                        type="Bachelor Of Science In Computer Science"
-                        time="2016-2020"
-                        place="Massachusetts Institute Of Technology (MIT)"
-                        info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial Intelligence."
+                        type="Masters of Science in Human Computer Interaction"
+                        time="2022-2023"
+                        place="University of California, Santa Cruz)"
+                        info="Relevant course: Intro to HCI, Intro to Design"
                     />
                 </ul>
             </div>
