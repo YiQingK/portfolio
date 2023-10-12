@@ -127,9 +127,10 @@ const projects = () => {
                     />
                     <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
                         <div className="col-span-12 ">
+                            {/*Change Image */}
                             <FeaturedProject
                                 title="Social Hero"
-                                img={WSpic} {/*Change Image */}
+                                img={WSpic} 
                                 link="/projects/socialhero"
                                 type="UI UX Research and Design Project"
                                 summary="Ongoing research project that seeks to understand how a virtual playful environment could foster social interactions which the internal team dubbed 'Social Hero'."
