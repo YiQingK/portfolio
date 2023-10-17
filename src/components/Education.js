@@ -13,7 +13,7 @@ const Details = ({ type, time, place, info }) => {
                 initial={{ y: 50 }}
                 whileInView={{ y: 0 }}
                 transition={{ duration: 0.5, type: "spring" }}>
-                <h3 className="capitalize font-bold text-2xl sm:text-xl xs:text-lg">
+                <h3 className="capitalize font-bold text-xl xs:text-lg">
                     {type}
                 </h3>
                 <span className="capitalize font-medium text-dark/75 dark:text-light/75 xs:text-sm">
@@ -49,13 +49,13 @@ const Education = () => {
                         type="Bachelor Of Science In Computer Science"
                         time="2019-2022"
                         place="University of San Francisco"
-                        info="Relevant courses: Data Visualization"
+                        info=""
                     />
                     <Details
                         type="Masters of Science in Human Computer Interaction"
                         time="2022-2023"
-                        place="University of California, Santa Cruz)"
-                        info="Relevant course: Intro to HCI, Intro to Design"
+                        place="University of California, Santa Cruz"
+                        info=""
                     />
                 </ul>
             </div>
