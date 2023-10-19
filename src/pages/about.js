@@ -53,13 +53,13 @@ const about = () => {
                             <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75">
                             Hi, I'm Yi Qing Khoo. You can also call me Haru.
                             </h2>
-                            <p className="font-medium">
+                            <p className="font-medium font-body">
                                 I am a UI/UX designer currently based in Santa Clara, California but am from the tiny country, Singapore.
                             </p>
-                            <p className="font-medium my-4">
+                            <p className="font-medium my-4 font-body">
                                 My experience in UI/UX design comes from projects and work in university while my visual design skills come from being self-taught through my experience running my own small business and freelance work.
                             </p>
-                            <p className="font-medium">
+                            <p className="font-medium font-body">
 
                             </p>
                             <Education />

@@ -33,7 +33,7 @@ export default function Home() {
                                 text="Hi, I'm Yi Qing Khoo. "
                                 className="!text-center !text-6xl xl:!text-5xl  lg:!text-6xl md:!text-5xl sm:!text-3xl"
                             />
-                            <p className="my-4 text-base font-medium md:text-sm sm:text-xs text-center">
+                            <p className=" font-body my-4 text-base font-medium md:text-sm sm:text-xs text-center">
                                 Explore my projects and works that showcases my skills in UI UX design, Visual design and programming.
                             </p>
                             <div className="flex flex-row gap-4">
