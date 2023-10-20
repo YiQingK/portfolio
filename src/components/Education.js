@@ -49,13 +49,13 @@ const Education = () => {
                         type="Bachelor Of Science In Computer Science"
                         time="2019-2022"
                         place="University of San Francisco"
-                        info=""
+                        info="Relevant Skills: Software programming, Website Development"
                     />
                     <Details
                         type="Masters of Science in Human Computer Interaction"
                         time="2022-2023"
                         place="University of California, Santa Cruz"
-                        info=""
+                        info="Relevant Skills: Figma, User Research, Usability Testing"
                     />
                 </ul>
             </div>

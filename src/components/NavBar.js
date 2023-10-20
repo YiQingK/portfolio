@@ -39,7 +39,7 @@ const CustomMobileLink = ({ href, title, className = "", toggle }) => {
     return (
         <button
             href={href}
-            className={`${className} relative group text-light dark:text-dark my-2`}
+            className={`${className} relative group text-light dark:text-dark my-2 font-display`}
             onClick={handleClick}>
             {title}
             <span
@@ -82,22 +82,22 @@ const NavBar = () => {
             </button>
             <div className="w-full flex items-center justify-between lg:hidden">
                 <nav>
-                    <CustomLink href="/" title="Home" className="mr-4" />
-                    <CustomLink href="about" title="About" className="mx-4" />
+                    <CustomLink href="/" title="Home" className="mr-4 font-display" />
+                    <CustomLink href="about" title="About" className="mx-4 font-display" />
                     <CustomLink
                         href="/projects"
                         title="Projects"
-                        className="mx-4"
+                        className="mx-4 font-display"
                     />
                     <CustomLink
                         href="/work"
                         title="Work"
-                        className="ml-4"
+                        className="ml-4 font-display"
                     />
                 </nav>
                 <nav className=" flex items-center justify-center flex-wrap">
                     <motion.a
-                        href="https://twitter.com"
+                        href="https://github.com/YiQingK"
                         target={"_blank"}
                         whileHover={{ y: -2 }}
                         whileTap={{ scale: 0.9 }}
@@ -105,7 +105,7 @@ const NavBar = () => {
                         <GithubIcon />
                     </motion.a>
                     <motion.a
-                        href="https://twitter.com"
+                        href="https://www.linkedin.com/in/khooyiqing/"
                         target={"_blank"}
                         whileHover={{ y: -2 }}
                         whileTap={{ scale: 0.9 }}
@@ -160,7 +160,7 @@ const NavBar = () => {
                     </nav>
                     <nav className=" flex items-center justify-center flex-wrap mt-2">
                         <motion.a
-                            href="https://twitter.com"
+                            href="https://github.com/YiQingK"
                             target={"_blank"}
                             whileHover={{ y: -2 }}
                             whileTap={{ scale: 0.9 }}
@@ -168,7 +168,7 @@ const NavBar = () => {
                             <GithubIcon />
                         </motion.a>
                         <motion.a
-                            href="https://twitter.com"
+                            href="https://www.linkedin.com/in/khooyiqing/"
                             target={"_blank"}
                             whileHover={{ y: -2 }}
                             whileTap={{ scale: 0.9 }}

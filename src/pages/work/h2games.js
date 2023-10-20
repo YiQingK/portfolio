@@ -13,15 +13,19 @@ const h2games = () => {
             </Head>
             <main className="flex items-center text-dark w-full min-h-screen dark:text-light">
                 <Layout>
+                    <div className="flex  flex-col justify-center items-center">
                     <Image
                         src={BannerImage}
                         alt="banner image"
                         width={400}
                         height={171}
-                        className="w-full h-auto rounded-2xl"
+                        className="w-3/4 h-auto rounded-2xl "
                         priority
                         sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                    />
+                        />
+                    <p>Event Banner</p>
+                    </div>
+
                     <h2 className="text-lg font-bold uppercase">
                         Work Description
                     </h2>
@@ -33,7 +37,9 @@ const h2games = () => {
                         Referencing previous event design style, I created the draft of the event banner. 
                     </p>
                     <h2 className="text-lg font-bold uppercase">Challenges Faced</h2>
-                    <p>Have been primarily use to the simplistic graphic design style of the west but as a chinese company, they had a different style which is the more complicated style. I had to learn to adjust in how a complicated design should be structurerd. The help from H2 Games' inhouse designer helped to guide me through this process.</p>
+                    <p>Have been primarily use to the simplistic graphic design style.
+                    I had to understand compostions of more complicated/busy designs. I took inspiration from moodboards and material available online. H2Games designer's feedback also helped with this process.
+                       </p>
                 </Layout>
             </main>
         </>

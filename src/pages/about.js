@@ -5,8 +5,6 @@ import Layout from "@/components/Layout";
 import profilePic from "../../public/images/portfolio_small.jpg";
 import Image from "next/image";
 import { useInView, useMotionValue, useSpring } from "framer-motion";
-import Experience from "@/components/Experience";
-import Skills from "@/components/Skills";
 import Education from "@/components/Education";
 import Link from "next/link";
 import { LinkArrow } from "@/components/Icons";
@@ -53,13 +51,13 @@ const about = () => {
                             <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75">
                             Hi, I'm Yi Qing Khoo. You can also call me Haru.
                             </h2>
-                            <p className="font-medium font-body">
-                                I am a UI/UX designer currently based in Santa Clara, California but am from the tiny country, Singapore.
+                            <p className="font-medium">
+                                I am a UI/UX designer from the tiny island-country Singapore who is currently based in Santa Clara, California.
                             </p>
-                            <p className="font-medium my-4 font-body">
+                            <p className="font-medium my-4">
                                 My experience in UI/UX design comes from projects and work in university while my visual design skills come from being self-taught through my experience running my own small business and freelance work.
                             </p>
-                            <p className="font-medium font-body">
+                            <p className="font-medium">
 
                             </p>
                             <Education />
@@ -82,11 +80,11 @@ const about = () => {
                                     href="/dummy.pdf"
                                     target={"_blank"}
                                     className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold 
-                                    hover:bg-light hover:text-dark 
-                                    border-2 border-solid border-transparent hover:border-dark
-                                    dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light hover:dark:border-light
-                                    md:p-2 md:px-4 md:text-base 
-                                    "
+                                hover:bg-light hover:text-dark 
+                                border-2 border-solid border-transparent hover:border-dark
+                                dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light hover:dark:border-light
+                                md:p-2 md:px-4 md:text-base 
+                                "
                                     download={true}>
                                     Resume <LinkArrow className={"w-6 ml-1"} />
                                 </Link>
@@ -96,7 +94,6 @@ const about = () => {
                                     className="ml-4 text-lg font-medium capitalize text-dark dark:text-light underline md:text-base">
                                     Contact
                                 </Link>
-
                                 </div>
                         </div>
                         <div className="col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8 dark:border-light dark:bg-dark xl:col-span-4 md:order-1 md:col-span-8">

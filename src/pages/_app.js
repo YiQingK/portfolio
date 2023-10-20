@@ -15,7 +15,7 @@ const inconsolata = Inconsolata({
 
 const karla = Karla({
     subsets: ["latin"],
-    variable: '--font-sintony',
+    variable: '--font-karla',
         display: 'swap',
 
 });

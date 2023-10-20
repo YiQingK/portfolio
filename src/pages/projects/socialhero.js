@@ -26,8 +26,8 @@ const socialhero = () => {
                     </div>
                     <div className="grid grid-cols-12 gap-24 gap-y-24 xl:gap-x-16 lg:gap-x-8 sm:gap-x-0">
                         <div className="col-span-8">
-                            <p className="font-bold text-lg">Chapter 1: During 'Intro to Design Methods' class, Fall 2022</p>
-                            <p className="ml-4">Tasked to design something for a selected community within 2 weeks, a group of introverts decided to create a mobile game(interactive prototype) that can help foster social courage which we named "Social Hero".</p>
+                            <h1 className="font-bold text-lg">Chapter 1: During 'Intro to Design Methods' class, Fall 2022</h1>
+                            <p>Tasked to design something for a selected community within 2 weeks, a group of introverts decided to create a mobile game(interactive prototype) that can help foster social courage which we named "Social Hero".</p>
 
                             <h2 className="font-bold uppercase text-lg my-4">Process </h2>
                             <ol className="list-decimal ml-8">
@@ -48,7 +48,7 @@ const socialhero = () => {
                             <p className="ml-8">During our usability testing, we came to realise that it was not intuitive to the users on how the map could be navigated.
                                 Many had assumed it was a tap to move avatar to the location.
                                 To better assist users in how to navigate the map, we decided to create an information board which appears when the user first uses the application.
-                                It can later be accessed for the 'i' icon on the top right of the map.
+                                It can later be accessed through the 'i' icon on the top right of the map.
                             </p>
                         </div>
                         <div className="col-span-4">
@@ -62,8 +62,8 @@ const socialhero = () => {
                             <p className="text-center">Final Prototype Landing Page</p>
                         </div>
                         <div className="col-span-12">
-                            <p className="font-bold text-lg">Chapter 2: Independent Studies, Spring 2023</p>
-                            <p className="ml-4">Members decided to carry on the project done in class to a full fledged IRB-approved research project with the focus on exploring and designing online applications for prosocialization in adults in our Spring quarter which later made its way to DIS ACM 2023 workshop 'Designing for and Reflecting upon Resilience in Health and Wellbeing' as&nbsp;
+                            <h1 className="font-bold text-lg">Chapter 2: Independent Studies, Spring 2023</h1>
+                            <p>Members decided to carry on the project done in class to a full fledged IRB-approved research project with the focus on exploring and designing online applications for prosocialization in adults in our Spring quarter which later made its way to DIS ACM 2023 workshop 'Designing for and Reflecting upon Resilience in Health and Wellbeing' as&nbsp;
                                 <Link
                                     className="text-primary underline"
                                     target={"_blank"}
@@ -78,8 +78,9 @@ const socialhero = () => {
                                 <li className="list-item">Conducted focus groups</li>
                             </ol>
                             <h2 className="font-bold uppercase text-lg my-4">Challenges Faced:</h2>
-                            <p className="ml-4">
-
+                            <ul className="list-disc ml-4"><li className="list-item font-bold">Title</li></ul>
+                            <p className="ml-8">
+                                Description
                             </p>
                         </div>
                     </div>

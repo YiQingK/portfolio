@@ -6,6 +6,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { GithubIcon } from "@/components/Icons";
 import WSpic from "../../public/images/wspic.jpg"; 
+import socialheropic from "../../public/images/socialheropic.png";
 import { motion } from "framer-motion";
 
 const FramerImage = motion(Image);
@@ -47,11 +48,11 @@ const FeaturedProject = ({ type, title, summary, img, link }) => {
                 <p className="my-2 font-medium text-dark dark:text-light sm:text-sm">
                     {summary}
                 </p>
-                <div className="mt-2 flex items-center">
+                <div className="mt-2 flex items-start">
                     <Link
                         href={link}
                         target="_self"
-                        className="ml-4 rounded-lg bg-dark text-light p-2 px-6 text-lg font-semibold dark:bg-light dark:text-dark sm:px-4 sm:text-base">
+                        className="rounded-lg bg-dark text-light p-2 px-6 text-lg font-semibold dark:bg-light dark:text-dark sm:px-4 sm:text-base">
                         Visit Project
                     </Link>
                 </div>
@@ -130,7 +131,7 @@ const projects = () => {
                             {/*Change Image */}
                             <FeaturedProject
                                 title="Social Hero"
-                                img={WSpic} 
+                                img={socialheropic} 
                                 link="/projects/socialhero"
                                 type="UI UX Research and Design Project"
                                 summary="Ongoing research project that seeks to understand how a virtual playful environment could foster social interactions which the internal team dubbed 'Social Hero'."
