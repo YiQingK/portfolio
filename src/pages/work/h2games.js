@@ -30,16 +30,16 @@ const h2games = () => {
                         Work Description
                     </h2>
                     <p>
-                        To create material for GameJam event held by H2Games and Nanyang Polytechnic. Material include event banner, website page, event t-shirt design.
+                    To create material for GameJam event held by H2Games and Nanyang Polytechnic. Material include event banner, website page, event t-shirt design.
                     </p>
                     <h2 className="text-lg font-bold uppercase">Process</h2>
-                    <p>
-                        Referencing previous event design style, I created the draft of the event banner. 
-                    </p>
+                    <ul className="list-disc">
+                    <li className="list-item">Referencing previous event design style, I created the draft of the event banner.</li> 
+                    </ul>
                     <h2 className="text-lg font-bold uppercase">Challenges Faced</h2>
-                    <p>Have been primarily use to the simplistic graphic design style.
+                    <p>As I have been primarily used to the simplistic graphic design style.
                     I had to understand compostions of more complicated/busy designs. I took inspiration from moodboards and material available online. H2Games designer's feedback also helped with this process.
-                       </p>
+                    </p>
                 </Layout>
             </main>
         </>

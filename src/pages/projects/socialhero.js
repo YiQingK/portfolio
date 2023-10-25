@@ -78,9 +78,9 @@ const socialhero = () => {
                                 <li className="list-item">Conducted focus groups</li>
                             </ol>
                             <h2 className="font-bold uppercase text-lg my-4">Challenges Faced:</h2>
-                            <ul className="list-disc ml-4"><li className="list-item font-bold">Title</li></ul>
+                            <ul className="list-disc ml-4"><li className="list-item font-bold">Asking the right questions</li></ul>
                             <p className="ml-8">
-                                Description
+                                One of the challenges faced is structuring the focus group sessions. 
                             </p>
                         </div>
                     </div>
