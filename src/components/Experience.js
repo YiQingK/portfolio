@@ -1,13 +1,14 @@
 import React, { useRef } from "react";
 import { motion, useScroll } from "framer-motion";
 import LiIcon from "./LiIcon";
-
+            {/*first:mt-0 last:mb-0 */}
 const Details = ({ position, company, companyLink, time, address, work }) => {
     const ref = useRef(null);
     return (
         <li
             ref={ref}
-            className="my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-center justify-between md:w-[80%]">
+
+            className="my-4 mt-0 w-[60%] mx-auto flex flex-col items-center justify-between md:w-[80%]">
             <LiIcon reference={ref} />
             <motion.div
                 initial={{ y: 50 }}
