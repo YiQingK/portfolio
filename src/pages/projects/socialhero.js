@@ -58,6 +58,7 @@ const socialhero = () => {
 									final adjustments.
 								</li>
 							</ol>
+							{/*Add some sketches or etc...*/}
 							<h2 className="font-bold uppercase text-lg my-4">Challenges Faced:</h2>
 							<ul className="list-disc ml-4">
 								<li className="list-item font-bold">Features of the game</li>

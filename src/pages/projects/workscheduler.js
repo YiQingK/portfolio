@@ -56,7 +56,7 @@ const workscheduler = () => {
 							<Image
 								src={calendar}
 								alt="calendar image"
-								className="w-full h-auto rounded-2xl"
+								className="w-full h-auto rounded-2xl border-2 border-solid border-dark"
 								priority
 								sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
 							/>
@@ -71,6 +71,7 @@ const workscheduler = () => {
 								<li className="list-item">Program functionality for such ways</li>
 								<li className="list-item">Review with sponsor and iterate with feedback provided</li>
 							</ol>
+							{/*Add some sketches or etc...*/}
 							<h2 className="font-bold uppercase text-lg">Challenges Faced</h2>
 							<p>
 								It was the team’s first time creating an app so we had abit of trouble creating a
@@ -82,7 +83,7 @@ const workscheduler = () => {
 								understand how to create a workflow/ how a workflow would work.
 							</p>
 						</div>
-						<div className="col-span-12 flex flex-row gap-4">
+						<div className="col-span-5">
 							<Image
 								src={EmployeeFlow}
 								alt="Employee User Flow"
@@ -90,10 +91,12 @@ const workscheduler = () => {
 								priority
 								sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
 							/>
+						</div>
+						<div className="col-span-7">
 							<Image
 								src={ManagerFlow}
 								alt="Manager User Flow"
-								className="w-100% h-auto rounded-2xl border-2 border-solid border-dark"
+								className="w-full h-auto rounded-2xl border-2 border-solid border-dark"
 								priority
 								sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
 							/>
