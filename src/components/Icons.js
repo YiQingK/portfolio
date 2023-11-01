@@ -1,460 +1,419 @@
 import * as React from "react";
 
 export const GithubIcon = ({ className, ...rest }) => (
-    <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="1em"
-        height="1em"
-        viewBox="0 0 512 512"
-        {...rest}
-        className={`w-full h-auto ${className}`}>
-        <path fill="none" d="M0 0h512v512H0z" />
-        <path
-            fill="currentColor"
-            d="M256 32C132.3 32 32 134.9 32 261.7c0 101.5 64.2 187.5 153.2 217.9a17.56 17.56 0 0 0 3.8.4c8.3 0 11.5-6.1 11.5-11.4 0-5.5-.2-19.9-.3-39.1a102.4 102.4 0 0 1-22.6 2.7c-43.1 0-52.9-33.5-52.9-33.5-10.2-26.5-24.9-33.6-24.9-33.6-19.5-13.7-.1-14.1 1.4-14.1h.1c22.5 2 34.3 23.8 34.3 23.8 11.2 19.6 26.2 25.1 39.6 25.1a63 63 0 0 0 25.6-6c2-14.8 7.8-24.9 14.2-30.7-49.7-5.8-102-25.5-102-113.5 0-25.1 8.7-45.6 23-61.6-2.3-5.8-10-29.2 2.2-60.8a18.64 18.64 0 0 1 5-.5c8.1 0 26.4 3.1 56.6 24.1a208.21 208.21 0 0 1 112.2 0c30.2-21 48.5-24.1 56.6-24.1a18.64 18.64 0 0 1 5 .5c12.2 31.6 4.5 55 2.2 60.8 14.3 16.1 23 36.6 23 61.6 0 88.2-52.4 107.6-102.3 113.3 8 7.1 15.2 21.1 15.2 42.5 0 30.7-.3 55.5-.3 63 0 5.4 3.1 11.5 11.4 11.5a19.35 19.35 0 0 0 4-.4C415.9 449.2 480 363.1 480 261.7 480 134.9 379.7 32 256 32Z"
-        />
-    </svg>
+	<svg
+		xmlns="http://www.w3.org/2000/svg"
+		width="1em"
+		height="1em"
+		viewBox="0 0 512 512"
+		{...rest}
+		className={`w-full h-auto ${className}`}
+	>
+		<path fill="none" d="M0 0h512v512H0z" />
+		<path
+			fill="currentColor"
+			d="M256 32C132.3 32 32 134.9 32 261.7c0 101.5 64.2 187.5 153.2 217.9a17.56 17.56 0 0 0 3.8.4c8.3 0 11.5-6.1 11.5-11.4 0-5.5-.2-19.9-.3-39.1a102.4 102.4 0 0 1-22.6 2.7c-43.1 0-52.9-33.5-52.9-33.5-10.2-26.5-24.9-33.6-24.9-33.6-19.5-13.7-.1-14.1 1.4-14.1h.1c22.5 2 34.3 23.8 34.3 23.8 11.2 19.6 26.2 25.1 39.6 25.1a63 63 0 0 0 25.6-6c2-14.8 7.8-24.9 14.2-30.7-49.7-5.8-102-25.5-102-113.5 0-25.1 8.7-45.6 23-61.6-2.3-5.8-10-29.2 2.2-60.8a18.64 18.64 0 0 1 5-.5c8.1 0 26.4 3.1 56.6 24.1a208.21 208.21 0 0 1 112.2 0c30.2-21 48.5-24.1 56.6-24.1a18.64 18.64 0 0 1 5 .5c12.2 31.6 4.5 55 2.2 60.8 14.3 16.1 23 36.6 23 61.6 0 88.2-52.4 107.6-102.3 113.3 8 7.1 15.2 21.1 15.2 42.5 0 30.7-.3 55.5-.3 63 0 5.4 3.1 11.5 11.4 11.5a19.35 19.35 0 0 0 4-.4C415.9 449.2 480 363.1 480 261.7 480 134.9 379.7 32 256 32Z"
+		/>
+	</svg>
 );
 
 export const TwitterIcon = ({ className, ...rest }) => (
-    <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="1em"
-        height="1em"
-        viewBox="0 0 256 209"
-        {...rest}
-        className={`w-full h-auto ${className}`}>
-        <path fill="none" d="M0 0h256v209H0z" />
-        <path
-            fill="#55acee"
-            d="M256 25.45a105.04 105.04 0 0 1-30.166 8.27c10.845-6.5 19.172-16.793 23.093-29.057a105.183 105.183 0 0 1-33.351 12.745C205.995 7.201 192.346.822 177.239.822c-29.006 0-52.523 23.516-52.523 52.52 0 4.117.465 8.125 1.36 11.97-43.65-2.191-82.35-23.1-108.255-54.876-4.52 7.757-7.11 16.78-7.11 26.404 0 18.222 9.273 34.297 23.365 43.716a52.312 52.312 0 0 1-23.79-6.57c-.003.22-.003.44-.003.661 0 25.447 18.104 46.675 42.13 51.5a52.592 52.592 0 0 1-23.718.9c6.683 20.866 26.08 36.05 49.062 36.475-17.975 14.086-40.622 22.483-65.228 22.483-4.24 0-8.42-.249-12.529-.734 23.243 14.902 50.85 23.597 80.51 23.597 96.607 0 149.434-80.031 149.434-149.435 0-2.278-.05-4.543-.152-6.795A106.748 106.748 0 0 0 256 25.45"
-        />
-    </svg>
+	<svg
+		xmlns="http://www.w3.org/2000/svg"
+		width="1em"
+		height="1em"
+		viewBox="0 0 256 209"
+		{...rest}
+		className={`w-full h-auto ${className}`}
+	>
+		<path fill="none" d="M0 0h256v209H0z" />
+		<path
+			fill="#55acee"
+			d="M256 25.45a105.04 105.04 0 0 1-30.166 8.27c10.845-6.5 19.172-16.793 23.093-29.057a105.183 105.183 0 0 1-33.351 12.745C205.995 7.201 192.346.822 177.239.822c-29.006 0-52.523 23.516-52.523 52.52 0 4.117.465 8.125 1.36 11.97-43.65-2.191-82.35-23.1-108.255-54.876-4.52 7.757-7.11 16.78-7.11 26.404 0 18.222 9.273 34.297 23.365 43.716a52.312 52.312 0 0 1-23.79-6.57c-.003.22-.003.44-.003.661 0 25.447 18.104 46.675 42.13 51.5a52.592 52.592 0 0 1-23.718.9c6.683 20.866 26.08 36.05 49.062 36.475-17.975 14.086-40.622 22.483-65.228 22.483-4.24 0-8.42-.249-12.529-.734 23.243 14.902 50.85 23.597 80.51 23.597 96.607 0 149.434-80.031 149.434-149.435 0-2.278-.05-4.543-.152-6.795A106.748 106.748 0 0 0 256 25.45"
+		/>
+	</svg>
 );
 // #0A66C2
 export const LinkedInIcon = ({ className, ...rest }) => (
-    <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="1em"
-        height="1em"
-        viewBox="0 0 256 256"
-        {...rest}
-        className={`w-full h-auto ${className}`}>
-        <path fill="none" d="M0 0h256v256H0z" />
-        <g fill="none">
-            <rect width={256} height={256} fill="#fff" rx={60} />
-            <rect width={256} height={256} fill="#0A66C2" rx={60} />
-            <path
-                fill="#fff"
-                d="M184.715 217.685h29.27a4 4 0 0 0 4-3.999l.015-61.842c0-32.323-6.965-57.168-44.738-57.168-14.359-.534-27.9 6.868-35.207 19.228a.32.32 0 0 1-.595-.161V101.66a4 4 0 0 0-4-4h-27.777a4 4 0 0 0-4 4v112.02a4 4 0 0 0 4 4h29.268a4 4 0 0 0 4-4v-55.373c0-15.657 2.97-30.82 22.381-30.82 19.135 0 19.383 17.916 19.383 31.834v54.364a4 4 0 0 0 4 4ZM38 59.627c0 11.865 9.767 21.627 21.632 21.627 11.862-.001 21.623-9.769 21.623-21.631C81.253 47.761 71.491 38 59.628 38 47.762 38 38 47.763 38 59.627Zm6.959 158.058h29.307a4 4 0 0 0 4-4V101.66a4 4 0 0 0-4-4H44.959a4 4 0 0 0-4 4v112.025a4 4 0 0 0 4 4Z"
-            />
-        </g>
-    </svg>
+	<svg
+		xmlns="http://www.w3.org/2000/svg"
+		width="1em"
+		height="1em"
+		viewBox="0 0 256 256"
+		{...rest}
+		className={`w-full h-auto ${className}`}
+	>
+		<path fill="none" d="M0 0h256v256H0z" />
+		<g fill="none">
+			<rect width={256} height={256} fill="#fff" rx={60} />
+			<rect width={256} height={256} fill="#0A66C2" rx={60} />
+			<path
+				fill="#fff"
+				d="M184.715 217.685h29.27a4 4 0 0 0 4-3.999l.015-61.842c0-32.323-6.965-57.168-44.738-57.168-14.359-.534-27.9 6.868-35.207 19.228a.32.32 0 0 1-.595-.161V101.66a4 4 0 0 0-4-4h-27.777a4 4 0 0 0-4 4v112.02a4 4 0 0 0 4 4h29.268a4 4 0 0 0 4-4v-55.373c0-15.657 2.97-30.82 22.381-30.82 19.135 0 19.383 17.916 19.383 31.834v54.364a4 4 0 0 0 4 4ZM38 59.627c0 11.865 9.767 21.627 21.632 21.627 11.862-.001 21.623-9.769 21.623-21.631C81.253 47.761 71.491 38 59.628 38 47.762 38 38 47.763 38 59.627Zm6.959 158.058h29.307a4 4 0 0 0 4-4V101.66a4 4 0 0 0-4-4H44.959a4 4 0 0 0-4 4v112.025a4 4 0 0 0 4 4Z"
+			/>
+		</g>
+	</svg>
 );
 
 export const PinterestIcon = ({ className, ...rest }) => (
-    <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="1em"
-        height="1em"
-        viewBox="0 0 256 256"
-        {...rest}
-        className={`w-full h-auto ${className}`}>
-        <path fill="none" d="M0 0h256v256H0z" />
-        <path
-            fill="#CB1F27"
-            d="M0 128.002c0 52.414 31.518 97.442 76.619 117.239-.36-8.938-.064-19.668 2.228-29.393 2.461-10.391 16.47-69.748 16.47-69.748s-4.089-8.173-4.089-20.252c0-18.969 10.994-33.136 24.686-33.136 11.643 0 17.268 8.745 17.268 19.217 0 11.704-7.465 29.211-11.304 45.426-3.207 13.578 6.808 24.653 20.203 24.653 24.252 0 40.586-31.149 40.586-68.055 0-28.054-18.895-49.052-53.262-49.052-38.828 0-63.017 28.956-63.017 61.3 0 11.152 3.288 19.016 8.438 25.106 2.368 2.797 2.697 3.922 1.84 7.134-.614 2.355-2.024 8.025-2.608 10.272-.852 3.242-3.479 4.401-6.409 3.204-17.884-7.301-26.213-26.886-26.213-48.902 0-36.361 30.666-79.961 91.482-79.961 48.87 0 81.035 35.364 81.035 73.325 0 50.213-27.916 87.726-69.066 87.726-13.819 0-26.818-7.47-31.271-15.955 0 0-7.431 29.492-9.005 35.187-2.714 9.869-8.026 19.733-12.883 27.421a127.897 127.897 0 0 0 36.277 5.249c70.684 0 127.996-57.309 127.996-128.005C256.001 57.309 198.689 0 128.005 0 57.314 0 0 57.309 0 128.002Z"
-        />
-    </svg>
+	<svg
+		xmlns="http://www.w3.org/2000/svg"
+		width="1em"
+		height="1em"
+		viewBox="0 0 256 256"
+		{...rest}
+		className={`w-full h-auto ${className}`}
+	>
+		<path fill="none" d="M0 0h256v256H0z" />
+		<path
+			fill="#CB1F27"
+			d="M0 128.002c0 52.414 31.518 97.442 76.619 117.239-.36-8.938-.064-19.668 2.228-29.393 2.461-10.391 16.47-69.748 16.47-69.748s-4.089-8.173-4.089-20.252c0-18.969 10.994-33.136 24.686-33.136 11.643 0 17.268 8.745 17.268 19.217 0 11.704-7.465 29.211-11.304 45.426-3.207 13.578 6.808 24.653 20.203 24.653 24.252 0 40.586-31.149 40.586-68.055 0-28.054-18.895-49.052-53.262-49.052-38.828 0-63.017 28.956-63.017 61.3 0 11.152 3.288 19.016 8.438 25.106 2.368 2.797 2.697 3.922 1.84 7.134-.614 2.355-2.024 8.025-2.608 10.272-.852 3.242-3.479 4.401-6.409 3.204-17.884-7.301-26.213-26.886-26.213-48.902 0-36.361 30.666-79.961 91.482-79.961 48.87 0 81.035 35.364 81.035 73.325 0 50.213-27.916 87.726-69.066 87.726-13.819 0-26.818-7.47-31.271-15.955 0 0-7.431 29.492-9.005 35.187-2.714 9.869-8.026 19.733-12.883 27.421a127.897 127.897 0 0 0 36.277 5.249c70.684 0 127.996-57.309 127.996-128.005C256.001 57.309 198.689 0 128.005 0 57.314 0 0 57.309 0 128.002Z"
+		/>
+	</svg>
 );
 
 export const DribbbleIcon = ({ className, ...rest }) => (
-    <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="1em"
-        height="1em"
-        viewBox="0 0 256 256"
-        {...rest}
-        className={`w-full h-auto ${className}`}>
-        <path fill="none" d="M0 0h256v256H0z" />
-        <path
-            fill="#E74D89"
-            d="M128 8.5c66 0 119.4 53.4 119.4 119.3S194 247.2 128 247.2 8.6 193.8 8.6 127.9 62 8.5 128 8.5Z"
-        />
-        <path
-            fill="#B2215A"
-            d="M128 255.7c-70.6 0-128-57.3-128-127.8C0 57.3 57.4 0 128 0s128 57.3 128 127.8-57.4 127.9-128 127.9Zm107.9-110.4c-3.7-1.2-33.8-10.1-68.1-4.7 14.3 39.2 20.1 71.2 21.2 77.8 24.6-16.5 42.1-42.7 46.9-73.1Zm-65.2 83.2c-1.6-9.6-8-43-23.3-82.8-.2.1-.5.2-.7.2-61.7 21.5-83.8 64.2-85.8 68.2 18.5 14.4 41.8 23 67.1 23 15.1.1 29.6-3 42.7-8.6ZM46.8 201c2.5-4.2 32.5-53.8 88.9-72.1 1.4-.5 2.9-.9 4.3-1.3-2.7-6.2-5.7-12.4-8.9-18.5-54.6 16.3-107.6 15.6-112.4 15.5 0 1.1-.1 2.2-.1 3.3.1 28.1 10.7 53.7 28.2 73.1ZM21 105.6c4.9.1 49.9.3 101.1-13.3C104 60.1 84.4 33.1 81.6 29.2 50.9 43.6 28.1 71.8 21 105.6Zm81.4-83.8c3 4 22.9 31 40.8 63.9 38.9-14.6 55.3-36.6 57.3-39.4-19.3-17.1-44.7-27.5-72.5-27.5-8.8 0-17.4 1.1-25.6 3Zm110.2 37.1c-2.3 3.1-20.6 26.6-61 43.1 2.5 5.2 5 10.5 7.3 15.8.8 1.9 1.6 3.8 2.4 5.6 36.4-4.6 72.5 2.8 76.1 3.5-.3-25.7-9.5-49.4-24.8-68Z"
-        />
-    </svg>
+	<svg
+		xmlns="http://www.w3.org/2000/svg"
+		width="1em"
+		height="1em"
+		viewBox="0 0 256 256"
+		{...rest}
+		className={`w-full h-auto ${className}`}
+	>
+		<path fill="none" d="M0 0h256v256H0z" />
+		<path
+			fill="#E74D89"
+			d="M128 8.5c66 0 119.4 53.4 119.4 119.3S194 247.2 128 247.2 8.6 193.8 8.6 127.9 62 8.5 128 8.5Z"
+		/>
+		<path
+			fill="#B2215A"
+			d="M128 255.7c-70.6 0-128-57.3-128-127.8C0 57.3 57.4 0 128 0s128 57.3 128 127.8-57.4 127.9-128 127.9Zm107.9-110.4c-3.7-1.2-33.8-10.1-68.1-4.7 14.3 39.2 20.1 71.2 21.2 77.8 24.6-16.5 42.1-42.7 46.9-73.1Zm-65.2 83.2c-1.6-9.6-8-43-23.3-82.8-.2.1-.5.2-.7.2-61.7 21.5-83.8 64.2-85.8 68.2 18.5 14.4 41.8 23 67.1 23 15.1.1 29.6-3 42.7-8.6ZM46.8 201c2.5-4.2 32.5-53.8 88.9-72.1 1.4-.5 2.9-.9 4.3-1.3-2.7-6.2-5.7-12.4-8.9-18.5-54.6 16.3-107.6 15.6-112.4 15.5 0 1.1-.1 2.2-.1 3.3.1 28.1 10.7 53.7 28.2 73.1ZM21 105.6c4.9.1 49.9.3 101.1-13.3C104 60.1 84.4 33.1 81.6 29.2 50.9 43.6 28.1 71.8 21 105.6Zm81.4-83.8c3 4 22.9 31 40.8 63.9 38.9-14.6 55.3-36.6 57.3-39.4-19.3-17.1-44.7-27.5-72.5-27.5-8.8 0-17.4 1.1-25.6 3Zm110.2 37.1c-2.3 3.1-20.6 26.6-61 43.1 2.5 5.2 5 10.5 7.3 15.8.8 1.9 1.6 3.8 2.4 5.6 36.4-4.6 72.5 2.8 76.1 3.5-.3-25.7-9.5-49.4-24.8-68Z"
+		/>
+	</svg>
 );
 
 export const SunIcon = ({ className, ...rest }) => (
-    <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="24"
-        height="24"
-        viewBox="0 0 24 24"
-        {...rest}
-        className={`w-full h-auto ${className}`}>
-        <g
-            fill="none"
-            stroke="currentColor"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="2">
-            <g strokeDasharray="2">
-                <path d="M12 21v1M21 12h1M12 3v-1M3 12h-1">
-                    <animate
-                        fill="freeze"
-                        attributeName="stroke-dashoffset"
-                        dur="0.2s"
-                        values="4;2"
-                    />
-                </path>
-                <path d="M18.5 18.5l0.5 0.5M18.5 5.5l0.5 -0.5M5.5 5.5l-0.5 -0.5M5.5 18.5l-0.5 0.5">
-                    <animate
-                        fill="freeze"
-                        attributeName="stroke-dashoffset"
-                        begin="0.2s"
-                        dur="0.2s"
-                        values="4;2"
-                    />
-                </path>
-            </g>
-            <path
-                fill="currentColor"
-                d="M7 6 C7 12.08 11.92 17 18 17 C18.53 17 19.05 16.96 19.56 16.89 C17.95 19.36 15.17 21 12 21 C7.03 21 3 16.97 3 12 C3 8.83 4.64 6.05 7.11 4.44 C7.04 4.95 7 5.47 7 6 Z"
-                opacity="0">
-                <set attributeName="opacity" begin="0.5s" to="1" />
-            </path>
-        </g>
-        <g fill="currentColor" fillOpacity="0">
-            <path d="m15.22 6.03l2.53-1.94L14.56 4L13.5 1l-1.06 3l-3.19.09l2.53 1.94l-.91 3.06l2.63-1.81l2.63 1.81z">
-                <animate
-                    id="lineMdSunnyFilledLoopToMoonFilledLoopTransition0"
-                    fill="freeze"
-                    attributeName="fill-opacity"
-                    begin="0.6s;lineMdSunnyFilledLoopToMoonFilledLoopTransition0.begin+6s"
-                    dur="0.4s"
-                    values="0;1"
-                />
-                <animate
-                    fill="freeze"
-                    attributeName="fill-opacity"
-                    begin="lineMdSunnyFilledLoopToMoonFilledLoopTransition0.begin+2.2s"
-                    dur="0.4s"
-                    values="1;0"
-                />
-            </path>
-            <path d="M13.61 5.25L15.25 4l-2.06-.05L12.5 2l-.69 1.95L9.75 4l1.64 1.25l-.59 1.98l1.7-1.17l1.7 1.17z">
-                <animate
-                    fill="freeze"
-                    attributeName="fill-opacity"
-                    begin="lineMdSunnyFilledLoopToMoonFilledLoopTransition0.begin+3s"
-                    dur="0.4s"
-                    values="0;1"
-                />
-                <animate
-                    fill="freeze"
-                    attributeName="fill-opacity"
-                    begin="lineMdSunnyFilledLoopToMoonFilledLoopTransition0.begin+5.2s"
-                    dur="0.4s"
-                    values="1;0"
-                />
-            </path>
-            <path d="M19.61 12.25L21.25 11l-2.06-.05L18.5 9l-.69 1.95l-2.06.05l1.64 1.25l-.59 1.98l1.7-1.17l1.7 1.17z">
-                <animate
-                    fill="freeze"
-                    attributeName="fill-opacity"
-                    begin="lineMdSunnyFilledLoopToMoonFilledLoopTransition0.begin+0.4s"
-                    dur="0.4s"
-                    values="0;1"
-                />
-                <animate
-                    fill="freeze"
-                    attributeName="fill-opacity"
-                    begin="lineMdSunnyFilledLoopToMoonFilledLoopTransition0.begin+2.8s"
-                    dur="0.4s"
-                    values="1;0"
-                />
-            </path>
-            <path d="m20.828 9.731l1.876-1.439l-2.366-.067L19.552 6l-.786 2.225l-2.366.067l1.876 1.439L17.601 12l1.951-1.342L21.503 12z">
-                <animate
-                    fill="freeze"
-                    attributeName="fill-opacity"
-                    begin="lineMdSunnyFilledLoopToMoonFilledLoopTransition0.begin+3.4s"
-                    dur="0.4s"
-                    values="0;1"
-                />
-                <animate
-                    fill="freeze"
-                    attributeName="fill-opacity"
-                    begin="lineMdSunnyFilledLoopToMoonFilledLoopTransition0.begin+5.6s"
-                    dur="0.4s"
-                    values="1;0"
-                />
-            </path>
-        </g>
-        <mask id="lineMdSunnyFilledLoopToMoonFilledLoopTransition1">
-            <circle cx="12" cy="12" r="12" fill="#fff" />
-            <circle cx="22" cy="2" r="3" fill="#fff">
-                <animate
-                    fill="freeze"
-                    attributeName="cx"
-                    begin="0.1s"
-                    dur="0.4s"
-                    values="22;18"
-                />
-                <animate
-                    fill="freeze"
-                    attributeName="cy"
-                    begin="0.1s"
-                    dur="0.4s"
-                    values="2;6"
-                />
-                <animate
-                    fill="freeze"
-                    attributeName="r"
-                    begin="0.1s"
-                    dur="0.4s"
-                    values="3;12"
-                />
-            </circle>
-            <circle cx="22" cy="2" r="1">
-                <animate
-                    fill="freeze"
-                    attributeName="cx"
-                    begin="0.1s"
-                    dur="0.4s"
-                    values="22;18"
-                />
-                <animate
-                    fill="freeze"
-                    attributeName="cy"
-                    begin="0.1s"
-                    dur="0.4s"
-                    values="2;6"
-                />
-                <animate
-                    fill="freeze"
-                    attributeName="r"
-                    begin="0.1s"
-                    dur="0.4s"
-                    values="1;10"
-                />
-            </circle>
-        </mask>
-        <circle
-            cx="12"
-            cy="12"
-            r="6"
-            fill="currentColor"
-            mask="url(#lineMdSunnyFilledLoopToMoonFilledLoopTransition1)">
-            <set attributeName="opacity" begin="0.5s" to="0" />
-            <animate
-                fill="freeze"
-                attributeName="r"
-                begin="0.1s"
-                dur="0.4s"
-                values="6;10"
-            />
-        </circle>
-    </svg>
+	<svg
+		xmlns="http://www.w3.org/2000/svg"
+		width="24"
+		height="24"
+		viewBox="0 0 24 24"
+		{...rest}
+		className={`w-full h-auto ${className}`}
+	>
+		<g fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2">
+			<g strokeDasharray="2">
+				<path d="M12 21v1M21 12h1M12 3v-1M3 12h-1">
+					<animate fill="freeze" attributeName="stroke-dashoffset" dur="0.2s" values="4;2" />
+				</path>
+				<path d="M18.5 18.5l0.5 0.5M18.5 5.5l0.5 -0.5M5.5 5.5l-0.5 -0.5M5.5 18.5l-0.5 0.5">
+					<animate fill="freeze" attributeName="stroke-dashoffset" begin="0.2s" dur="0.2s" values="4;2" />
+				</path>
+			</g>
+			<path
+				fill="currentColor"
+				d="M7 6 C7 12.08 11.92 17 18 17 C18.53 17 19.05 16.96 19.56 16.89 C17.95 19.36 15.17 21 12 21 C7.03 21 3 16.97 3 12 C3 8.83 4.64 6.05 7.11 4.44 C7.04 4.95 7 5.47 7 6 Z"
+				opacity="0"
+			>
+				<set attributeName="opacity" begin="0.5s" to="1" />
+			</path>
+		</g>
+		<g fill="currentColor" fillOpacity="0">
+			<path d="m15.22 6.03l2.53-1.94L14.56 4L13.5 1l-1.06 3l-3.19.09l2.53 1.94l-.91 3.06l2.63-1.81l2.63 1.81z">
+				<animate
+					id="lineMdSunnyFilledLoopToMoonFilledLoopTransition0"
+					fill="freeze"
+					attributeName="fill-opacity"
+					begin="0.6s;lineMdSunnyFilledLoopToMoonFilledLoopTransition0.begin+6s"
+					dur="0.4s"
+					values="0;1"
+				/>
+				<animate
+					fill="freeze"
+					attributeName="fill-opacity"
+					begin="lineMdSunnyFilledLoopToMoonFilledLoopTransition0.begin+2.2s"
+					dur="0.4s"
+					values="1;0"
+				/>
+			</path>
+			<path d="M13.61 5.25L15.25 4l-2.06-.05L12.5 2l-.69 1.95L9.75 4l1.64 1.25l-.59 1.98l1.7-1.17l1.7 1.17z">
+				<animate
+					fill="freeze"
+					attributeName="fill-opacity"
+					begin="lineMdSunnyFilledLoopToMoonFilledLoopTransition0.begin+3s"
+					dur="0.4s"
+					values="0;1"
+				/>
+				<animate
+					fill="freeze"
+					attributeName="fill-opacity"
+					begin="lineMdSunnyFilledLoopToMoonFilledLoopTransition0.begin+5.2s"
+					dur="0.4s"
+					values="1;0"
+				/>
+			</path>
+			<path d="M19.61 12.25L21.25 11l-2.06-.05L18.5 9l-.69 1.95l-2.06.05l1.64 1.25l-.59 1.98l1.7-1.17l1.7 1.17z">
+				<animate
+					fill="freeze"
+					attributeName="fill-opacity"
+					begin="lineMdSunnyFilledLoopToMoonFilledLoopTransition0.begin+0.4s"
+					dur="0.4s"
+					values="0;1"
+				/>
+				<animate
+					fill="freeze"
+					attributeName="fill-opacity"
+					begin="lineMdSunnyFilledLoopToMoonFilledLoopTransition0.begin+2.8s"
+					dur="0.4s"
+					values="1;0"
+				/>
+			</path>
+			<path d="m20.828 9.731l1.876-1.439l-2.366-.067L19.552 6l-.786 2.225l-2.366.067l1.876 1.439L17.601 12l1.951-1.342L21.503 12z">
+				<animate
+					fill="freeze"
+					attributeName="fill-opacity"
+					begin="lineMdSunnyFilledLoopToMoonFilledLoopTransition0.begin+3.4s"
+					dur="0.4s"
+					values="0;1"
+				/>
+				<animate
+					fill="freeze"
+					attributeName="fill-opacity"
+					begin="lineMdSunnyFilledLoopToMoonFilledLoopTransition0.begin+5.6s"
+					dur="0.4s"
+					values="1;0"
+				/>
+			</path>
+		</g>
+		<mask id="lineMdSunnyFilledLoopToMoonFilledLoopTransition1">
+			<circle cx="12" cy="12" r="12" fill="#fff" />
+			<circle cx="22" cy="2" r="3" fill="#fff">
+				<animate fill="freeze" attributeName="cx" begin="0.1s" dur="0.4s" values="22;18" />
+				<animate fill="freeze" attributeName="cy" begin="0.1s" dur="0.4s" values="2;6" />
+				<animate fill="freeze" attributeName="r" begin="0.1s" dur="0.4s" values="3;12" />
+			</circle>
+			<circle cx="22" cy="2" r="1">
+				<animate fill="freeze" attributeName="cx" begin="0.1s" dur="0.4s" values="22;18" />
+				<animate fill="freeze" attributeName="cy" begin="0.1s" dur="0.4s" values="2;6" />
+				<animate fill="freeze" attributeName="r" begin="0.1s" dur="0.4s" values="1;10" />
+			</circle>
+		</mask>
+		<circle cx="12" cy="12" r="6" fill="currentColor" mask="url(#lineMdSunnyFilledLoopToMoonFilledLoopTransition1)">
+			<set attributeName="opacity" begin="0.5s" to="0" />
+			<animate fill="freeze" attributeName="r" begin="0.1s" dur="0.4s" values="6;10" />
+		</circle>
+	</svg>
 );
 
 export const MoonIcon = ({ className, ...rest }) => (
-    <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="24"
-        height="24"
-        viewBox="0 0 24 24"
-        {...rest}
-        className={`w-full h-auto ${className}`}>
-        <rect
-            x="0"
-            y="0"
-            width="24"
-            height="24"
-            fill="rgba(255, 255, 255, 0)"
-        />
-        <g
-            fill="none"
-            stroke="currentColor"
-            strokeDasharray="2"
-            strokeDashoffset="2"
-            strokeLinecap="round"
-            strokeWidth="2">
-            <path d="M0 0">
-                <animate
-                    fill="freeze"
-                    attributeName="d"
-                    begin="1.2s"
-                    dur="0.2s"
-                    values="M12 19v1M19 12h1M12 5v-1M5 12h-1;M12 21v1M21 12h1M12 3v-1M3 12h-1"
-                />
-                <animate
-                    fill="freeze"
-                    attributeName="stroke-dashoffset"
-                    begin="1.2s"
-                    dur="0.2s"
-                    values="2;0"
-                />
-            </path>
-            <path d="M0 0">
-                <animate
-                    fill="freeze"
-                    attributeName="d"
-                    begin="1.5s"
-                    dur="0.2s"
-                    values="M17 17l0.5 0.5M17 7l0.5 -0.5M7 7l-0.5 -0.5M7 17l-0.5 0.5;M18.5 18.5l0.5 0.5M18.5 5.5l0.5 -0.5M5.5 5.5l-0.5 -0.5M5.5 18.5l-0.5 0.5"
-                />
-                <animate
-                    fill="freeze"
-                    attributeName="stroke-dashoffset"
-                    begin="1.5s"
-                    dur="1.2s"
-                    values="2;0"
-                />
-            </path>
-            <animateTransform
-                attributeName="transform"
-                dur="30s"
-                repeatCount="indefinite"
-                type="rotate"
-                values="0 12 12;360 12 12"
-            />
-        </g>
-        <g fill="currentColor">
-            <path d="M15.22 6.03L17.75 4.09L14.56 4L13.5 1L12.44 4L9.25 4.09L11.78 6.03L10.87 9.09L13.5 7.28L16.13 9.09L15.22 6.03Z">
-                <animate
-                    fill="freeze"
-                    attributeName="fill-opacity"
-                    dur="0.4s"
-                    values="1;0"
-                />
-            </path>
-            <path d="M19.61 12.25L21.25 11L19.19 10.95L18.5 9L17.81 10.95L15.75 11L17.39 12.25L16.8 14.23L18.5 13.06L20.2 14.23L19.61 12.25Z">
-                <animate
-                    fill="freeze"
-                    attributeName="fill-opacity"
-                    begin="0.2s"
-                    dur="0.4s"
-                    values="1;0"
-                />
-            </path>
-        </g>
-        <g
-            fill="currentColor"
-            stroke="currentColor"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="2">
-            <path d="M7 6 C7 12.08 11.92 17 18 17 C18.53 17 19.05 16.96 19.56 16.89 C17.95 19.36 15.17 21 12 21 C7.03 21 3 16.97 3 12 C3 8.83 4.64 6.05 7.11 4.44 C7.04 4.95 7 5.47 7 6 Z" />
-            <set attributeName="opacity" begin="0.6s" to="0" />
-        </g>
-        <mask id="lineMdMoonFilledToSunnyFilledLoopTransition0">
-            <circle cx="12" cy="12" r="12" fill="#fff" />
-            <circle cx="18" cy="6" r="12" fill="#fff">
-                <animate
-                    fill="freeze"
-                    attributeName="cx"
-                    begin="0.6s"
-                    dur="0.4s"
-                    values="18;22"
-                />
-                <animate
-                    fill="freeze"
-                    attributeName="cy"
-                    begin="0.6s"
-                    dur="0.4s"
-                    values="6;2"
-                />
-                <animate
-                    fill="freeze"
-                    attributeName="r"
-                    begin="0.6s"
-                    dur="0.4s"
-                    values="12;3"
-                />
-            </circle>
-            <circle cx="18" cy="6" r="10">
-                <animate
-                    fill="freeze"
-                    attributeName="cx"
-                    begin="0.6s"
-                    dur="0.4s"
-                    values="18;22"
-                />
-                <animate
-                    fill="freeze"
-                    attributeName="cy"
-                    begin="0.6s"
-                    dur="0.4s"
-                    values="6;2"
-                />
-                <animate
-                    fill="freeze"
-                    attributeName="r"
-                    begin="0.6s"
-                    dur="0.4s"
-                    values="10;1"
-                />
-            </circle>
-        </mask>
-        <circle
-            cx="12"
-            cy="12"
-            r="10"
-            fill="currentColor"
-            mask="url(#lineMdMoonFilledToSunnyFilledLoopTransition0)"
-            opacity="0">
-            <set attributeName="opacity" begin="0.6s" to="1" />
-            <animate
-                fill="freeze"
-                attributeName="r"
-                begin="0.6s"
-                dur="0.4s"
-                values="10;6"
-            />
-        </circle>
-    </svg>
+	<svg
+		xmlns="http://www.w3.org/2000/svg"
+		width="24"
+		height="24"
+		viewBox="0 0 24 24"
+		{...rest}
+		className={`w-full h-auto ${className}`}
+	>
+		<rect x="0" y="0" width="24" height="24" fill="rgba(255, 255, 255, 0)" />
+		<g
+			fill="none"
+			stroke="currentColor"
+			strokeDasharray="2"
+			strokeDashoffset="2"
+			strokeLinecap="round"
+			strokeWidth="2"
+		>
+			<path d="M0 0">
+				<animate
+					fill="freeze"
+					attributeName="d"
+					begin="1.2s"
+					dur="0.2s"
+					values="M12 19v1M19 12h1M12 5v-1M5 12h-1;M12 21v1M21 12h1M12 3v-1M3 12h-1"
+				/>
+				<animate fill="freeze" attributeName="stroke-dashoffset" begin="1.2s" dur="0.2s" values="2;0" />
+			</path>
+			<path d="M0 0">
+				<animate
+					fill="freeze"
+					attributeName="d"
+					begin="1.5s"
+					dur="0.2s"
+					values="M17 17l0.5 0.5M17 7l0.5 -0.5M7 7l-0.5 -0.5M7 17l-0.5 0.5;M18.5 18.5l0.5 0.5M18.5 5.5l0.5 -0.5M5.5 5.5l-0.5 -0.5M5.5 18.5l-0.5 0.5"
+				/>
+				<animate fill="freeze" attributeName="stroke-dashoffset" begin="1.5s" dur="1.2s" values="2;0" />
+			</path>
+			<animateTransform
+				attributeName="transform"
+				dur="30s"
+				repeatCount="indefinite"
+				type="rotate"
+				values="0 12 12;360 12 12"
+			/>
+		</g>
+		<g fill="currentColor">
+			<path d="M15.22 6.03L17.75 4.09L14.56 4L13.5 1L12.44 4L9.25 4.09L11.78 6.03L10.87 9.09L13.5 7.28L16.13 9.09L15.22 6.03Z">
+				<animate fill="freeze" attributeName="fill-opacity" dur="0.4s" values="1;0" />
+			</path>
+			<path d="M19.61 12.25L21.25 11L19.19 10.95L18.5 9L17.81 10.95L15.75 11L17.39 12.25L16.8 14.23L18.5 13.06L20.2 14.23L19.61 12.25Z">
+				<animate fill="freeze" attributeName="fill-opacity" begin="0.2s" dur="0.4s" values="1;0" />
+			</path>
+		</g>
+		<g fill="currentColor" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2">
+			<path d="M7 6 C7 12.08 11.92 17 18 17 C18.53 17 19.05 16.96 19.56 16.89 C17.95 19.36 15.17 21 12 21 C7.03 21 3 16.97 3 12 C3 8.83 4.64 6.05 7.11 4.44 C7.04 4.95 7 5.47 7 6 Z" />
+			<set attributeName="opacity" begin="0.6s" to="0" />
+		</g>
+		<mask id="lineMdMoonFilledToSunnyFilledLoopTransition0">
+			<circle cx="12" cy="12" r="12" fill="#fff" />
+			<circle cx="18" cy="6" r="12" fill="#fff">
+				<animate fill="freeze" attributeName="cx" begin="0.6s" dur="0.4s" values="18;22" />
+				<animate fill="freeze" attributeName="cy" begin="0.6s" dur="0.4s" values="6;2" />
+				<animate fill="freeze" attributeName="r" begin="0.6s" dur="0.4s" values="12;3" />
+			</circle>
+			<circle cx="18" cy="6" r="10">
+				<animate fill="freeze" attributeName="cx" begin="0.6s" dur="0.4s" values="18;22" />
+				<animate fill="freeze" attributeName="cy" begin="0.6s" dur="0.4s" values="6;2" />
+				<animate fill="freeze" attributeName="r" begin="0.6s" dur="0.4s" values="10;1" />
+			</circle>
+		</mask>
+		<circle
+			cx="12"
+			cy="12"
+			r="10"
+			fill="currentColor"
+			mask="url(#lineMdMoonFilledToSunnyFilledLoopTransition0)"
+			opacity="0"
+		>
+			<set attributeName="opacity" begin="0.6s" to="1" />
+			<animate fill="freeze" attributeName="r" begin="0.6s" dur="0.4s" values="10;6" />
+		</circle>
+	</svg>
 );
 
 export const CircularText = ({ className, ...rest }) => (
-    <svg id="Layer_1"
-        data-name="Layer 1"
-        xmlns="http://www.w3.org/2000/svg"
-        width={500}
-        height={500}
-        viewBox="0 0 500 500"
-        className={`w-full h-auto ${className}`}
-        {...rest}>
-        <path d="m258.71,143.49c-1.29-.17-2.32-.76-3.09-1.76-.77-1-1.06-2.13-.89-3.38.17-1.25.75-2.27,1.76-3.06,1-.78,2.15-1.09,3.44-.91,1.26.17,2.26.76,3.03,1.78.76,1.02,1.06,2.16.89,3.41-.17,1.26-.75,2.26-1.75,3.03-1,.76-2.13,1.06-3.38.89Z" stroke-width="0" /><path d="m312.67,159.33c-.48-3.54.66-7.05,3.4-10.51l14.61-18.46,5.35,4.24.42.33-.33.42c-.3.06-.56.18-.78.36s-.54.53-.95,1.06l-12.95,16.37c-1.62,2.04-2.39,4.05-2.32,6.04s1.22,3.87,3.45,5.63c2.36,1.87,4.52,2.59,6.48,2.19,1.96-.41,3.77-1.66,5.44-3.76l14.53-18.36,5.26,4.16-14.5,18.33c-2.01,2.54-4.17,4.25-6.48,5.13-2.32.88-4.68,1.02-7.08.39-2.41-.62-4.79-1.87-7.15-3.73-3.79-3-5.92-6.26-6.39-9.81Z" stroke-width="0" /><path d="m334.77,182.03l4.49-3.31,5.32,7.21,20.77-15.33-5.04-6.83,4.49-3.31,14.2,19.24-4.49,3.31-5.22-7.07-20.82,15.36,5.46,7.4-4.44,3.28-14.73-19.96Z" stroke-width="0" /><path d="m367.77,241.81c2.22-2.81,5.52-4.43,9.92-4.87l23.43-2.35.68,6.79.05.53-.53.05c-.26-.17-.52-.28-.8-.31s-.75-.01-1.42.05l-20.77,2.08c-2.59.26-4.57,1.1-5.96,2.53-1.38,1.43-1.93,3.56-1.65,6.4.3,2.99,1.28,5.05,2.94,6.18,1.66,1.13,3.82,1.56,6.49,1.29l23.3-2.33.67,6.67-23.25,2.33c-3.22.32-5.95-.04-8.19-1.09-2.25-1.05-3.98-2.65-5.21-4.82-1.23-2.16-1.99-4.74-2.29-7.73-.48-4.8.39-8.61,2.6-11.41Z" stroke-width="0" /><path d="m367.33,270.64l16.67,14.81,19.78-8.56-1.23,7.38-13.68,5.91,11.06,9.84-1.17,7.03-15.94-13.72-20.76,9.06,1.28-7.67,14.4-6.27-11.63-10.36,1.24-7.43Z" stroke-width="0" /><path d="m346.82,334.07l28.27,23.83-7.23,8.58c-1.66,1.97-3.21,3.5-4.66,4.61-1.45,1.11-2.87,1.89-4.26,2.34-1.39.45-2.85.72-4.36.79-1.48.04-2.98-.12-4.48-.48s-3-.92-4.48-1.68c-1.48-.76-2.96-1.76-4.45-3.01-2.1-1.87-3.74-3.83-4.94-5.87-1.2-2.05-1.89-4.18-2.08-6.41-.19-2.23.2-4.58,1.17-7.05.97-2.47,2.59-5.05,4.86-7.74l6.66-7.89Zm-.23,8.65l-2.18,2.59c-2.09,2.48-3.37,4.81-3.85,7-.47,2.19-.27,4.25.61,6.18.88,1.93,2.32,3.71,4.31,5.34,2.08,1.7,4.15,2.89,6.2,3.56,2.05.67,4.09.64,6.12-.08,2.03-.72,4.04-2.26,6.03-4.62l2.68-3.18-19.92-16.79Z" stroke-width="0" /><path d="m324.7,359.34l21.01,30.42-23.73,16.39-3.14-4.54,18.16-12.55-5.33-7.72-15.04,10.39-3.2-4.64,15.04-10.39-6.17-8.94-18.02,12.45-3.17-4.59,23.59-16.29Z" stroke-width="0" />
-        <path d="m291.97,379.96c2.62-.12,5,.24,7.14,1.08l-1.45,6.29-.12.55-.55-.12c-.17-.24-.37-.47-.62-.69-.25-.23-.66-.45-1.24-.67-1.41-.31-2.93-.42-4.59-.34-1.65.07-3.37.43-5.16,1.05-1.12.39-2.13.85-3.01,1.36-.89.52-1.63,1.07-2.21,1.67-.59.6-.99,1.25-1.2,1.96s-.19,1.43.07,2.16c.17.48.41.88.74,1.21.32.32.74.6,1.24.84.5.24,1.18.43,2.02.57.85.14,1.84.27,3,.38,1.15.11,2.57.17,4.24.17,3.24.03,5.88.28,7.93.74,2.05.47,3.64,1.19,4.78,2.16,1.14.97,1.98,2.25,2.54,3.84.61,1.74.59,3.46-.05,5.16-.64,1.7-1.83,3.29-3.55,4.76-1.73,1.48-3.9,2.67-6.51,3.59-1.64.58-3.28.95-4.92,1.13-1.64.17-3.22.17-4.75,0-1.53-.18-2.97-.59-4.34-1.25l2.06-5.62.25-.53.53.26c.14.29.32.53.54.72.22.2.6.43,1.16.7,1.26.36,2.52.45,3.78.28,1.26-.17,2.62-.51,4.08-1.02.97-.34,1.83-.74,2.56-1.21.74-.47,1.34-.96,1.81-1.47.47-.52.8-1.05.98-1.59s.2-1.05.03-1.53c-.14-.41-.37-.77-.67-1.1-.3-.33-.73-.61-1.27-.83-.54-.23-1.23-.41-2.08-.55-.84-.14-1.9-.24-3.15-.3-1.26-.06-2.78-.08-4.58-.07-2.38-.08-4.4-.24-6.08-.48-1.68-.24-3.07-.63-4.18-1.18-1.11-.54-2.02-1.25-2.72-2.12-.7-.87-1.26-1.9-1.68-3.08-.6-1.7-.65-3.49-.16-5.39.49-1.89,1.65-3.71,3.47-5.44,1.82-1.74,4.43-3.2,7.83-4.39,2.76-.97,5.46-1.51,8.07-1.63Z" stroke-width="0" />
-        <path d="m264.16,388.1l.38,5.57-8.94.62,1.78,25.75,8.47-.58.38,5.56-23.86,1.65-.38-5.57,8.76-.6-1.78-25.81-9.18.63-.38-5.51,24.75-1.71Z" stroke-width="0" />
-        <path d="m225.75,390.06c2.31,2.06,3.89,4.61,4.74,7.64.85,3.03.91,6.39.17,10.09-.61,3.08-1.5,5.62-2.67,7.63-1.17,2.01-2.54,3.6-4.12,4.76-1.58,1.16-3.23,2-4.94,2.5-1.71.5-3.37.75-4.96.76-1.59,0-3.03-.12-4.31-.38-1.82-.36-3.56-.97-5.2-1.82-1.65-.85-3.08-1.87-4.29-3.06-1.22-1.19-2.11-2.55-2.7-4.08l4.69-3.18.43-.34.34.43c-.02.32-.01.62.03.91.04.29.23.71.57,1.26.51.71,1.09,1.34,1.74,1.89.66.55,1.44,1.04,2.34,1.46.9.42,1.92.74,3.04.97,1.13.22,2.24.31,3.34.25,1.1-.06,2.16-.31,3.17-.74,1.02-.44,1.97-1.07,2.86-1.89.89-.82,1.65-1.9,2.28-3.23s1.13-2.94,1.5-4.82c.45-2.26.59-4.28.42-6.05-.17-1.77-.62-3.33-1.34-4.69-.72-1.36-1.67-2.45-2.86-3.26-1.19-.82-2.58-1.38-4.17-1.7-.62-.12-1.25-.21-1.89-.26-.64-.05-1.28-.06-1.93-.03-.65.03-1.29.1-1.92.22-.63.11-1.27.28-1.92.51l-1.26,6.31,7.51,1.49-1.11,5.59-13.74-2.73,3.08-15.51c2.36-.9,4.74-1.41,7.15-1.56,2.41-.14,4.78.02,7.1.48,3.57.71,6.51,2.1,8.82,4.16Z" stroke-width="0" />
-        <path d="m184.27,415.99l-6.42-3.22-3.7-29.68-10.89,22.36-5.62-2.82-.48-.24.24-.48c.28-.12.51-.3.69-.52.18-.22.42-.63.72-1.23l15.36-30.61,5.52,2.77,3.57,31.4,11.87-23.66,5.73,2.87-16.58,33.05Z" stroke-width="0" />
-        <path d="m170.82,367.17l-24.7,27.51-21.46-19.27,3.69-4.11,16.43,14.75,6.27-6.98-13.6-12.21,3.77-4.2,13.6,12.21,7.26-8.08-16.29-14.63,3.73-4.15,21.33,19.15Z" stroke-width="0" />
-        <path d="m146.66,344.7l-31.07,20.05-8.01-12.42c-1.78-2.76-2.87-5.27-3.27-7.53-.4-2.26-.19-4.28.64-6.07.83-1.78,2.14-3.25,3.93-4.41,1.26-.82,2.67-1.3,4.22-1.45,1.55-.15,3.11.03,4.67.56,1.56.52,3,1.4,4.31,2.62l8.07-16.93,4.12,6.38-7.84,16.08,3.6,5.59,12.86-8.3,3.77,5.83Zm-21.42,5.56l-4.51-6.98c-1.29-1.99-2.61-3.22-3.97-3.69-1.36-.46-2.67-.29-3.93.53-.83.54-1.44,1.22-1.82,2.06-.38.83-.48,1.81-.29,2.94.19,1.13.72,2.37,1.6,3.74l4.44,6.88,8.48-5.47Z" stroke-width="0" />
-        <path d="m119.75,271.02c.05,1.3-.35,2.42-1.21,3.34-.86.92-1.92,1.41-3.18,1.46-1.26.05-2.37-.36-3.31-1.21-.94-.85-1.44-1.94-1.49-3.24-.05-1.27.37-2.36,1.24-3.28.88-.92,1.95-1.41,3.21-1.46,1.27-.05,2.36.36,3.28,1.21.92.86,1.41,1.92,1.46,3.18Z" stroke-width="0" />
-        </svg>);
+	<svg
+		id="Layer_1"
+		data-name="Layer 1"
+		xmlns="http://www.w3.org/2000/svg"
+		width={500}
+		height={500}
+		viewBox="0 0 500 500"
+		className={`w-full h-auto ${className}`}
+		{...rest}
+	>
+		<path
+			d="m258.71,143.49c-1.29-.17-2.32-.76-3.09-1.76-.77-1-1.06-2.13-.89-3.38.17-1.25.75-2.27,1.76-3.06,1-.78,2.15-1.09,3.44-.91,1.26.17,2.26.76,3.03,1.78.76,1.02,1.06,2.16.89,3.41-.17,1.26-.75,2.26-1.75,3.03-1,.76-2.13,1.06-3.38.89Z"
+			stroke-width="0"
+		/>
+		<path
+			d="m312.67,159.33c-.48-3.54.66-7.05,3.4-10.51l14.61-18.46,5.35,4.24.42.33-.33.42c-.3.06-.56.18-.78.36s-.54.53-.95,1.06l-12.95,16.37c-1.62,2.04-2.39,4.05-2.32,6.04s1.22,3.87,3.45,5.63c2.36,1.87,4.52,2.59,6.48,2.19,1.96-.41,3.77-1.66,5.44-3.76l14.53-18.36,5.26,4.16-14.5,18.33c-2.01,2.54-4.17,4.25-6.48,5.13-2.32.88-4.68,1.02-7.08.39-2.41-.62-4.79-1.87-7.15-3.73-3.79-3-5.92-6.26-6.39-9.81Z"
+			stroke-width="0"
+		/>
+		<path
+			d="m334.77,182.03l4.49-3.31,5.32,7.21,20.77-15.33-5.04-6.83,4.49-3.31,14.2,19.24-4.49,3.31-5.22-7.07-20.82,15.36,5.46,7.4-4.44,3.28-14.73-19.96Z"
+			stroke-width="0"
+		/>
+		<path
+			d="m367.77,241.81c2.22-2.81,5.52-4.43,9.92-4.87l23.43-2.35.68,6.79.05.53-.53.05c-.26-.17-.52-.28-.8-.31s-.75-.01-1.42.05l-20.77,2.08c-2.59.26-4.57,1.1-5.96,2.53-1.38,1.43-1.93,3.56-1.65,6.4.3,2.99,1.28,5.05,2.94,6.18,1.66,1.13,3.82,1.56,6.49,1.29l23.3-2.33.67,6.67-23.25,2.33c-3.22.32-5.95-.04-8.19-1.09-2.25-1.05-3.98-2.65-5.21-4.82-1.23-2.16-1.99-4.74-2.29-7.73-.48-4.8.39-8.61,2.6-11.41Z"
+			stroke-width="0"
+		/>
+		<path
+			d="m367.33,270.64l16.67,14.81,19.78-8.56-1.23,7.38-13.68,5.91,11.06,9.84-1.17,7.03-15.94-13.72-20.76,9.06,1.28-7.67,14.4-6.27-11.63-10.36,1.24-7.43Z"
+			stroke-width="0"
+		/>
+		<path
+			d="m346.82,334.07l28.27,23.83-7.23,8.58c-1.66,1.97-3.21,3.5-4.66,4.61-1.45,1.11-2.87,1.89-4.26,2.34-1.39.45-2.85.72-4.36.79-1.48.04-2.98-.12-4.48-.48s-3-.92-4.48-1.68c-1.48-.76-2.96-1.76-4.45-3.01-2.1-1.87-3.74-3.83-4.94-5.87-1.2-2.05-1.89-4.18-2.08-6.41-.19-2.23.2-4.58,1.17-7.05.97-2.47,2.59-5.05,4.86-7.74l6.66-7.89Zm-.23,8.65l-2.18,2.59c-2.09,2.48-3.37,4.81-3.85,7-.47,2.19-.27,4.25.61,6.18.88,1.93,2.32,3.71,4.31,5.34,2.08,1.7,4.15,2.89,6.2,3.56,2.05.67,4.09.64,6.12-.08,2.03-.72,4.04-2.26,6.03-4.62l2.68-3.18-19.92-16.79Z"
+			stroke-width="0"
+		/>
+		<path
+			d="m324.7,359.34l21.01,30.42-23.73,16.39-3.14-4.54,18.16-12.55-5.33-7.72-15.04,10.39-3.2-4.64,15.04-10.39-6.17-8.94-18.02,12.45-3.17-4.59,23.59-16.29Z"
+			stroke-width="0"
+		/>
+		<path
+			d="m291.97,379.96c2.62-.12,5,.24,7.14,1.08l-1.45,6.29-.12.55-.55-.12c-.17-.24-.37-.47-.62-.69-.25-.23-.66-.45-1.24-.67-1.41-.31-2.93-.42-4.59-.34-1.65.07-3.37.43-5.16,1.05-1.12.39-2.13.85-3.01,1.36-.89.52-1.63,1.07-2.21,1.67-.59.6-.99,1.25-1.2,1.96s-.19,1.43.07,2.16c.17.48.41.88.74,1.21.32.32.74.6,1.24.84.5.24,1.18.43,2.02.57.85.14,1.84.27,3,.38,1.15.11,2.57.17,4.24.17,3.24.03,5.88.28,7.93.74,2.05.47,3.64,1.19,4.78,2.16,1.14.97,1.98,2.25,2.54,3.84.61,1.74.59,3.46-.05,5.16-.64,1.7-1.83,3.29-3.55,4.76-1.73,1.48-3.9,2.67-6.51,3.59-1.64.58-3.28.95-4.92,1.13-1.64.17-3.22.17-4.75,0-1.53-.18-2.97-.59-4.34-1.25l2.06-5.62.25-.53.53.26c.14.29.32.53.54.72.22.2.6.43,1.16.7,1.26.36,2.52.45,3.78.28,1.26-.17,2.62-.51,4.08-1.02.97-.34,1.83-.74,2.56-1.21.74-.47,1.34-.96,1.81-1.47.47-.52.8-1.05.98-1.59s.2-1.05.03-1.53c-.14-.41-.37-.77-.67-1.1-.3-.33-.73-.61-1.27-.83-.54-.23-1.23-.41-2.08-.55-.84-.14-1.9-.24-3.15-.3-1.26-.06-2.78-.08-4.58-.07-2.38-.08-4.4-.24-6.08-.48-1.68-.24-3.07-.63-4.18-1.18-1.11-.54-2.02-1.25-2.72-2.12-.7-.87-1.26-1.9-1.68-3.08-.6-1.7-.65-3.49-.16-5.39.49-1.89,1.65-3.71,3.47-5.44,1.82-1.74,4.43-3.2,7.83-4.39,2.76-.97,5.46-1.51,8.07-1.63Z"
+			stroke-width="0"
+		/>
+		<path
+			d="m264.16,388.1l.38,5.57-8.94.62,1.78,25.75,8.47-.58.38,5.56-23.86,1.65-.38-5.57,8.76-.6-1.78-25.81-9.18.63-.38-5.51,24.75-1.71Z"
+			stroke-width="0"
+		/>
+		<path
+			d="m225.75,390.06c2.31,2.06,3.89,4.61,4.74,7.64.85,3.03.91,6.39.17,10.09-.61,3.08-1.5,5.62-2.67,7.63-1.17,2.01-2.54,3.6-4.12,4.76-1.58,1.16-3.23,2-4.94,2.5-1.71.5-3.37.75-4.96.76-1.59,0-3.03-.12-4.31-.38-1.82-.36-3.56-.97-5.2-1.82-1.65-.85-3.08-1.87-4.29-3.06-1.22-1.19-2.11-2.55-2.7-4.08l4.69-3.18.43-.34.34.43c-.02.32-.01.62.03.91.04.29.23.71.57,1.26.51.71,1.09,1.34,1.74,1.89.66.55,1.44,1.04,2.34,1.46.9.42,1.92.74,3.04.97,1.13.22,2.24.31,3.34.25,1.1-.06,2.16-.31,3.17-.74,1.02-.44,1.97-1.07,2.86-1.89.89-.82,1.65-1.9,2.28-3.23s1.13-2.94,1.5-4.82c.45-2.26.59-4.28.42-6.05-.17-1.77-.62-3.33-1.34-4.69-.72-1.36-1.67-2.45-2.86-3.26-1.19-.82-2.58-1.38-4.17-1.7-.62-.12-1.25-.21-1.89-.26-.64-.05-1.28-.06-1.93-.03-.65.03-1.29.1-1.92.22-.63.11-1.27.28-1.92.51l-1.26,6.31,7.51,1.49-1.11,5.59-13.74-2.73,3.08-15.51c2.36-.9,4.74-1.41,7.15-1.56,2.41-.14,4.78.02,7.1.48,3.57.71,6.51,2.1,8.82,4.16Z"
+			stroke-width="0"
+		/>
+		<path
+			d="m184.27,415.99l-6.42-3.22-3.7-29.68-10.89,22.36-5.62-2.82-.48-.24.24-.48c.28-.12.51-.3.69-.52.18-.22.42-.63.72-1.23l15.36-30.61,5.52,2.77,3.57,31.4,11.87-23.66,5.73,2.87-16.58,33.05Z"
+			stroke-width="0"
+		/>
+		<path
+			d="m170.82,367.17l-24.7,27.51-21.46-19.27,3.69-4.11,16.43,14.75,6.27-6.98-13.6-12.21,3.77-4.2,13.6,12.21,7.26-8.08-16.29-14.63,3.73-4.15,21.33,19.15Z"
+			stroke-width="0"
+		/>
+		<path
+			d="m146.66,344.7l-31.07,20.05-8.01-12.42c-1.78-2.76-2.87-5.27-3.27-7.53-.4-2.26-.19-4.28.64-6.07.83-1.78,2.14-3.25,3.93-4.41,1.26-.82,2.67-1.3,4.22-1.45,1.55-.15,3.11.03,4.67.56,1.56.52,3,1.4,4.31,2.62l8.07-16.93,4.12,6.38-7.84,16.08,3.6,5.59,12.86-8.3,3.77,5.83Zm-21.42,5.56l-4.51-6.98c-1.29-1.99-2.61-3.22-3.97-3.69-1.36-.46-2.67-.29-3.93.53-.83.54-1.44,1.22-1.82,2.06-.38.83-.48,1.81-.29,2.94.19,1.13.72,2.37,1.6,3.74l4.44,6.88,8.48-5.47Z"
+			stroke-width="0"
+		/>
+		<path
+			d="m119.75,271.02c.05,1.3-.35,2.42-1.21,3.34-.86.92-1.92,1.41-3.18,1.46-1.26.05-2.37-.36-3.31-1.21-.94-.85-1.44-1.94-1.49-3.24-.05-1.27.37-2.36,1.24-3.28.88-.92,1.95-1.41,3.21-1.46,1.27-.05,2.36.36,3.28,1.21.92.86,1.41,1.92,1.46,3.18Z"
+			stroke-width="0"
+		/>
+	</svg>
+);
 
 export const LinkArrow = ({ className, ...rest }) => (
-    <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width={24}
-        height={24}
-        viewBox="0 0 24 24"
-        className={`w-full h-auto ${className}`}
-        {...rest}>
-        <path fill="none" d="M0 0h24v24H0z" />
-        <path
-            fill="none"
-            stroke="currentColor"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth={2}
-            d="M11 7H6a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2-2v-5m-7 1L20 4m-5 0h5v5"
-        />
-    </svg>
+	<svg
+		xmlns="http://www.w3.org/2000/svg"
+		width={24}
+		height={24}
+		viewBox="0 0 24 24"
+		className={`w-full h-auto ${className}`}
+		{...rest}
+	>
+		<path fill="none" d="M0 0h24v24H0z" />
+		<path
+			fill="none"
+			stroke="currentColor"
+			strokeLinecap="round"
+			strokeLinejoin="round"
+			strokeWidth={2}
+			d="M11 7H6a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2-2v-5m-7 1L20 4m-5 0h5v5"
+		/>
+	</svg>
+);
+
+export const NameLogo = ({ className, ...rest }) => (
+	<svg
+		xmlns="http://www.w3.org/2000/svg"
+		width={500}
+		height={500}
+		viewBox="0 0 500 500"
+		className={`w-full h-auto ${className}`}
+		{...rest}
+	>
+		<path
+			d="m209.87,259.88c-4.22.76-7.9,1.7-11.62,2.05-16.14,1.48-32.29,2.87-48.45,4.09-2.83.21-3.86,1.31-4.05,3.93-.6,8.31-1.18,16.62-1.97,24.92-.47,4.94-1.23,9.85-2.07,14.74-.19,1.1-1.1,2.71-1.95,2.91-1,.23-2.76-.5-3.37-1.39-1.3-1.88-2.52-4.04-2.96-6.24-.91-4.57-1.83-9.25-1.78-13.87.3-26.91.8-53.81,1.46-80.71.13-5.23,1.19-10.44,1.94-15.65.55-3.83,2.19-6.74,6.71-6.53,3.14.14,6.35,3.66,6.52,7.69.35,8.03.6,16.08.56,24.12-.04,9.36-.34,18.72-.73,28.07-.14,3.4.9,4.11,4.3,3.8,13.37-1.2,26.77-2.24,40.19-2.84,4.9-.22,9.18-.38,14.07.42,2.53.42,4.45.9,4.42-1.55-.15-13.86.23-27.75-.78-41.55-.59-8.11-4.02-10.45-12.33-10.75-8.6-.32-17.23.1-25.85.14-3.41.02-10.1.26-9.19-4.33.41-2.08,3.24-3.04,5.13-3.57,13.31-3.75,26.86-6.28,40.59-2.84,8.96,2.24,14.38,8.96,16.62,17.54,1.76,6.73,3.08,13.89,2.74,20.77-.93,18.81-2.5,37.61-4.53,56.34-1.02,9.38-3.38,18.65-5.59,27.85-.74,3.09-1.46,8.28-7.07,4.07-.49-.37-1.88.38-2.82.71-15.9,5.77-31.66,11.99-47.76,17.14-6.21,1.99-13.22,2.27-19.8,1.97-3.02-.14-6.05-3.36-8.79-5.55-1.81-1.45-2.42-3.39-.37-5.63,1.9-2.07,3.48-2.48,6.42-1.99,3.98.66,8.35.32,12.34-.56,11.83-2.63,23.49-6.02,35.33-8.55,6.68-1.42,13.58-1.79,20.4-2.5,2.01-.21,3.65-.12,3.68-3,.14-13.29.47-26.57.7-39.86.02-.99-.15-1.99-.3-3.81Z"
+			stroke-width="2"
+			stroke="currentColor"
+			fill="currentColor"
+		/>
+		<path
+			d="m336.42,202.44c.61,2.64-6.89,3.28-9.91,4.15-6.99,2.02-14.17,3.45-21.33,4.83-3.32.64-4.43,2.19-4.8,5.54-.27,2.44-.61,4.91-1.1,7.34-.81,4.04.5,5.87,4.64,5.79,9.64-.19,19.29-1,28.91-.66,11.2.39,22.37,1.71,33.54,2.69.98.09,2.04.45,2.84,1.01.85.59,1.72,1.43,1.62,2.5-.11,1.21-1.28,1.87-2.34,2.07-6.16,1.17-12.34,2.27-18.55,3.07-24.91,3.2-71.79,7.67-75.12,8.13-4.78.61-9.24.84-14,1.5-1.7.24-7.99,1.85-11.63.79-2.05-.59-4.05-2.91-4.68-5.17-.85-3.04,1.04-5.85,4.26-6.7,9.84-2.6,19.62-5.57,29.65-7.37,3.16-.57,6.37-.93,9.57-1.05,3.65-.14,4.96-1.84,4.3-5.31-.19-1-.36-2.01-.54-3.02-1.41-8.13-1.39-8.04-9.63-6.49-6.15,1.16-12.34,2.17-18.54,3.02-1.67.23-3.58-.05-5.14-.68-1.13-.45-2.51-1.8-2.63-2.87-.11-1.07.97-2.98,1.96-3.33,6.98-2.46,13.97-5.01,21.14-6.75,11.07-2.68,10.99-2.41,10.85-13.76-.05-4.09-.99-5.32-5.36-4.43-5.96,1.22-12.11,1.74-18.2,1.96-1.62.06-4.74-1.73-4.98-3.19-.26-1.57,2.26-4.38,3.95-4.98,6.31-2.22,12.79-4.05,19.34-5.43,4-.84,5.41-2.39,5.58-6.63.31-7.81,1.38-15.6,2.51-23.34.24-1.63,1.35-4.61,3.22-4.54s2.63,3.03,2.82,4.67c.85,7.38,1.43,14.8,1.79,22.22.18,3.7,1.49,4.61,5.15,4.21,8.99-.98,18.02-1.57,27.05-2.07,1.47-.08,4.29.49,4.53,1.67.26,1.27-2.33,3.07-3.82,3.51-9.07,2.71-18.18,5.36-27.4,7.49-3.89.9-5.55,2.44-5.19,6.42.25,2.75.12,5.56,0,8.33-.15,3.15,1.17,3.8,4.23,3.67,8.6-.38,17.22-.32,25.83-.38,1.41,0,5.33.26,5.62,1.54Z"
+			stroke-width="2"
+			stroke="currentColor"
+			fill="currentColor"
+		/>
+		<path
+			d="m278.38,305.09v12.28c16.33-4.22,32.1-.49,47.75,4.09,1.55.45,5.65,2.99,3.79,4.17-5.13,3.23-8.78,2.4-18.83,2.23-11.12-.18-22.49.47-33.16-3.29-.18,1.02-.39,2.63-.74,4.2-1.64,7.32-3.26,14.66-5.06,21.94-.26,1.03-1.47,1.83-2.24,2.74-.76-.95-1.82-1.78-2.24-2.86-4.12-10.59-5.27-21.73-5.54-32.95-.26-11.1-.38-22.23.1-33.31.18-4.12,1.77-8.37,3.56-12.16,1.26-2.68,4.63-3.65,7.24-1.97,1.93,1.25,3.93,3.65,4.3,5.81.88,5.15.8,10.47,1.13,15.72.09,1.41.24,2.81.41,4.71,12.55-3.73,24.93-3.09,37.27-2.26,3.86.26,7.69,1.45,11.45,2.48.85.23,1.95,1.66,1.9,2.47-.05.76-1.39,1.92-2.3,2.06-11.8,1.83-23.36,2.75-35.23,4.08-4.38-.02-8.54.32-13.57-.18Z"
+			stroke-width="2"
+			stroke="currentColor"
+			fill="currentColor"
+		/>
+		<path
+			d="m334.54,360.96c3.84-16.14,6.85-31.35,6.04-46.87-.45-8.53-2.06-17.12-4.18-25.41-2.2-8.6-8.33-14.36-16.93-16.7-8.78-2.4-17.7-3.64-26.72-.51-1.56.54-4.6.89-5.51-.75-1.17-2.12,1.27-5.35,2.95-6.53,8.75-6.14,18.71-6.54,28.96-5.1,18.94,2.66,31.1,17.17,34.58,35.12,3.26,16.82,1.49,33.3-3.73,49.28-1.96,5.99-3.85,13.1-10.88,16.11-1.23.53-2.59.78-4.58,1.36Z"
+			stroke-width="2"
+			stroke="currentColor"
+			fill="currentColor"
+		/>
+	</svg>
 );

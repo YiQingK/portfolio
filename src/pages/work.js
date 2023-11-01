@@ -10,7 +10,7 @@ import { motion } from "framer-motion";
 
 const FramerImage = motion(Image);
 
-const FeaturedProject = ({ type, title, summary, img, link, github }) => {
+const FeaturedProject = ({ type, title, summary, img, link }) => {
 	return (
 		<article
 			className="w-full flex items-center justify-between rounded-3xl 
@@ -108,7 +108,6 @@ const projects = () => {
 								title="H2 Games Design Work"
 								img={project1}
 								link="/work/h2games"
-								github="/"
 								type="Visual Design Work"
 								summary="Design work for H2 Games GameJam event with Nanyang Polytechnic (NYP) in Singapore."
 							/>
