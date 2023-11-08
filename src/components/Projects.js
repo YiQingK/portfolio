@@ -68,7 +68,7 @@ const Project = ({ title, type, img, link, summary }) => {
     		md:-right-2 md:w-[101%] xs:h-[102%] xs:rounded-[1.5rem]
             "
 			/>
-			<Link href={link} target="_blank" className="w-full cursor-pointer overflow-hidden rounded-lg">
+			<Link href={link} target="_self" className="w-full cursor-pointer overflow-hidden rounded-lg">
 				<FramerImage
 					src={img}
 					alt={title}
@@ -102,7 +102,7 @@ const Projects = () => {
 					img={socialheropic}
 					link="/works/socialhero"
 					type="UI UX Research and Design Project"
-					summary="Ongoing research project that seeks to understand how a virtual playful environment could foster social interactions which the internal team dubbed 'Social Hero'."
+					summary="Ongoing research project that seeks to understand how a virtual playful environment can foster social interactions which we dubbed 'Social Hero'."
 				/>
 			</div>
 			<div className="col-span-6 ">

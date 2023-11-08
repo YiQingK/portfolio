@@ -24,12 +24,17 @@ export default function Home() {
 								text="Hi, I'm Yi Qing Khoo. "
 								className="!text-center !text-6xl xl:!text-5xl  lg:!text-6xl md:!text-5xl sm:!text-3xl"
 							/>
-							<h1>
-								Current Human-Computer Interaction Masters Student graduating in Dec 2023, open to work
+							<h1 className="font-body text-xl text-center">
+								I'm a <span className="font-bold text-primary dark:text-primaryDark">UX designer</span>{" "}
+								who has a background in Computer Science.
+								<br /> Currently a Human-Computer Interaction Masters Student graduating in Dec 2023,
+								open to work
 							</h1>
-							<p className=" font-body my-4 text-base font-medium md:text-sm sm:text-xs text-center">
-								Explore my projects and works that showcases my skills in UI UX design, Visual design
-								and programming.
+							<p className=" font-body mb-4 text-base font-medium md:text-sm sm:text-xs text-center">
+								Explore my projects and works that showcases my skills in{" "}
+								<span className="font-bold text-primary dark:text-primaryDark">UI UX design</span>,
+								<span className="font-bold text-primary dark:text-primaryDark">Visual design</span> and
+								<span className="font-bold text-primary dark:text-primaryDark"> Programming</span>.
 							</p>
 						</div>
 					</div>
