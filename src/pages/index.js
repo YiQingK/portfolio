@@ -27,15 +27,18 @@ export default function Home() {
 							<h1 className="font-body text-xl text-center">
 								I'm a <span className="font-bold text-primary dark:text-primaryDark">UX designer</span>{" "}
 								who has a background in Computer Science.
-								<br /> Currently a Human-Computer Interaction Masters Student graduating in Dec 2023,
-								open to work
+								<br />
+								Human-Computer Interaction Masters Student graduating in Dec 2023, open to work
+								opportunities
 							</h1>
-							<p className=" font-body mb-4 text-base font-medium md:text-sm sm:text-xs text-center">
+							<h2 className=" font-body mb-4 text-base font-medium md:text-sm sm:text-xs text-center">
 								Explore my projects and works that showcases my skills in{" "}
-								<span className="font-bold text-primary dark:text-primaryDark">UI UX design</span>,
-								<span className="font-bold text-primary dark:text-primaryDark">Visual design</span> and
+								<span className="font-bold text-primary dark:text-primaryDark">
+									UI UX design & research
+								</span>
+								,<span className="font-bold text-primary dark:text-primaryDark">Visual design</span> and
 								<span className="font-bold text-primary dark:text-primaryDark"> Programming</span>.
-							</p>
+							</h2>
 						</div>
 					</div>
 					<Projects />
