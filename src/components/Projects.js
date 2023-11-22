@@ -130,15 +130,18 @@ const Project2 = ({ title, type, img, link1, link2, summary }) => {
 						target="_self"
 						className=" mx-1 rounded-lg bg-dark text-light p-1 px-6 text-lg font-semibold dark:bg-light dark:text-dark sm:px-4 sm:text-base"
 					>
-						Part 1
+						Visit Research
 					</Link>
-					<Link
+					<div className=" mx-1 rounded-lg bg-slate-500 text-light p-1 px-6 text-lg font-semibold dark:bg-light dark:text-dark sm:px-4 sm:text-base">
+						Design Coming Soon
+					</div>
+					{/* 					<Link
 						href={link2}
 						target="_self"
 						className=" mx-1 rounded-lg bg-dark text-light p-1 px-6 text-lg font-semibold dark:bg-light dark:text-dark sm:px-4 sm:text-base"
 					>
-						Part 2
-					</Link>
+						Design Coming Soon
+					</Link>*/}
 				</div>
 			</div>
 		</article>
@@ -153,16 +156,17 @@ const Projects = () => {
 					title="Social Hero"
 					img={socialheropic}
 					link1="/works/socialhero"
-					link2="/works/socialhero_p2"
+					link2="/"
 					type="UI UX Research and Design Project"
 					summary="Ongoing research project that seeks to understand how a virtual playful environment can foster social interactions which we dubbed 'Social Hero'."
 				/>
 			</div>
 			<div className="col-span-6">
-				<Project
-					title="Elevating AI Chatbot"
+				<Project2
+					title="Trustworthy LLM Chatbot"
 					img={nvidiapic}
-					link="/Nvidia_TrustGPT_Final.pdf"
+					link1="/Nvidia_TrustGPT_Final.pdf"
+					link2="/"
 					type="UI UX Research and Design Project"
 					summary="Ongoing graduate capstone project with Nvidia that seeks to design a trustworthy AI chatbot through prompt engineering and UX design."
 				/>

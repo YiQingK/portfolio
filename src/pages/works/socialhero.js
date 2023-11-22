@@ -3,8 +3,9 @@ import Head from "next/head";
 import Layout from "@/components/Layout";
 import AnimatedText from "@/components/AnimatedText";
 import Image from "next/image";
-import mainpic from "../../../public/images/LandingPage.jpg";
 import Link from "next/link";
+import habiticapic from "../../../public/images/habitica.png";
+import leveluplifepic from "../../../public/images/leveluplife.png";
 
 const socialhero = () => {
 	return (
@@ -13,123 +14,111 @@ const socialhero = () => {
 				<title> Yi Qing | Social Hero</title>
 				<meta name="description" content="description"></meta>
 			</Head>
-			<main className="flex items-center text-dark w-full min-h-screen dark:text-light">
+			<main className="flex flex-col items-center  text-dark w-full min-h-screen dark:text-light">
 				<Layout>
-					<AnimatedText text="Social Hero" className="mb-4 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl" />
-					<div className="items-center text-center mb-16">
-						<p>Ongoing Research Project at University of California, Santa Cruz</p>
-						<p>
-							that started off as a mini project during 'Intro to Design Methods' class at UCSC, it
-							expanded to a full-fledged research project under the guidance of Professor Kathryn
-							Ringland.
-						</p>
-						<p>
-							<span className="font-bold text-lg">Project Since:</span> Fall 2022
-						</p>
-					</div>
-					<div className="grid grid-cols-12 gap-24 gap-y-24 xl:gap-x-16 lg:gap-x-8 sm:gap-x-0">
-						<div className="col-span-8">
-							<h1 className="font-bold text-lg">
-								Chapter 1: During 'Intro to Design Methods' class, Fall 2022
-							</h1>
-							<p>
-								Tasked to design something for a selected community within 2 weeks, a group of
-								introverts decided to create a mobile game(interactive prototype) that can help foster
-								social courage which we named "Social Hero".
-							</p>
-
-							<h2 className="font-bold uppercase text-lg my-4">Process </h2>
-							<ol className="list-decimal ml-8">
-								<li className="list-item">
-									Brainstorm possible directions to take the project of 'designing for a selected
-									community'
-								</li>
-								<li className="list-item">Brainstorm features that might be part of the prototype</li>
-								<li className="list-item">Conduct interviews with potential users</li>
-								<li className="list-item">
-									Design for a low-fidelity prototype guided by insights from interviews
-								</li>
-								<li className="list-item">
-									Iterate on designs through review with team members and professor for a high
-									fidelity prototype
-								</li>
-								<li className="list-item">
-									Conduct user testing to identify any pain points and iterate on prototype for any
-									final adjustments.
-								</li>
-							</ol>
-							{/*Add some sketches or etc...*/}
-							<h2 className="font-bold uppercase text-lg my-4">Challenges Faced:</h2>
-							<ul className="list-disc ml-4">
-								<li className="list-item font-bold">Features of the game</li>
-							</ul>
-							<p className="ml-8">
-								When creating the low-fidelity sketches, the prototype team were unsure of what features
-								should be included in the design. We had discussions such as whether to include global
-								interaction or how progress should be tracked. After listening to our team which had
-								conducted the user interviews, it affirmed our idea of having a platform for all users
-								to interact as well as changing a leveling system to a categorical tracker.
-							</p>
-							<ul className="list-disc ml-4">
-								<li className="list-item font-bold">Navigating the prototype</li>
-							</ul>
-							<p className="ml-8">
-								During our usability testing, we came to realise that it was not intuitive to the users
-								on how the map could be navigated. Many had assumed it was a tap to move avatar to the
-								location. To better assist users in how to navigate the map, we decided to create an
-								information board which appears when the user first uses the application. It can later
-								be accessed through the 'i' icon on the top right of the map.
-							</p>
+					<h5 className=" bg-primary text-light inline p-1 rounded">UX Research</h5>
+					<div className="grid grid-cols-12 gap-24">
+						<div className="col-span-12">
+							<h1>Social Hero</h1>
+							<h2>Fostering socialization through mobile games</h2>
+							<h3 className="mt-8">Problem</h3>
+							<h4>
+								Introverts feel drained from over-socializing faster than extroverts (Jenn Granneman).
+								With presence of unavoidable social situations, how might we help build resilience for
+								such moments in a safe space?
+							</h4>
+							<h3 className="mt-8">Deep dive into online communities</h3>
+							<h4>
+								An <span className="font-bold">online survey</span> (n=202) was conducted to better
+								understand how people navigate online spaces, learning about their experiences and
+								understanding what makes them feel safe.
+								<br /> <br />
+								<span className="font-bold">Focus groups</span> were conducted to allow participants
+								share in depth their experiences while potentially relating to stories of other
+								participants.
+								<br /> <br />A <span className="font-bold">co-design session</span> was also conducted
+								in the focus group where participants would design screens they would like to see in our
+								game. This allowed us to understand features they’d like in the game as well as their
+								reasoning behind it.
+							</h4>
+							<h3 className="mt-8">Competitive Audit</h3>
+							<h4>
+								A competitive audit was conducted on applications that were deemed similar to our idea,
+								to understand features that are already successful with users. These applications
+								include <span className="text-primary">‘Habitica’</span> and
+								<span className="text-primary">‘Level-up Life’</span>. We play-tested and collected app
+								store reviews to understand the successful aspects of these apps.
+							</h4>
 						</div>
-						<div className="col-span-4">
-							<Image
-								src={mainpic}
-								alt="Final Prototype landing page"
-								className="w-full h-auto rounded-2xl border-black border-4"
-								priority
-								sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-							/>
-							<p className="text-center">Final Prototype Landing Page</p>
+						<div className="col-span-6 flex justify-center">
+							<Image src={habiticapic} className="rounded-lg border-2 border-solid border-dark" />
+						</div>
+						<div className="col-span-6 flex justify-center">
+							<Image src={leveluplifepic} className="rounded-lg border-2 border-solid border-dark" />
+						</div>
+
+						<div className="col-span-12">
+							<h3 className="mt-8">User Interview</h3>
+							<h4>
+								User interviews were conducted to understand potential users’ thoughts on what are good
+								features by asking about their expectations of such a game. These user interviews had
+								opened a new avenue of thought - to foster social courage rather than to ‘fix social
+								anxiety’.
+							</h4>
+							<h3 className="mt-8">Research Findings and Features</h3>
+							<h4>
+								Research data from the various methods were brought together and the below major themes
+								were created.
+							</h4>
+						</div>
+						<div className="col-span-6">
+							<h3>Findings</h3>
+							<h4 className="font-bold mt-4">Community</h4>
+							<ul className="list-disc">
+								<li className="list-item ml-8">Need for human connection</li>
+								<li className="list-item">Collboration between users</li>
+							</ul>
+							<h4 className="font-bold mt-4">Safety</h4>
+							<ul className="list-disc">
+								<li className="list-item">Control of who they are interacting with</li>
+								<li className="list-item">Control of who can see their information</li>
+							</ul>
+							<h4 className="font-bold mt-4">Aesthetics</h4>
+							<ul className="list-disc">
+								<li className="list-item">Reminiscent and colorful 8-bit art style</li>
+								<li className="list-item">World style differing from real life (Escapism)</li>
+							</ul>
+							<h4 className="font-bold mt-4">User</h4>
+							<ul className="list-disc">
+								<li className="list-item">Ability to expres themselves</li>
+								<li className="list-item">Sense of accomplishment</li>
+							</ul>
+						</div>
+						<div className="col-span-6">
+							<h3>Features</h3>
+							<h4 className="font-bold mt-4">Community</h4>
+							<ul className="list-disc">
+								<li className="list-item">Designated space for users to interact</li>
+								<li className="list-item">Tasks that require collaboration</li>
+							</ul>
+							<h4 className="font-bold mt-4">Safety</h4>
+							<ul className="list-disc">
+								<li className="list-item">Option to be anonymous</li>
+								<li className="list-item">Option to set profile privacy</li>
+							</ul>
+							<h4 className="font-bold mt-4">Aesthetics</h4>
+							<ul className="list-disc">
+								<li className="list-item">Brightly colored fantasy world</li>
+								<li className="list-item">Pixel art characters/world</li>
+							</ul>
+							<h4 className="font-bold mt-4">User</h4>
+							<ul className="list-disc">
+								<li className="list-item">Customizable characters and profile</li>
+								<li className="list-item">Achievements and badges</li>
+							</ul>
 						</div>
 						<div className="col-span-12">
-							<h1 className="font-bold text-lg">Chapter 2: Independent Studies, Spring 2023</h1>
-							<p>
-								Members decided to carry on the project done in class to a full fledged IRB-approved
-								research project with the focus on exploring and designing online applications for
-								prosocialization in adults in our Spring quarter which later made its way to DIS ACM
-								2023 workshop 'Designing for and Reflecting upon Resilience in Health and Wellbeing'
-								as&nbsp;
-								<Link
-									className="text-primary underline"
-									target={"_blank"}
-									href="https://bpb-us-e1.wpmucdn.com/sites.psu.edu/dist/0/165972/files/2023/07/Francis-Dominguez-et-al.-Looking-at-Loneliness-though-Connection-and-Resilience.pdf"
-								>
-									a workshop paper.
-								</Link>
-							</p>
-							<h2 className="font-bold uppercase text-lg my-4">Process</h2>
-							<ol className="list-decimal ml-8">
-								<li className="list-item">
-									Created an open-ended survey to understand the factors that contribute to
-									participants feeling safe within online spaces while also recruiting participants
-									for our in-person focus group workshops.
-								</li>
-								<li className="list-item">
-									Created a focus group protocol - group discussion and design session to have a
-									deeper dive into safety in online experiences as well as to understand what features
-									participants might find helpful in promoting online interactions.
-								</li>
-								<li className="list-item">
-									Revised survey and protocol with feedback from Professors and fellow research lab
-									members.
-								</li>
-								<li className="list-item">Conducted focus groups</li>
-							</ol>
-							<h2 className="font-bold uppercase text-lg my-4">Challenges Faced:</h2>
-							<ul className="list-disc ml-4">
-								<li className="list-item font-bold">Asking the right questions</li>
-							</ul>
-							<p className="ml-8">One of the challenges faced is structuring the focus group sessions.</p>
+							<h4>Design process of mobile game interactive prototype coming soon</h4>
 						</div>
 					</div>
 				</Layout>
