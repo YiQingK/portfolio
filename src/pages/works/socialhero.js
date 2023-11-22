@@ -18,7 +18,7 @@ const socialhero = () => {
 			</Head>
 			<main className="flex flex-col items-center  text-dark w-full min-h-screen dark:text-light">
 				<Layout>
-					<h5 className=" bg-primary text-light inline p-1 rounded">UX Research</h5>
+					<h5 className=" bg-primary dark:bg-primaryDark text-light inline p-1 rounded">UX Research</h5>
 					<div className="grid grid-cols-12 gap-24">
 						<div className="col-span-12">
 							<h1>Social Hero</h1>
@@ -55,9 +55,10 @@ const socialhero = () => {
 							<h4>
 								A competitive audit was conducted on applications that were deemed similar to our idea,
 								to understand features that are already successful with users. These applications
-								include <span className="text-primary">‘Habitica’</span> and
-								<span className="text-primary">‘Level-up Life’</span>. We play-tested and collected app
-								store reviews to understand the successful aspects of these apps.
+								include <span className="text-primary dark:text-primaryDark">‘Habitica’</span> and
+								<span className="text-primary dark:text-primaryDark">‘Level-up Life’</span>. We
+								play-tested and collected app store reviews to understand the successful aspects of
+								these apps.
 							</h4>
 						</div>
 						<div className="col-span-6 flex justify-center">
