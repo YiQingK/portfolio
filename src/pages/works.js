@@ -6,6 +6,8 @@ import Link from "next/link";
 import Image from "next/image";
 import { GithubIcon } from "@/components/Icons";
 import project1 from "../../public/images/work/h2games.jpg";
+import WSpic from "../../public/images/wspic.jpg";
+import socialheropic from "../../public/images/socialheropic.png";
 import { motion } from "framer-motion";
 
 const FramerImage = motion(Image);
@@ -92,7 +94,7 @@ const Project = ({ title, type, img, link, github }) => {
 	);
 };
 
-const projects = () => {
+const works = () => {
 	return (
 		<>
 			<Head>
@@ -103,34 +105,33 @@ const projects = () => {
 				<Layout className="pt-16">
 					<AnimatedText text="Work" className="mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl" />
 					<div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
-						<div className="col-span-12">
+						<div className="col-span-12 ">
+							<FeaturedProject
+								title="Social Hero"
+								img={socialheropic}
+								link="/projects/socialhero"
+								type="UI UX Research and Design Project"
+								summary="Ongoing research project that seeks to understand how a virtual playful environment could foster social interactions which the internal team dubbed 'Social Hero'."
+							/>
+						</div>
+						<div className="col-span-12 ">
 							<FeaturedProject
 								title="H2 Games Design Work"
 								img={project1}
-								link="/work/h2games"
-								type="Visual Design Work"
+								link="/works/h2games"
+								type="Client Visual Design Work"
 								summary="Design work for H2 Games GameJam event with Nanyang Polytechnic (NYP) in Singapore."
 							/>
 						</div>
-						{/*<div className="col-span-6 sm:col-span-12">
-                            <Project
-                                title="Design Project 1"
-                                img={project1}
-                                link="/"
-                                github="/"
-                                type="project"
-                            />
-                        </div>
-                        <div className="col-span-6 sm:col-span-12">
-                            {" "}
-                            <Project
-                                title="Design Project 2"
-                                img={project1}
-                                link="/"
-                                github="/"
-                                type="project"
-                            />
-                        </div>*/}
+						<div className="col-span-12 ">
+							<FeaturedProject
+								title="Work Scheduler Application"
+								img={WSpic}
+								link="/projects/workscheduler"
+								type="Software Development Project"
+								summary="Undergraduate Capstone Project where we created cross-platform mobile application to help organise a company's work schedule."
+							/>
+						</div>
 					</div>
 				</Layout>
 			</main>
@@ -138,4 +139,4 @@ const projects = () => {
 	);
 };
 
-export default projects;
+export default works;

@@ -76,10 +76,9 @@ const NavBar = () => {
 			</button>
 			<div className="w-full flex items-center justify-between lg:hidden">
 				<nav>
-					<CustomLink href="/" title="Home" className="mr-4 font-display" />
-					<CustomLink href="/about" title="About" className="mx-4 font-display" />
-					<CustomLink href="/projects" title="Projects" className="mx-4 font-display" />
-					<CustomLink href="/work" title="Work" className="ml-4 font-display" />
+					<CustomLink href="/" title="Work" className="mr-4 font-display" />
+					<CustomLink href="/Resume.pdf" title="Resume" className="mx-4 font-display" />
+					<CustomLink href="/about" title="About" className="ml-4 font-display" />
 				</nav>
 				<nav className=" flex items-center justify-center flex-wrap">
 					<motion.a
@@ -117,10 +116,9 @@ const NavBar = () => {
 					className="min-w-[70vw] flex flex-col items-center z-30 justify-between fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-dark/90 dark:bg-light/75 rounded-lg backdrop-blur-md py-32"
 				>
 					<nav className="flex flex-col items-center justify-center ">
-						<CustomMobileLink href="/" title="Home" toggle={handleClick} />
+						<CustomMobileLink href="/" title="Work" toggle={handleClick} />
+						<CustomMobileLink href="/Resume.pdf" title="Resume" toggle={handleClick} />
 						<CustomMobileLink href="/about" title="About" toggle={handleClick} />
-						<CustomMobileLink href="/projects" title="Projects" toggle={handleClick} />
-						<CustomMobileLink href="/work" title="Work" toggle={handleClick} />
 					</nav>
 					<nav className=" flex items-center justify-center flex-wrap mt-2">
 						<motion.a
