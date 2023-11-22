@@ -5,7 +5,9 @@ import AnimatedText from "@/components/AnimatedText";
 import Image from "next/image";
 import Link from "next/link";
 import habiticapic from "../../../public/images/habitica.png";
-import leveluplifepic from "../../../public/images/leveluplife.png";
+import leveluplifepic from "../../../public/images/leveluplife.jpg";
+import codesign1 from "../../../public/images/codesign1.jpg";
+import codesign2 from "../../../public/images/codesign2.jpg";
 
 const socialhero = () => {
 	return (
@@ -41,6 +43,14 @@ const socialhero = () => {
 								game. This allowed us to understand features they’d like in the game as well as their
 								reasoning behind it.
 							</h4>
+						</div>
+						<div className="col-span-7">
+							<Image src={codesign1} className="rounded-lg border-2 border-solid border-dark" />
+						</div>
+						<div className="col-span-5">
+							<Image src={codesign2} className="rounded-lg border-2 border-solid border-dark" />
+						</div>
+						<div className="col-span-12">
 							<h3 className="mt-8">Competitive Audit</h3>
 							<h4>
 								A competitive audit was conducted on applications that were deemed similar to our idea,
@@ -51,10 +61,16 @@ const socialhero = () => {
 							</h4>
 						</div>
 						<div className="col-span-6 flex justify-center">
-							<Image src={habiticapic} className="rounded-lg border-2 border-solid border-dark" />
+							<Image
+								src={habiticapic}
+								className=" w-[75%] h-auto rounded-lg border-2 border-solid border-dark"
+							/>
 						</div>
 						<div className="col-span-6 flex justify-center">
-							<Image src={leveluplifepic} className="rounded-lg border-2 border-solid border-dark" />
+							<Image
+								src={leveluplifepic}
+								className="w-[75%] h-auto rounded-lg border-2 border-solid border-dark"
+							/>
 						</div>
 
 						<div className="col-span-12">
