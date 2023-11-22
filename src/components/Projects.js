@@ -162,7 +162,7 @@ const Projects = () => {
 				<Project
 					title="Elevating AI Chatbot"
 					img={nvidiapic}
-					link="/works/nvidia"
+					link="/Nvidia_TrustGPT_Final.pdf"
 					type="UI UX Research and Design Project"
 					summary="Ongoing graduate capstone project with Nvidia that seeks to design a trustworthy AI chatbot through prompt engineering and UX design."
 				/>
