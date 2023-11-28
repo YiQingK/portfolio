@@ -2,48 +2,70 @@ import React from "react";
 import Head from "next/head";
 import Layout from "@/components/Layout";
 import Image from "next/image";
-import BannerImage from "../../../public/images/work/h2gamesbanner.jpg";
+import ShirtMockup from "public/images/H2games_shirtmockup.png";
+import BannerMockup from "public/images/H2games_bannermockup.png";
+import MainDesign from "public/images/H2_NYP.png";
+import WebsiteDesign from "public/images/GAMEJAM Poster XS.png";
 
 const h2games = () => {
-    return (
-        <>
-            <Head>
-                <title> Yi Qing | H2 Games</title>
-                <meta name="description" content="description"></meta>
-            </Head>
-            <main className="flex items-center text-dark w-full min-h-screen dark:text-light">
-                <Layout>
-                    <div className="flex  flex-col justify-center items-center">
-                    <Image
-                        src={BannerImage}
-                        alt="banner image"
-                        width={400}
-                        height={171}
-                        className="w-3/4 h-auto rounded-2xl "
-                        priority
-                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                        />
-                    <p>Event Banner</p>
-                    </div>
-
-                    <h2 className="text-lg font-bold uppercase">
-                        Work Description
-                    </h2>
-                    <p>
-                    To create material for GameJam event held by H2Games and Nanyang Polytechnic. Material include event banner, website page, event t-shirt design.
-                    </p>
-                    <h2 className="text-lg font-bold uppercase">Process</h2>
-                    <ul className="list-disc">
-                    <li className="list-item">Referencing previous event design style, I created the draft of the event banner.</li> 
-                    </ul>
-                    <h2 className="text-lg font-bold uppercase">Challenges Faced</h2>
-                    <p>As I have been primarily used to the simplistic graphic design style.
-                    I had to understand compostions of more complicated/busy designs. I took inspiration from moodboards and material available online. H2Games designer's feedback also helped with this process.
-                    </p>
-                </Layout>
-            </main>
-        </>
-    );
+	return (
+		<>
+			<Head>
+				<title> Yi Qing | H2 Games</title>
+				<meta name="description" content="description"></meta>
+			</Head>
+			<main className="flex items-center text-dark w-full min-h-screen dark:text-light">
+				<Layout>
+					<div className="justify-center items-center grid grid-cols-12 gap-12">
+						<div className="col-span-12">
+							<h1>H2 Games Visual Design Work</h1>
+						</div>
+						<div className="col-span-6">
+							<Image
+								src={MainDesign}
+								alt="Main Event Design"
+								className="w-full h-auto rounded-xl "
+								priority
+								sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+							/>
+							<p>Main Event design</p>
+						</div>
+						<div className="col-span-6">
+							<Image
+								src={ShirtMockup}
+								alt="Mockup of Event Shirt"
+								className="w-full h-auto rounded-xl "
+								priority
+								sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+							/>
+							<p>Mockup of Event Shirt</p>
+						</div>
+						<div className="col-span-6">
+							<Image
+								src={BannerMockup}
+								alt="Mockup of Retractable Banner"
+								className="w-full h-auto rounded-xl "
+								priority
+								sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+							/>
+							<p>Mockup of Event Retractable Banner</p>
+						</div>
+						<div className="col-span-6">
+							<Image
+								src={WebsiteDesign}
+								alt="Event Website Design"
+								className="w-full h-auto rounded-xl "
+								priority
+								sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+							/>
+							<p>Event Website Design</p>
+						</div>
+						<div className="col-span-12"></div>
+					</div>
+				</Layout>
+			</main>
+		</>
+	);
 };
 
 export default h2games;

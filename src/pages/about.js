@@ -45,11 +45,8 @@ const about = () => {
 					<AnimatedText text="About Me " className="mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8" />
 					<div className="grid w-full grid-cols-8 gap-16 sm:gap-8">
 						<div className="col-span-5 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8">
-							<h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75">
-								Hi, I'm Yi Qing Khoo.
-							</h2>
-							<h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75">
-								You can also call me Haru.
+							<h2 className="mb-4 uppercase text-dark/75 dark:text-light/75">
+								Hi, I'm Yi Qing Khoo. You can also call me Haru.
 							</h2>
 							<p className="font-medium">
 								I am a UI UX designer from the tiny island-country Singapore who is currently based in
@@ -60,9 +57,9 @@ const about = () => {
 								design skills come from being self-taught through my experience running my own small
 								business and freelance work.
 							</p>
-							<p className="font-medium"></p>
-							<Education />
-							{/*<p className="font-medium my-4">
+							{/*
+														<Education />
+							<p className="font-medium my-4">
                                 I believe that design is about more than just
                                 making things look pretty – it's about solving
                                 problems and creating intuitive, enjoyable

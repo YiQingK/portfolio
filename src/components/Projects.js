@@ -89,7 +89,7 @@ const Project = ({ title, type, img, link, summary }) => {
 					target="_self"
 					className="rounded-lg bg-dark text-light p-1 px-6 text-lg font-semibold dark:bg-light dark:text-dark sm:px-4 sm:text-base"
 				>
-					Visit
+					View Work
 				</Link>
 			</div>
 		</article>
@@ -130,7 +130,7 @@ const Project2 = ({ title, type, img, link1, link2, summary }) => {
 						target="_self"
 						className=" mx-1 rounded-lg bg-dark text-light p-1 px-6 text-lg font-semibold dark:bg-light dark:text-dark sm:px-4 sm:text-base"
 					>
-						Visit Research
+						View Research
 					</Link>
 					<div className=" mx-1 rounded-lg bg-slate-500 text-light p-1 px-6 text-lg font-semibold dark:bg-light dark:text-dark sm:px-4 sm:text-base">
 						Design Coming Soon
