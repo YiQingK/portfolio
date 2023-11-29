@@ -11,46 +11,35 @@ const workscheduler = () => {
 	return (
 		<>
 			<Head>
-				<title> Yi Qing | Social Hero</title>
+				<title> Yi Qing | Work Scheduler Application</title>
 				<meta name="description" content="description"></meta>
 			</Head>
 			<main className="flex items-center text-dark w-full min-h-screen dark:text-light">
 				<Layout>
-					<AnimatedText
-						text="Work Scheduler App"
-						className="mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl"
-					/>
+					<h5 className=" bg-primary dark:bg-primaryDark text-light inline p-1 rounded">
+						Software Development
+					</h5>
 					<div className="grid grid-cols-12 gap-24 gap-y-24 xl:gap-x-16 lg:gap-x-8 md:gap-y-16 sm:gap-x-0">
 						<div className="col-span-8">
-							<p>
-								This was a capstone project done in my final semester at USF sponsored by SF Dev Shop.
-							</p>
-							<p>
-								<span className="font-bold text-lg">Project length:</span> ~3 months
-							</p>
-							<p>
-								<span className="font-bold text-lg">Team members:</span> 4 (Kai BurkHolder, Gordon Mai,
-								Serena Villenueva, Yi Qing Khoo(me))
-							</p>
-							<p>
-								<span className="font-bold text-lg">My main role:</span> 1 of 2 members in-charge of
-								frontend development
-							</p>
-							<p>
-								<span className="font-bold text-lg">Problem:</span> Existing work scheduling system
-								which was on a web-platform did not translate well to a mobile version which was hard
-								for users to use on their phones.
-							</p>
-							<p>
-								<span className="font-bold text-lg">Goal:</span> To create an improved form of our
-								sponsor's current work scheduling system.
-							</p>
-							<p>
-								<span className="font-bold text-lg">Results:</span> Created an easy to use
-								cross-platform mobile application to help organise a company's work schedule. The app
-								was created using React Native for a cross-platform UI which communicates with a
-								back-end service built with Node.js and PostgreSQL.
-							</p>
+							<h1>Work Scheduler</h1>
+							<h2>Enhancing usability for employees</h2>
+							<ul className="list-disc marker:text-primary mt-8">
+								<li className="list-item text-3xl font-display">Problem</li>
+							</ul>
+							<h4>
+								Existing work scheduling system which was on a web-platform did not translate well to a
+								mobile version which was hard for users to use on their phones.
+								<br />
+								How might we design and develop a system that is easy to use for users?
+							</h4>
+							<ul className="list-disc marker:text-primary mt-8">
+								<li className="list-item text-3xl font-display">Solution</li>
+							</ul>
+							<h4>
+								Created an easy to use cross-platform mobile application to help organise a company's
+								work schedule. The app was created using React Native for a cross-platform UI which
+								communicates with a back-end service built with Node.js and PostgreSQL.
+							</h4>
 						</div>
 						<div className="col-span-4">
 							<Image
@@ -62,47 +51,51 @@ const workscheduler = () => {
 							/>
 						</div>
 						<div className="col-span-12">
-							<h2 className="font-bold uppercase text-lg">Design Process</h2>
-							<ol className="list-decimal mb-4 ml-8">
+							<ul className="list-disc marker:text-primary mt-8">
+								<li className="list-item text-3xl font-display">Pain Points</li>
+							</ul>
+							<ul className="list-disc">
+								<li className="list-item">Current system is not mobile friendly</li>
 								<li className="list-item">
-									Understand pain points of the existing work scheduling system
+									Limited messaging system where managers can message staff and broadcasts from
+									managers affect all staff members.
 								</li>
-								<li className="list-item">Brainstorm ways to overcome pain points</li>
-								<li className="list-item">Program functionality for such ways</li>
-								<li className="list-item">Review with sponsor and iterate with feedback provided</li>
-							</ol>
-							{/*Add some sketches or etc...*/}
-							<h2 className="font-bold uppercase text-lg">Challenges Faced</h2>
-							<p>
-								It was the team’s first time creating an app so we had abit of trouble creating a
-								workflow for the different users (manager & employee) when we had just started. We had
-								the requirements of the app such as (a manager adding a shift or employees giving up a
-								shift) but were unsure of how they would reach their goals. As we were building it, we
-								were able to workout how users would navigate the application to reach their goals. As
-								it was our first time, it seems a hand-on experience was the most effective way to
-								understand how to create a workflow/ how a workflow would work.
-							</p>
-						</div>
-						<div className="col-span-5">
-							<Image
-								src={EmployeeFlow}
-								alt="Employee User Flow"
-								className="w-full h-auto rounded-2xl border-2 border-solid border-dark"
-								priority
-								sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-							/>
-						</div>
-						<div className="col-span-7">
-							<Image
-								src={ManagerFlow}
-								alt="Manager User Flow"
-								className="w-full h-auto rounded-2xl border-2 border-solid border-dark"
-								priority
-								sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-							/>
-						</div>
-						<div className="col-span-12">
-							<h2 className="font-bold uppercase text-lg">If there was more time...</h2>
+							</ul>
+
+							<ul className="list-disc marker:text-primary mt-8">
+								<li className="list-item text-3xl font-display">Features</li>
+							</ul>
+							<h4>
+								The list of features were decided based off pain points and basic work scheduling
+								application features
+							</h4>
+							<ul className="list-disc">
+								<li className="list-item">
+									Cross-platform system that can be used on mobile and laptop
+								</li>
+								<li className="list-item">
+									Messaging system where staff can message each other as well as create group chats
+								</li>
+								<li className="list-item">Sign up system through invitation only</li>
+								<li className="list-item">User profiles for each staff member</li>
+								<li className="list-item">Clock-in/Clock-out system</li>
+								<li className="list-item">
+									Staff have the ability to check and swap shifts while managers have the added
+									ability to add and edit shifts
+								</li>
+								<li className="list-item">
+									Monetization feature linked to stripe for use of application
+								</li>
+								<li className="list-item">Staff ability to block time off</li>
+							</ul>
+
+							<ul className="list-disc marker:text-primary mt-8">
+								<li className="list-item text-3xl font-display">Learning Points</li>
+							</ul>
+
+							<ul className="list-disc marker:text-primary mt-8">
+								<li className="list-item text-3xl font-display">With more time</li>
+							</ul>
 							<ul className="list-disc">
 								<li className="list-item font-semibold">Involving users</li>
 								<p>
