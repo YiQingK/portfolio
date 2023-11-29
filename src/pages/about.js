@@ -42,17 +42,14 @@ const about = () => {
 			</Head>
 			<main className="flex w-full flex-col items-center justify-center dark:text-light">
 				<Layout className="pt-16">
-					<AnimatedText text="About Me " className="mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8" />
+					<h1>About Me</h1>
 					<div className="grid w-full grid-cols-8 gap-16 sm:gap-8">
-						<div className="col-span-5 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8">
+						<div className="col-span-5 flex flex-col items-start xl:col-span-4 md:order-2 md:col-span-8">
 							<h2 className="mb-4 uppercase text-dark/75 dark:text-light/75">
 								Hi, I'm Yi Qing Khoo. You can also call me Haru.
 							</h2>
-							<p className="font-medium">
-								I am a UI UX designer from the tiny island-country Singapore who is currently based in
-								Santa Clara, California.
-							</p>
-							<p className="font-medium my-4">
+							<p>I am a UI UX designer from Singapore, currently based in Cupertino, California.</p>
+							<p>
 								My experience in UI UX design comes from projects and work in university while my visual
 								design skills come from being self-taught through my experience running my own small
 								business and freelance work.
