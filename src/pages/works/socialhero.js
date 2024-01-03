@@ -4,7 +4,7 @@ import Layout from "@/components/Layout";
 import Image from "next/image";
 import Link from "next/link";
 import habiticapic from "../../../public/images/habitica.png";
-import leveluplifepic from "../../../public/images/leveluplife.jpg";
+import leveluplifepic from "../../../public/images/leveluplife.png";
 import codesign1 from "../../../public/images/codesign1.jpg";
 import codesign2 from "../../../public/images/codesign2.jpg";
 import venndiagram from "public/images/Venn.png";
@@ -19,22 +19,22 @@ const socialhero = () => {
 			<main className="flex flex-col items-center  text-dark w-full min-h-screen dark:text-light">
 				<Layout>
 					<h5 className=" bg-primary dark:bg-primaryDark text-light inline p-1 rounded">UX Research</h5>
-					<div className="grid grid-cols-12 gap-12">
-						<div className="col-span-12">
+					<div className="grid grid-cols-12 gap-12 gap-y-24">
+						<div id="title" className="col-span-12">
 							<h1>Social Hero</h1>
 							<h2>Fostering socialization through mobile games</h2>
-							<ul className="list-disc marker:text-primary mt-8">
-								<li className="list-item text-3xl font-display">Problem</li>
-							</ul>
-							<h4>
+						</div>
+						<div id="problem" className="col-span-12">
+							<h3 className="font-bold">Problem</h3>
+							<p>
 								Introverts feel drained from over-socializing faster than extroverts (Jenn Granneman).
 								With presence of unavoidable social situations, how might we help build resilience for
 								such moments in a safe space?
-							</h4>
-							<ul className="list-disc marker:text-primary mt-8">
-								<li className="list-item text-3xl font-display">Deep dive into online communities</li>
-							</ul>
-							<h4>
+							</p>
+						</div>
+						<div id="deepdive" className="col-span-12">
+							<h3 className="font-bold">Deep dive into online communities</h3>
+							<p>
 								An <span className="font-bold">online survey</span> (n=202) was conducted to better
 								understand how people navigate online spaces, learning about their experiences and
 								understanding what makes them feel safe.
@@ -46,7 +46,7 @@ const socialhero = () => {
 								in the focus group where participants would design screens they would like to see in our
 								game. This allowed us to understand features they’d like in the game as well as their
 								reasoning behind it.
-							</h4>
+							</p>
 						</div>
 						<div className="col-span-7">
 							<Image src={codesign1} className="rounded-lg border-2 border-solid border-dark" />
@@ -56,86 +56,82 @@ const socialhero = () => {
 							<Image src={codesign2} className="rounded-lg border-2 border-solid border-dark" />
 							<p>Example of co-design session activity</p>
 						</div>
-						<div className="col-span-12">
-							<ul className="list-disc marker:text-primary mt-8">
-								<li className="list-item text-3xl font-display">Competitive Audit</li>
-							</ul>
-							<h4>
+						<div id="competitiveaudit" className="col-span-12">
+							<h3 className="font-bold">Competitive Audit</h3>
+							<p>
 								A competitive audit was conducted on applications that were deemed similar to our idea,
 								to understand features that are already successful with users. These applications
 								include <span className="text-primary dark:text-primaryDark">‘Habitica’</span> and
 								<span className="text-primary dark:text-primaryDark">‘Level-up Life’</span>. We
 								play-tested and collected app store reviews to understand the successful aspects of
 								these apps.
-							</h4>
+							</p>
+							<div className="flex gap-12">
+								<div className="text-center w-[50%]">
+									<Image src={habiticapic} className=" w-auto max-h-[700px] " />
+									<p className="max-w-[700px]">Screenshot of Habitica</p>
+								</div>
+								<div className="text-center w-[50%]">
+									<Image src={leveluplifepic} className="w-auto max-h-[700px]" />
+									<p className="max-w-[700px]">Screenshot of Level Up Life</p>
+								</div>
+							</div>
 						</div>
-						<div className="col-span-6">
-							<Image
-								src={habiticapic}
-								className=" w-full h-auto rounded-lg border-2 border-solid border-dark"
-							/>
-							<p>Screenshot of Habitica</p>
-						</div>
-						<div className="col-span-6">
-							<Image
-								src={leveluplifepic}
-								className="w-full h-auto rounded-lg border-2 border-solid border-dark"
-							/>
-							<p>Screenshot of Level Up Life</p>
-						</div>
-						<div className="col-span-12">
-							<ul className="list-disc marker:text-primary mt-8">
-								<li className="list-item text-3xl font-display">User Interview</li>
-							</ul>
-							<h4>
+						<div id="research" className="col-span-12">
+							<h3 className="font-bold">User Interview</h3>
+							<p>
 								User interviews were conducted to understand potential users’ thoughts on what are good
 								features by asking about their expectations of such a game. These user interviews had
 								opened a new avenue of thought - to foster social courage rather than to ‘fix social
 								anxiety’.
-							</h4>
-							<ul className="list-disc marker:text-primary mt-8">
-								<li className="list-item text-3xl font-display">Research Findings and Features</li>
-							</ul>
+							</p>
+						</div>
+						<div id="findings" className="col-span-12">
+							<h3 className="font-bold">Research Findings and Features</h3>
 							<h4>
-								Research data from the various methods were brought together and the below major themes
-								were created.
+								Data from the various methods were brought together and the below major themes were
+								created.
 							</h4>
+							<div className="flex mt-12 gap-12">
+								<div className="w-[50%] text-center border-2 border-dark rounded-2xl p-2">
+									<h5 className=" underline underline-offset-4">Community</h5>
+									<p>Need for human connection</p>
+									<p>Collaboration between users</p>
+								</div>
+								<div className="w-[50%] text-center border-2 border-dark rounded-2xl p-2">
+									<h5 className=" underline underline-offset-4">Safety</h5>
+									<p>Control of who they are interacting with</p>
+									<p>Control of who can see their information</p>
+								</div>
+							</div>
+							<div className="flex mt-12 gap-12">
+								<div className="w-[50%] text-center border-2 border-dark rounded-2xl p-2">
+									<h5 className=" underline underline-offset-4">Aesthetics</h5>
+									<p>Reminiscent and colorful 8-bit art style</p>
+									<p>World style differing from real life (Escapism)</p>
+								</div>
+								<div className="w-[50%] text-center border-2 border-dark rounded-2xl p-2">
+									<h5 className=" underline underline-offset-4">User</h5>
+									<p>Ability to express themselves</p>
+									<p>Having a sense of accomplishment</p>
+								</div>
+							</div>
 						</div>
-						<div className="col-span-6 text-center border-2 border-dark rounded-2xl py-4">
-							<h4 className="font-bold">Community</h4>
-							<p>Need for human connection</p>
-							<p>Collaboration between users</p>
-						</div>
-						<div className="col-span-6 text-center border-2 border-dark rounded-2xl py-4">
-							<h4 className="font-bold">Safety</h4>
-							<p>Control of who they are interacting with</p>
-							<p>Control of who can see their information</p>
-						</div>
-						<div className="col-span-6 text-center border-2 border-dark rounded-2xl py-4">
-							<h4 className="font-bold">Aesthetics</h4>
-							<p>Reminiscent and colorful 8-bit art style</p>
-							<p>World style differing from real life (Escapism)</p>
-						</div>
-						<div className="col-span-6 text-center border-2 border-dark rounded-2xl py-4">
-							<h4 className="font-bold">User</h4>
-							<p>Ability to express themselves</p>
-							<p>Having a sense of accomplishment</p>
-						</div>
-						<div className="col-span-7">
+
+						<div className="col-span-12">
 							<ul className="list-disc marker:text-primary">
-								<li className="list-item text-3xl font-display">Brainstorming</li>
+								<h3 className="font-bold">Brainstorming</h3>
 							</ul>
 							<h4>
 								Based off research findings, we brainstormed for features as shown in the venn diagram.
 							</h4>
-						</div>
-						<div className="col-span-5">
-							<Image src={venndiagram} className="rounded-lg border-2 border-solid border-dark" />
+							<Image
+								src={venndiagram}
+								className=" w-auto max-h-[500px] rounded-lg border-2 border-solid border-dark p-4"
+							/>
 						</div>
 						<div className="col-span-12">
-							<ul className="list-disc marker:text-primary">
-								<li className="list-item text-3xl font-display">Features</li>
-							</ul>
+							<h3 className="font-bold">Features</h3>
 							<h4>
 								After brainstorming and further development of some ideas, we decided on the following
 								features:

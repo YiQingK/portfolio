@@ -162,13 +162,12 @@ const Projects = () => {
 				/>
 			</div>
 			<div className="col-span-6">
-				<Project2
-					title="Trustworthy LLM Chatbot"
+				<Project
+					title="Trustworthy and Assistive LLM Chatbot"
 					img={nvidiapic}
-					link1="/Nvidia_TrustGPT_Final.pdf"
-					link2="/"
+					link="/works/assistantchatbot"
 					type="UI UX Research and Design Project"
-					summary="Ongoing graduate capstone project with Nvidia that seeks to design a trustworthy AI chatbot through prompt engineering and UX design."
+					summary="Graduate capstone project with Nvidia that seeks to design a trustworthy and assistive AI chatbot through prompt engineering and UX design."
 				/>
 			</div>
 			<div className="col-span-6 ">
