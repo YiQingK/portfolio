@@ -1,6 +1,9 @@
 import React from "react";
 import Head from "next/head";
 import Layout from "@/components/Layout";
+import Image from "next/image";
+//import DoubleDiamond from "../../../public/Double Diamond.svg";
+import { DoubleDiamond } from "../../components/Icons";
 
 const assistantchatbot = () => {
 	return (
@@ -37,7 +40,8 @@ const assistantchatbot = () => {
 								and defining problem in the research phase followed by developing and delivering a
 								solution in the design phase.
 							</p>
-							<p>Add image</p>
+							<DoubleDiamond className="text-dark dark:text-light m-auto mt-4" />
+							{/*<Image src={DoubleDiamond} alt="Double Diamond Process" className="w-[50%] m-auto" />*/}
 						</div>
 						<div id="research" className="col-span-12">
 							<h3>Research</h3>
@@ -127,9 +131,17 @@ const assistantchatbot = () => {
 						</div>
 						<div id="designiteration" className="col-span-12">
 							<h3>Design Iteration</h3>
-							<p>Cycle of design and usabiility testing</p>
-							<h4>Low Fidelity</h4>
-							<p></p>
+							<p>Main design changes based on usability testing finding</p>
+							<h4>Revision 1</h4>
+							<p>
+								With the need for productivity personalization and workflow streamlining, we integrated
+								personal meeting calendar, to-do list and notification and created smart suggestions
+								from the chatbot and quick confirmation from the user.
+							</p>
+							<h4>Revision 2</h4>
+							<p>Preference for chatting over template use along</p>
+							<h4>Revision 3</h4>
+							<p>Real-time change and branded UI to improve user experience</p>
 						</div>
 					</div>
 				</Layout>

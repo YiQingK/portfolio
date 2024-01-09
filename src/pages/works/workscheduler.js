@@ -19,22 +19,18 @@ const workscheduler = () => {
 					<h5 className=" bg-primary dark:bg-primaryDark text-light inline p-1 rounded">
 						Software Development
 					</h5>
-					<div className="grid grid-cols-12 gap-24 gap-y-24 xl:gap-x-16 lg:gap-x-8 md:gap-y-16 sm:gap-x-0">
+					<div className="grid grid-cols-12 gap-24 xl:gap-x-16 lg:gap-x-8 md:gap-y-16 sm:gap-x-0">
 						<div className="col-span-8">
 							<h1>Work Scheduler</h1>
 							<h2>Enhancing usability for employees</h2>
-							<ul className="list-disc marker:text-primary mt-8">
-								<li className="list-item text-3xl font-display">Problem</li>
-							</ul>
+							<h3 className="font-bold">Problem</h3>
 							<h4>
 								Existing work scheduling system which was on a web-platform did not translate well to a
 								mobile version which was hard for users to use on their phones.
 								<br />
 								How might we design and develop a system that is easy to use for users?
 							</h4>
-							<ul className="list-disc marker:text-primary mt-8">
-								<li className="list-item text-3xl font-display">Solution</li>
-							</ul>
+							<h3 className="font-bold">Solution</h3>
 							<h4>
 								Created an easy to use cross-platform mobile application to help organise a company's
 								work schedule. The app was created using React Native for a cross-platform UI which
@@ -51,9 +47,7 @@ const workscheduler = () => {
 							/>
 						</div>
 						<div className="col-span-12">
-							<ul className="list-disc marker:text-primary mt-8">
-								<li className="list-item text-3xl font-display">Pain Points</li>
-							</ul>
+							<h3 className="font-bold">Pain Points</h3>
 							<ul className="list-disc">
 								<li className="list-item">Current system is not mobile friendly</li>
 								<li className="list-item">
@@ -62,9 +56,7 @@ const workscheduler = () => {
 								</li>
 							</ul>
 
-							<ul className="list-disc marker:text-primary mt-8">
-								<li className="list-item text-3xl font-display">Features</li>
-							</ul>
+							<h3 className="font-bold">Features</h3>
 							<h4>
 								The list of features were decided based off pain points and basic work scheduling
 								application features
@@ -89,13 +81,12 @@ const workscheduler = () => {
 								<li className="list-item">Staff ability to block time off</li>
 							</ul>
 
-							<ul className="list-disc marker:text-primary mt-8">
-								<li className="list-item text-3xl font-display">Learning Points</li>
+							<h3 className="font-bold">Learning Points</h3>
+							<ul className="list-disc">
+								<li className="list-item">Learning how to develop a user journey and user flow </li>
 							</ul>
 
-							<ul className="list-disc marker:text-primary mt-8">
-								<li className="list-item text-3xl font-display">With more time</li>
-							</ul>
+							<h3 className="font-bold">With more time</h3>
 							<ul className="list-disc">
 								<li className="list-item font-semibold">Involving users</li>
 								<p>

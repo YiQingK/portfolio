@@ -24,13 +24,13 @@ export default function Home() {
 								text="Hi, I'm Yi Qing Khoo. "
 								className="!text-center !text-6xl xl:!text-5xl  lg:!text-6xl md:!text-5xl sm:!text-3xl"
 							/>
-							<h4 className="text-center mb-4">
+							<p className="text-center text-2xl mb-4">
 								I'm a <span className=" text-primary dark:text-primaryDark">UI UX designer</span> who
 								has a background in Computer Science.
 								<br />
-								Human-Computer Interaction Masters Student graduating in Dec 2023, <br />
+								Human-Computer Interaction Masters Student that recently graduated in Dec 2023, <br />
 								open to work opportunities
-							</h4>
+							</p>
 
 							{/*<h5 className=" mb-4 md:text-sm sm:text-xs text-center">
 								Explore my projects and works that showcases my skills in

@@ -153,7 +153,7 @@ const Projects = () => {
 		<div className="grid grid-cols-12 gap-24 gap-y-24 xl:gap-x-16 lg:gap-x-8 md:gap-y-16 sm:gap-x-0">
 			<div className="col-span-6 ">
 				<Project2
-					title="Social Hero"
+					title="Social Hero: Understanding and design a virtual space"
 					img={socialheropic}
 					link1="/works/socialhero"
 					link2="/"
@@ -163,7 +163,7 @@ const Projects = () => {
 			</div>
 			<div className="col-span-6">
 				<Project
-					title="Trustworthy and Assistive LLM Chatbot"
+					title="Trustworthy and Assistive AI Chatbot"
 					img={nvidiapic}
 					link="/works/assistantchatbot"
 					type="UI UX Research and Design Project"
