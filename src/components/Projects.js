@@ -153,7 +153,7 @@ const Projects = () => {
 		<div className="grid grid-cols-12 gap-24 gap-y-24 xl:gap-x-16 lg:gap-x-8 md:gap-y-16 sm:gap-x-0">
 			<div className="col-span-6 ">
 				<Project2
-					title="Social Hero"
+					title="Social Hero: Understanding and design a virtual space"
 					img={socialheropic}
 					link1="/works/socialhero"
 					link2="/"
@@ -162,13 +162,12 @@ const Projects = () => {
 				/>
 			</div>
 			<div className="col-span-6">
-				<Project2
-					title="Trustworthy LLM Chatbot"
+				<Project
+					title="Trustworthy and Assistive AI Chatbot"
 					img={nvidiapic}
-					link1="/Nvidia_TrustGPT_Final.pdf"
-					link2="/"
+					link="/works/assistantchatbot"
 					type="UI UX Research and Design Project"
-					summary="Ongoing graduate capstone project with Nvidia that seeks to design a trustworthy AI chatbot through prompt engineering and UX design."
+					summary="Graduate capstone project with Nvidia that seeks to design a trustworthy and assistive AI chatbot through prompt engineering and UX design."
 				/>
 			</div>
 			<div className="col-span-6 ">

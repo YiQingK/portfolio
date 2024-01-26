@@ -4,30 +4,33 @@
 
 @layer base {
 	h1 {
-		@apply text-6xl;
+		@apply text-5xl; /*font: 48px, line height: 48px */
 		@apply font-bold;
 		@apply font-display;
 	}
 	h2 {
-		@apply text-4xl;
+		@apply text-4xl; /*font: 36px, line height: 40px*/
 		@apply font-medium;
 		@apply font-display;
 	}
 	h3 {
-		@apply text-3xl;
+		@apply text-3xl; /*font: 30px, line height: 36px*/
 		@apply font-display;
+		@apply font-bold;
 	}
 	h4 {
-		@apply text-2xl;
-		@apply font-body;
+		@apply text-xl; /*font: 20px, line height: 28px*/
+		@apply font-display;
+		@apply font-semibold;
 	}
 	h5 {
-		@apply text-xl;
+		@apply text-xl; /*font: 18px, line height: 28px*/
 		@apply font-body;
+		@apply font-bold;
 	}
 	p,
 	li {
-		@apply text-lg;
+		@apply text-lg; /*font: 16px, line height: 24px*/
 		@apply font-body;
 	}
 	li {
