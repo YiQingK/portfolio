@@ -2,8 +2,11 @@ import React from "react";
 import Head from "next/head";
 import Layout from "@/components/Layout";
 import Image from "next/image";
-import promptexample from "../../../public/images/Prompt Result Example.png";
+
+import promptexample from "../../../public/images/svgs/Prompt Result Example.svg";
 import { DoubleDiamond } from "../../components/Icons";
+import chatbotsketch from "../../../public/images/ChatbotSketch.JPG";
+import wireframe from "../../../public/images/wireframe.png";
 
 const assistantchatbot = () => {
 	return (
@@ -18,12 +21,12 @@ const assistantchatbot = () => {
 					<h5 className=" bg-primary dark:bg-primaryDark text-light inline p-1 rounded ml-4">UX Design</h5>
 
 					<div className="grid grid-cols-12 gap-12 gap-y-24">
-						<div className="col-span-12">
+						<div id="title" className="col-span-12">
 							<h1>Trustworthy and Assistive AI Chatbot</h1>
 							<h2>A design concept for a more productive internal business support agent</h2>
 						</div>
 						<div id="problem" className="col-span-12">
-							<h3>Original Problem</h3>
+							<h3>The Problem</h3>
 							<p>
 								AI Chatbots are known to suffer from hallucination where text generated can be factually
 								wrong, irrelevant or even nonsensicial.
@@ -41,7 +44,25 @@ const assistantchatbot = () => {
 								solution in the design phase.
 							</p>
 							<DoubleDiamond className="text-dark dark:text-light m-auto mt-4" />
-							{/*<Image src={DoubleDiamond} alt="Double Diamond Process" className="w-[50%] m-auto" />*/}
+							<h4 className="mt-4">Research Phase</h4>
+							<p>The research phase followed the process of:</p>
+							<ul className="list-decimal">
+								<li className="list-item">Qualitative data gathering and analysis</li>
+								<li className="list-item">Quantitative data gathering and analysis</li>
+								<li className="list-item">Data triangulation and defining themes/design suggestions</li>
+							</ul>
+							<h4 className="mt-12">Design Phase</h4>
+							<p>The design phase followed the process of:</p>
+							<ul className="list-decimal">
+								<li className="list-item">Sketching</li>
+								<li className="list-item">Wireframing</li>
+								<li className="list-item">Usability testing</li>
+								<li className="list-item">
+									Iteration of design based on feedback followed by another round usability testing
+									for mid and high-fidelity
+								</li>
+								<li className="list-item">Final design</li>
+							</ul>
 						</div>
 						<div id="research" className="col-span-12">
 							<h3>Research</h3>
@@ -59,16 +80,20 @@ const assistantchatbot = () => {
 									What accessibility considerations should be included in the design of AI chatbots?
 								</li>
 							</ol>
-							<h4 className="mt-4">User Interview and Contextual Inquiry</h4>
+							<h4 className="mt-12">User Interview and Contextual Inquiry</h4>
 							<p>
 								To understand the expectations and preceptions users have of AI chatbots, exploratory
 								user research was conducted in the form of
-								<span className="font-bold"> semi-instructured interviews</span> coupled with
-								<span className="font-bold"> contextual inquiry</span>.
+								<span className="font-extrabold"> semi-instructured interviews</span> coupled with
+								<span className="font-extrabold"> contextual inquiry</span>. The contextual inquiry
+								consisted of providing participants with several workplace scenarios which they will try
+								to solve the issue using chatgpt(instructed to act as a workplace chatbot)/workplace
+								chatbot
 							</p>
-							<h4 className="mt-4">Survey</h4>
+							<h4 className="mt-12">Survey</h4>
 							<p>
-								We followed up with a survey to <span className="font-bold">validate findings </span>
+								We followed up with a survey to{" "}
+								<span className="font-extrabold">validate findings </span>
 								from the user interview and contextual inquiry through quantitative results. The survery
 								consisted of preference testing and follow up open-ended questions to understand the
 								reasoning of their preferences.
@@ -76,6 +101,10 @@ const assistantchatbot = () => {
 						</div>
 						<div id="findings" className="col-span-12">
 							<h3>Research Findings</h3>
+							<p>
+								Here are the findings from the interview and contextual inquiry which were then
+								validated and refined after analyzing survey data.
+							</p>
 							<h4 className="mt-4">A challenge of trustworthiness in AI chatbot</h4>
 							<h5 className="mt-2">Lack of credibility:</h5>
 							<p>
@@ -94,7 +123,7 @@ const assistantchatbot = () => {
 								confidential information that could have been shared in chat. They were unsure how chat
 								data will be stored.{" "}
 							</p>
-							<h4 className="mt-4">A need for a more engaging conversational experience</h4>
+							<h4 className="mt-12">A need for a more engaging conversational experience</h4>
 							<h5 className="mt-2">Lack of human-likeness:</h5>
 							<p>
 								Participants found the chatbots unable to empathize with human emotions and understand
@@ -113,7 +142,7 @@ const assistantchatbot = () => {
 								various other input/output methods including audio and images as an
 								alternative/supplementary to text.
 							</p>
-							<h4 className="mt-4">A need for chatbot's assistance to boost productivity at work</h4>
+							<h4 className="mt-12">A need for chatbot's assistance to boost productivity at work</h4>
 							<h5 className="mt-2">Task execution:</h5>
 							<p>
 								Participants had an expectation that chatbots can go one step further and implement
@@ -128,8 +157,13 @@ const assistantchatbot = () => {
 						</div>
 						<div id="designsuggstion" className="col-span-12">
 							<h3>Design Suggestion</h3>
+							<p>
+								We decided to tackle the themes above through prompt engineering coupled with UX design.
+								Prompt engineering will be able to improve the chatbots's response while UX design will
+								be able to improve on the experience and visual aspects whilst using the chatbot.
+							</p>
 							<div className="flex gap-12">
-								<div id="promptsuggestion" className="w-[50%] mt-4">
+								<div id="promptsuggestion" className="w-[50%] mt-12">
 									<h4>Prompt Engineering</h4>
 									<p>
 										Prompt engineering aspects included these considerations to address the two
@@ -149,7 +183,7 @@ const assistantchatbot = () => {
 										<li className="list-item">Ask follow up questions</li>
 									</ul>
 								</div>
-								<div id="uxdesign" className="w-[50%] mt-4">
+								<div id="uxdesign" className="w-[50%] mt-12">
 									<h4>UX Design</h4>
 									<p>
 										Following are the features that we came up with to address the research findings
@@ -180,33 +214,47 @@ const assistantchatbot = () => {
 							<h3>Prompt Engineering</h3>
 							<p>
 								Image below shows an example of a chatbot response after being prompt engineered by us
-								which we implemented the design suggestions from above.
+								which we implemented the design suggestions from above. Response was generated using
+								Langchain, OpenAI API drawing information from openly available data from Nvidia's
+								website.
 							</p>
 							<Image
 								src={promptexample}
 								alt="prompt result example"
 								className="w-[75%] h-auto rounded-2xl m-auto"
 								priority
-								sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
 							/>
 						</div>
 						<div id="uxdesigniteration" className="col-span-12">
 							<h3>UX Design</h3>
-							<h4>Intial Design</h4>
-							<p>Main design changes based on usability testing finding</p>
-							<h4>Revision 1</h4>
+							<h4 className="mt-4">Sketches/Wireframes</h4>
+							<p>
+								The initial design was inspired by Chatgpt as it was what most users are expected to be
+								familiar with. Sketches by teammmates were collated and certain features were decided on
+								to proceed to the wireframing stage.
+							</p>
+							<div>
+								<Image src={chatbotsketch} />
+								<p className="text-center">Sketches</p>
+							</div>
+							<div>
+								<Image src={wireframe} />
+								<p className="text-center">Wireframe</p>
+							</div>
+
+							<h4 className="mt-12">Revision 1</h4>
 							<p>
 								With the need for productivity personalization and workflow streamlining, we integrated
 								personal meeting calendar, to-do list and notification and created smart suggestions
 								from the chatbot and quick confirmation from the user.
 							</p>
-							<h4>Revision 2</h4>
+							<h4 className="mt-12">Revision 2</h4>
 							<p>
 								User testing had shown us that participants preferred chatting with the chatbot to do a
 								task rather than a fill in a template. They expressed that the template required too
 								many steps and was easier to type in the input bar themselves.
 							</p>
-							<h4>Revision 3</h4>
+							<h4 className="mt-12">Revision 3</h4>
 							<p>
 								When having the chatbot assist in tasks, participants shared that seeing changes to
 								drafts in real time and its associated branded interface helped to improve their user

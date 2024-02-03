@@ -93,24 +93,24 @@ const socialhero = () => {
 								created.
 							</h4>
 							<div className="flex mt-12 gap-12">
-								<div className="w-[50%] text-center border-2 border-dark rounded-2xl p-2">
+								<div className="w-[50%] text-center border-2 border-dark rounded-2xl p-2 dark:border-light">
 									<h5 className=" underline underline-offset-4">Community</h5>
 									<p>Need for human connection</p>
 									<p>Collaboration between users</p>
 								</div>
-								<div className="w-[50%] text-center border-2 border-dark rounded-2xl p-2">
+								<div className="w-[50%] text-center border-2 border-dark rounded-2xl p-2 dark:border-light">
 									<h5 className=" underline underline-offset-4">Safety</h5>
 									<p>Control of who they are interacting with</p>
 									<p>Control of who can see their information</p>
 								</div>
 							</div>
 							<div className="flex mt-12 gap-12">
-								<div className="w-[50%] text-center border-2 border-dark rounded-2xl p-2">
+								<div className="w-[50%] text-center border-2 border-dark rounded-2xl p-2 dark:border-light">
 									<h5 className=" underline underline-offset-4">Aesthetics</h5>
 									<p>Reminiscent and colorful 8-bit art style</p>
 									<p>World style differing from real life (Escapism)</p>
 								</div>
-								<div className="w-[50%] text-center border-2 border-dark rounded-2xl p-2">
+								<div className="w-[50%] text-center border-2 border-dark rounded-2xl p-2 dark:border-light">
 									<h5 className=" underline underline-offset-4">User</h5>
 									<p>Ability to express themselves</p>
 									<p>Having a sense of accomplishment</p>
@@ -125,6 +125,7 @@ const socialhero = () => {
 							<h4>
 								Based off research findings, we brainstormed for features as shown in the venn diagram.
 							</h4>
+							<p>Each venn circle represents each designers ideas</p>
 							<Image
 								src={venndiagram}
 								className=" w-auto max-h-[500px] rounded-lg border-2 border-solid border-dark p-4"
@@ -132,10 +133,7 @@ const socialhero = () => {
 						</div>
 						<div className="col-span-12">
 							<h3 className="font-bold">Features</h3>
-							<h4>
-								After brainstorming and further development of some ideas, we decided on the following
-								features:
-							</h4>
+							<h4>After further development of some ideas, we decided on the following features:</h4>
 							<ul className="list-disc">
 								<li className="list-item">
 									Separated spaces for close friends and all players with the option to be set
