@@ -2,10 +2,9 @@ import React from "react";
 import Head from "next/head";
 import Layout from "@/components/Layout";
 import Image from "next/image";
-
 import promptexample from "../../../public/images/svgs/Prompt Result Example.svg";
 import { DoubleDiamond } from "../../components/Icons";
-import chatbotsketch from "../../../public/images/ChatbotSketch.JPG";
+//import chatbotsketch from "public/images/ChatbotSketch.JPG";
 import wireframe from "../../../public/images/wireframe.png";
 
 const assistantchatbot = () => {
@@ -234,7 +233,7 @@ const assistantchatbot = () => {
 								to proceed to the wireframing stage.
 							</p>
 							<div>
-								<Image src={chatbotsketch} />
+								{/*<Image src={chatbotsketch} />*/}
 								<p className="text-center">Sketches</p>
 							</div>
 							<div>
