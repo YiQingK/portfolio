@@ -70,11 +70,15 @@ const socialhero_p2 = () => {
 							</ul>
 						</div>
 						<div id="wireframe" className="col-span-12">
-							<h3>Wireframe</h3>
+							<h3 className="mt-4">Wireframe</h3>
 							<Image src={wireframe} className="w-auto max-h-[700px] m-auto" />
 						</div>
+						<div id="usability" className="col-span-12">
+							<h3 className="mt-4">Usability Testing</h3>
+							<p></p>
+						</div>
 						<div id="hifiprototype" className="col-span-12">
-							<h3>High Fidelity Interactive Prototype</h3>
+							<h3 className="mt-4">High Fidelity Interactive Prototype</h3>
 							<Image src={hifi} className="w-auto max-h-[700px] m-auto" />
 						</div>
 					</div>
