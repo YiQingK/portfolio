@@ -132,16 +132,14 @@ const Project2 = ({ title, type, img, link1, link2, summary }) => {
 					>
 						View Research
 					</Link>
-					<div className=" mx-1 rounded-lg bg-slate-500 text-light p-1 px-6 text-lg font-semibold dark:bg-light dark:text-dark sm:px-4 sm:text-base">
-						Design Coming Soon
-					</div>
-					{/* 					<Link
+
+					<Link
 						href={link2}
 						target="_self"
 						className=" mx-1 rounded-lg bg-dark text-light p-1 px-6 text-lg font-semibold dark:bg-light dark:text-dark sm:px-4 sm:text-base"
 					>
-						Design Coming Soon
-					</Link>*/}
+						View Design
+					</Link>
 				</div>
 			</div>
 		</article>
@@ -156,7 +154,7 @@ const Projects = () => {
 					title="Social Hero: Understanding and designing a virtual space"
 					img={socialheropic}
 					link1="/works/socialhero"
-					link2="/"
+					link2="/works/socialhero_p2"
 					type="UI UX Research and Design Project"
 					summary="Ongoing research project that seeks to understand how a virtual playful environment can foster social interactions which we dubbed 'Social Hero'."
 				/>

@@ -4,7 +4,7 @@ import Layout from "@/components/Layout";
 import Image from "next/image";
 import promptexample from "../../../public/images/svgs/Prompt Result Example.svg";
 import { DoubleDiamond } from "../../components/Icons";
-//import chatbotsketch from "public/images/ChatbotSketch.JPG";
+import chatbotsketch from "public/images/ChatbotSketch_Web.jpg";
 import wireframe from "../../../public/images/wireframe.png";
 
 const assistantchatbot = () => {
@@ -233,32 +233,15 @@ const assistantchatbot = () => {
 								to proceed to the wireframing stage.
 							</p>
 							<div>
-								{/*<Image src={chatbotsketch} />*/}
+								<Image src={chatbotsketch} />
 								<p className="text-center">Sketches</p>
 							</div>
 							<div>
 								<Image src={wireframe} />
 								<p className="text-center">Wireframe</p>
 							</div>
-
-							<h4 className="mt-12">Revision 1</h4>
-							<p>
-								With the need for productivity personalization and workflow streamlining, we integrated
-								personal meeting calendar, to-do list and notification and created smart suggestions
-								from the chatbot and quick confirmation from the user.
-							</p>
-							<h4 className="mt-12">Revision 2</h4>
-							<p>
-								User testing had shown us that participants preferred chatting with the chatbot to do a
-								task rather than a fill in a template. They expressed that the template required too
-								many steps and was easier to type in the input bar themselves.
-							</p>
-							<h4 className="mt-12">Revision 3</h4>
-							<p>
-								When having the chatbot assist in tasks, participants shared that seeing changes to
-								drafts in real time and its associated branded interface helped to improve their user
-								experience, allowing them to trust the chatbot more.
-							</p>
+							<h4 className="mt-12">High Fidelity Interactive Prototype</h4>
+							<p>Showcase top features</p>
 						</div>
 					</div>
 				</Layout>

@@ -1,6 +1,9 @@
 import React from "react";
 import Head from "next/head";
 import Layout from "@/components/Layout";
+import Image from "next/image";
+import wireframe from "public/images/socialhero_wireframe.png";
+import hifi from "public/images/socialhero_layout.png";
 
 const socialhero_p2 = () => {
 	return (
@@ -65,6 +68,14 @@ const socialhero_p2 = () => {
 									currency earned through tasks
 								</li>
 							</ul>
+						</div>
+						<div id="wireframe" className="col-span-12">
+							<h3>Wireframe</h3>
+							<Image src={wireframe} className="w-auto max-h-[700px] m-auto" />
+						</div>
+						<div id="hifiprototype" className="col-span-12">
+							<h3>High Fidelity Interactive Prototype</h3>
+							<Image src={hifi} className="w-auto max-h-[700px] m-auto" />
 						</div>
 					</div>
 				</Layout>
