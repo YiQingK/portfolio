@@ -16,10 +16,11 @@ const socialhero = () => {
 				<title> Yi Qing | Social Hero Research</title>
 				<meta name="description" content="description"></meta>
 			</Head>
-			<main className="flex flex-col items-center  text-dark w-full min-h-screen dark:text-light">
+			<main className="flex w-full flex-col items-center justify-center text-dark min-h-screen dark:text-light">
+				{/*flex w-full flex-col items-center justify-center dark:text-light*/}
 				<Layout>
 					<h5 className=" bg-primary dark:bg-primaryDark text-light inline p-1 rounded">UX Research</h5>
-					<div className="grid grid-cols-12 gap-12 gap-y-24">
+					<div className="grid grid-cols-12 gap-12 gap-y-24 md:gap-8">
 						<div id="title" className="col-span-12">
 							<h1>Social Hero</h1>
 							<h2>Fostering socialization through mobile games</h2>
@@ -48,11 +49,11 @@ const socialhero = () => {
 								reasoning behind it.
 							</p>
 						</div>
-						<div className="col-span-7">
+						<div className="col-span-7 md:col-span-12">
 							<Image src={codesign1} className="rounded-lg border-2 border-solid border-dark" />
 							<p>Example of co-design session activity</p>
 						</div>
-						<div className="col-span-5">
+						<div className="col-span-5 md:col-span-12">
 							<Image src={codesign2} className="rounded-lg border-2 border-solid border-dark" />
 							<p>Example of co-design session activity</p>
 						</div>
@@ -66,12 +67,12 @@ const socialhero = () => {
 								play-tested and collected app store reviews to understand the successful aspects of
 								these apps.
 							</p>
-							<div className="flex gap-12">
-								<div className="text-center w-[50%]">
+							<div className="flex md:flex-col gap-12 md:gap-8">
+								<div className="text-center w-[50%] md:w-full">
 									<Image src={habiticapic} className=" w-auto max-h-[700px] " />
 									<p className="max-w-[700px]">Screenshot of Habitica</p>
 								</div>
-								<div className="text-center w-[50%]">
+								<div className="text-center w-[50%]  md:w-full">
 									<Image src={leveluplifepic} className="w-auto max-h-[700px]" />
 									<p className="max-w-[700px]">Screenshot of Level Up Life</p>
 								</div>
@@ -92,25 +93,25 @@ const socialhero = () => {
 								Data from the various methods were brought together and the below major themes were
 								created.
 							</h4>
-							<div className="flex mt-12 gap-12">
-								<div className="w-[50%] text-center border-2 border-dark rounded-2xl p-2 dark:border-light">
+							<div className="flex mt-12 gap-12 md:flex-col">
+								<div className="w-[50%] md:w-full text-center border-2 border-dark rounded-2xl p-2 dark:border-light">
 									<h5 className=" underline underline-offset-4">Community</h5>
 									<p>Need for human connection</p>
 									<p>Collaboration between users</p>
 								</div>
-								<div className="w-[50%] text-center border-2 border-dark rounded-2xl p-2 dark:border-light">
+								<div className="w-[50%] md:w-full text-center border-2 border-dark rounded-2xl p-2 dark:border-light">
 									<h5 className=" underline underline-offset-4">Safety</h5>
 									<p>Control of who they are interacting with</p>
 									<p>Control of who can see their information</p>
 								</div>
 							</div>
-							<div className="flex mt-12 gap-12">
-								<div className="w-[50%] text-center border-2 border-dark rounded-2xl p-2 dark:border-light">
+							<div className="flex mt-12 gap-12 md:flex-col">
+								<div className="w-[50%] md:w-full text-center border-2 border-dark rounded-2xl p-2 dark:border-light">
 									<h5 className=" underline underline-offset-4">Aesthetics</h5>
 									<p>Reminiscent and colorful 8-bit art style</p>
 									<p>World style differing from real life (Escapism)</p>
 								</div>
-								<div className="w-[50%] text-center border-2 border-dark rounded-2xl p-2 dark:border-light">
+								<div className="w-[50%] md:w-full text-center border-2 border-dark rounded-2xl p-2 dark:border-light">
 									<h5 className=" underline underline-offset-4">User</h5>
 									<p>Ability to express themselves</p>
 									<p>Having a sense of accomplishment</p>

@@ -149,7 +149,7 @@ const Project2 = ({ title, type, img, link1, link2, summary }) => {
 const Projects = () => {
 	return (
 		<div className="grid grid-cols-12 gap-24 gap-y-24 xl:gap-x-16 lg:gap-x-8 md:gap-y-16 sm:gap-x-0">
-			<div className="col-span-6 ">
+			<div className="col-span-6 md:col-span-12 ">
 				<Project2
 					title="Social Hero: Understanding and designing a virtual space"
 					img={socialheropic}
@@ -159,7 +159,7 @@ const Projects = () => {
 					summary="Ongoing research project that seeks to understand how a virtual playful environment can foster social interactions which we dubbed 'Social Hero'."
 				/>
 			</div>
-			<div className="col-span-6">
+			<div className="col-span-6 md:col-span-12">
 				<Project
 					title="Trustworthy and Assistive workplace AI Chatbot"
 					img={nvidiapic}
@@ -168,7 +168,7 @@ const Projects = () => {
 					summary="Graduate capstone project with Nvidia that seeks to design a trustworthy and assistive AI chatbot through prompt engineering and UX design."
 				/>
 			</div>
-			<div className="col-span-6 ">
+			<div className="col-span-6 md:col-span-12 ">
 				<Project
 					title="H2 Games Design Work"
 					img={project1}
@@ -177,7 +177,7 @@ const Projects = () => {
 					summary="Design work for H2 Games GameJam event with Nanyang Polytechnic (NYP) in Singapore."
 				/>
 			</div>
-			<div className="col-span-6 ">
+			<div className="col-span-6 md:col-span-12 ">
 				<Project
 					title="Work Scheduler Application"
 					img={WSpic}

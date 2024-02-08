@@ -14,8 +14,8 @@ const about = () => {
 			</Head>
 			<main className="flex w-full flex-col items-center justify-center dark:text-light">
 				<Layout>
-					<div className="grid grid-cols-12 gap-16 gap-y-8 sm:gap-8">
-						<div className="col-span-8 items-start md:order-2">
+					<div className="grid w-full grid-cols-12 gap-16 gap-y-8 sm:gap-8">
+						<div className="col-span-8 items-start md:order-2 md:col-span-12">
 							<h1>About Me</h1>
 							<h2 className="my-4 uppercase text-dark/75 dark:text-light/75">
 								Hi, I'm Yi Qing.
@@ -29,7 +29,7 @@ const about = () => {
 								business and freelance work.
 							</p>
 						</div>
-						<div className="col-span-4 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8 dark:border-light dark:bg-dark md:order-1">
+						<div className="col-span-4 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8 dark:border-light dark:bg-dark md:order-1 md:col-span-12">
 							<div className="absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light" />
 							<Image
 								src={profilePic}

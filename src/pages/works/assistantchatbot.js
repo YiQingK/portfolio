@@ -18,8 +18,10 @@ const assistantchatbot = () => {
 				<Layout>
 					<h5 className=" bg-primary dark:bg-primaryDark text-light inline p-1 rounded ">UX Research</h5>
 					<h5 className=" bg-primary dark:bg-primaryDark text-light inline p-1 rounded ml-4">UX Design</h5>
-
-					<div className="grid grid-cols-12 gap-12 gap-y-24">
+					<h5 className=" bg-primary dark:bg-primaryDark text-light inline p-1 rounded ml-4">
+						Prompt Engineering
+					</h5>
+					<div className="grid grid-cols-12 gap-12 gap-y-24 md:gap-8">
 						<div id="title" className="col-span-12">
 							<h1>Trustworthy and Assistive AI Chatbot</h1>
 							<h2>A design concept for a more productive internal business support agent</h2>
@@ -161,8 +163,8 @@ const assistantchatbot = () => {
 								Prompt engineering will be able to improve the chatbots's response while UX design will
 								be able to improve on the experience and visual aspects whilst using the chatbot.
 							</p>
-							<div className="flex gap-12">
-								<div id="promptsuggestion" className="w-[50%] mt-12">
+							<div className="flex gap-12 md:flex-col">
+								<div id="promptsuggestion" className="w-[50%] md:w-full mt-12">
 									<h4>Prompt Engineering</h4>
 									<p>
 										Prompt engineering aspects included these considerations to address the two
@@ -182,7 +184,7 @@ const assistantchatbot = () => {
 										<li className="list-item">Ask follow up questions</li>
 									</ul>
 								</div>
-								<div id="uxdesign" className="w-[50%] mt-12">
+								<div id="uxdesign" className="w-[50%] md:w-full  mt-12">
 									<h4>UX Design</h4>
 									<p>
 										Following are the features that we came up with to address the research findings
@@ -225,8 +227,7 @@ const assistantchatbot = () => {
 							/>
 						</div>
 						<div id="uxdesigniteration" className="col-span-12">
-							<h3>UX Design</h3>
-							<h4 className="mt-4">Sketches/Wireframes</h4>
+							<h3>Sketches/Wireframes</h3>
 							<p>
 								The initial design was inspired by Chatgpt as it was what most users are expected to be
 								familiar with. Sketches by teammmates were collated and certain features were decided on
@@ -240,8 +241,9 @@ const assistantchatbot = () => {
 								<Image src={wireframe} />
 								<p className="text-center">Wireframe</p>
 							</div>
-							<h4 className="mt-12">High Fidelity Interactive Prototype</h4>
-							<p>Showcase top features</p>
+							<h3 className="mt-12">High Fidelity Interactive Prototype</h3>
+							<h4>Landing Page</h4>
+							<h4>Request Processing</h4>
 						</div>
 					</div>
 				</Layout>

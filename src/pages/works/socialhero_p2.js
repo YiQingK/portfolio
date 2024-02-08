@@ -20,32 +20,32 @@ const socialhero_p2 = () => {
 				<Layout>
 					<h5 className=" bg-primary dark:bg-primaryDark text-light inline p-1 rounded">UX Design</h5>{" "}
 					<h5 className=" bg-primary dark:bg-primaryDark text-light inline p-1 rounded">Prototyping</h5>
-					<div className="grid grid-cols-12 gap-12 gap-y-24">
+					<div className="grid grid-cols-12 gap-12 gap-y-24 md:gap-8">
 						<div id="title " className="col-span-12">
 							<h1>Social Hero </h1>
 							<h2>Fostering socialization through mobile games</h2>
 						</div>
 						<div id="Research Findings" className="col-span-12">
 							<h3>Research Findings</h3>
-							<div className="flex mt-12 gap-12">
-								<div className="w-[50%] text-center border-2 border-dark rounded-2xl p-2 dark:border-light">
+							<div className="flex mt-12 gap-12 md:flex-col">
+								<div className="w-[50%] md:w-full text-center border-2 border-dark rounded-2xl p-2 dark:border-light">
 									<h5 className=" underline underline-offset-4">Community</h5>
 									<p>Need for human connection</p>
 									<p>Collaboration between users</p>
 								</div>
-								<div className="w-[50%] text-center border-2 border-dark rounded-2xl p-2 dark:border-light">
+								<div className="w-[50%] md:w-full text-center border-2 border-dark rounded-2xl p-2 dark:border-light">
 									<h5 className=" underline underline-offset-4">Safety</h5>
 									<p>Control of who they are interacting with</p>
 									<p>Control of who can see their information</p>
 								</div>
 							</div>
-							<div className="flex mt-12 gap-12">
-								<div className="w-[50%] text-center border-2 border-dark rounded-2xl p-2 dark:border-light">
+							<div className="flex mt-12 gap-12 md:flex-col">
+								<div className="w-[50%] md:w-full text-center border-2 border-dark rounded-2xl p-2 dark:border-light">
 									<h5 className=" underline underline-offset-4">Aesthetics</h5>
 									<p>Reminiscent and colorful 8-bit art style</p>
 									<p>World style differing from real life (Escapism)</p>
 								</div>
-								<div className="w-[50%] text-center border-2 border-dark rounded-2xl p-2 dark:border-light">
+								<div className="w-[50%] md:w-full text-center border-2 border-dark rounded-2xl p-2 dark:border-light">
 									<h5 className=" underline underline-offset-4">User</h5>
 									<p>Ability to express themselves</p>
 									<p>Having a sense of accomplishment</p>
@@ -97,7 +97,7 @@ const socialhero_p2 = () => {
 								Tavern was created as a place for all users to interact. Posts can be sorted and
 								filtered accordingly and can be anonymized as well.
 							</p>
-							<div className="flex">
+							<div className="flex md:flex-col">
 								<Image src={tavern1} className="w-auto max-h-[700px] m-auto" />
 								<Image src={tavern2} className="w-auto max-h-[700px] m-auto" />
 							</div>

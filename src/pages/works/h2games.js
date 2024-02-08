@@ -16,11 +16,11 @@ const h2games = () => {
 			</Head>
 			<main className="flex items-center text-dark w-full min-h-screen dark:text-light">
 				<Layout>
-					<div className="justify-center items-center grid grid-cols-12 gap-12">
+					<div className="justify-center items-center grid grid-cols-12 gap-12 md:gap-8">
 						<div className="col-span-12">
 							<h1>H2 Games Visual Design Work</h1>
 						</div>
-						<div className="col-span-6">
+						<div className="col-span-6 md:col-span-12">
 							<Image
 								src={MainDesign}
 								alt="Main Event Design"
@@ -30,7 +30,7 @@ const h2games = () => {
 							/>
 							<p>Main Event design</p>
 						</div>
-						<div className="col-span-6">
+						<div className="col-span-6 md:col-span-12">
 							<Image
 								src={ShirtMockup}
 								alt="Mockup of Event Shirt"
@@ -40,7 +40,7 @@ const h2games = () => {
 							/>
 							<p>Mockup of Event Shirt</p>
 						</div>
-						<div className="col-span-6">
+						<div className="col-span-6 md:col-span-12">
 							<Image
 								src={BannerMockup}
 								alt="Mockup of Retractable Banner"
@@ -50,7 +50,7 @@ const h2games = () => {
 							/>
 							<p>Mockup of Event Retractable Banner</p>
 						</div>
-						<div className="col-span-6">
+						<div className="col-span-6 md:col-span-12">
 							<Image
 								src={WebsiteDesign}
 								alt="Event Website Design"
