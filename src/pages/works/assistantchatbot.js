@@ -6,6 +6,8 @@ import promptexample from "../../../public/images/svgs/Prompt Result Example.svg
 import { DoubleDiamond } from "../../components/Icons";
 import chatbotsketch from "public/images/ChatbotSketch_Web.jpg";
 import wireframe from "../../../public/images/wireframe.png";
+import landingpage from "public/images/welcome_display.png";
+import requestpage from "public/images/request_display.png";
 
 const assistantchatbot = () => {
 	return (
@@ -243,7 +245,11 @@ const assistantchatbot = () => {
 							</div>
 							<h3 className="mt-12">High Fidelity Interactive Prototype</h3>
 							<h4>Landing Page</h4>
+							<p></p>
+							<Image src={landingpage} className="w-[75%] h-auto max-h-[700px] rounded-2xl m-auto" />
 							<h4>Request Processing</h4>
+							<p></p>
+							<Image src={requestpage} className="w-[75%] h-auto  max-h-[700px] rounded-2xl m-auto" />
 						</div>
 					</div>
 				</Layout>
