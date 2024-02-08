@@ -3,7 +3,11 @@ import Head from "next/head";
 import Layout from "@/components/Layout";
 import Image from "next/image";
 import wireframe from "public/images/socialhero_wireframe.png";
-import hifi from "public/images/socialhero_layout.png";
+import landingpage from "public/images/landingpage_phone.png";
+import tavern1 from "public/images/tavern_phone.png";
+import tavern2 from "public/images/tavernexpanded_phone.png";
+import profile from "public/images/profile_phone.png";
+import academy from "public/images/academy_phone.png";
 
 const socialhero_p2 = () => {
 	return (
@@ -79,7 +83,28 @@ const socialhero_p2 = () => {
 						</div>
 						<div id="hifiprototype" className="col-span-12">
 							<h3 className="mt-4">High Fidelity Interactive Prototype</h3>
-							<Image src={hifi} className="w-auto max-h-[700px] m-auto" />
+							<h4>Landing Page</h4>
+							<p>The guide was added to help first time users better navigate the application.</p>
+							<Image src={landingpage} className="w-auto max-h-[700px] m-auto" />
+							<h4>Profile</h4>
+							<p>
+								Profile screen allows users to showcase their progress/achievements and customize their
+								avatar, display name and biography.
+							</p>
+							<Image src={profile} className="w-auto max-h-[700px] m-auto" />
+							<h4>Tavern (Online Forum)</h4>
+							<p>
+								Tavern was created as a place for all users to interact. Posts can be sorted and
+								filtered accordingly and can be anonymized as well.
+							</p>
+							<div className="flex">
+								<Image src={tavern1} className="w-auto max-h-[700px] m-auto" />
+								<Image src={tavern2} className="w-auto max-h-[700px] m-auto" />
+							</div>
+
+							<h4>Academy Log</h4>
+							<p>Academy log showcases achievements and tasks-related posts with in-game friends only.</p>
+							<Image src={academy} className="w-auto max-h-[700px] m-auto" />
 						</div>
 					</div>
 				</Layout>
