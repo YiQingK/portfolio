@@ -8,12 +8,18 @@ import leveluplifepic from "../../../public/images/leveluplife.png";
 import codesign1 from "../../../public/images/codesign1.jpg";
 import codesign2 from "../../../public/images/codesign2.jpg";
 import venndiagram from "public/images/Venn.png";
+import wireframe from "public/images/socialhero_wireframe.png";
+import landingpage from "public/images/landingpage_phone.png";
+import tavern1 from "public/images/tavern_phone.png";
+import tavern2 from "public/images/tavernexpanded_phone.png";
+import profile from "public/images/profile_phone.png";
+import academy from "public/images/academy_phone.png";
 
 const socialhero = () => {
 	return (
 		<>
 			<Head>
-				<title> Yi Qing | Social Hero Research</title>
+				<title> Yi Qing | Social Hero</title>
 				<meta name="description" content="description"></meta>
 			</Head>
 			<main className="flex w-full flex-col items-center justify-center text-dark min-h-screen dark:text-light">
@@ -24,7 +30,27 @@ const socialhero = () => {
 						<div id="title" className="col-span-12">
 							<h1>Social Hero</h1>
 							<h2>Fostering socialization through mobile games</h2>
+							<div className="mt-12 w-full flex py-12 md:flex-col md:text-center bg-primary bg-opacity-25">
+								<div className="w-[50%] md:w-full md:px-4">
+									<h4>Overview</h4>
+									<p>
+										The goal of this project as to understand how users currently navigate online
+										spaces and therefore design such a space that they will feel comfortable in
+										using and interacting with others.
+									</p>
+								</div>
+								<div className="w-[50%] md:w-full md:mt-12 md:px-4">
+									<h4>Team Members</h4>
+									<p>Yi Qing Khoo, Naomi Du, Francis Dominguez, Sid Siddharthum, Rebeka Asryan</p>
+									<h4 className="mt-4 md:mt-12">Skills showcased</h4>
+									<p>
+										Rapid Prototyping, User Testing, User Interivew, Focus Groups, Co-design,
+										Qualitative Analysis
+									</p>
+								</div>
+							</div>
 						</div>
+
 						<div id="problem" className="col-span-12">
 							<h3 className="font-bold">Problem</h3>
 							<p>
@@ -33,20 +59,42 @@ const socialhero = () => {
 								such moments in a safe space?
 							</p>
 						</div>
+						<div id="userinterview" className="col-span-12">
+							<h3 className="font-bold">User Interview</h3>
+							<p>
+								Exploratory user interviews which took 30-45 minutes were conducted to understand
+								potential users’ thoughts on what are good features by asking about their expectations
+								of such a game. Participants were graduate students These user interviews had opened a
+								new avenue of thought - to foster social courage rather than to ‘fix social anxiety’.
+							</p>
+						</div>
+						<div id="refinement" className="col-span-12">
+							<h3 className="font-bold">Problem Statement Refinement</h3>
+							<p>
+								With the new perspective introduced from the user interivew, we pivoted our research
+								to...
+							</p>
+						</div>
 						<div id="deepdive" className="col-span-12">
 							<h3 className="font-bold">Deep dive into online communities</h3>
+							<h4>Online Survey</h4>
 							<p>
-								An <span className="font-bold">online survey</span> (n=202) was conducted to better
-								understand how people navigate online spaces, learning about their experiences and
-								understanding what makes them feel safe.
+								We had successfully surveyed over 200 participants (demographics, how it was set up for
+								success). This survey was aimed to better understand how people navigate online spaces,
+								learning about their experiences and understanding what makes them feel safe.
+							</p>
+							<h4>In-person Workshop</h4>
+							<p>
+								Through recruitment from the online survey, we conducted an in-person workshop which
+								consisted of 2 parts - a focus group discussion session and a co-design session. Each
+								workshop consisted of 4-6 participants, with 1 team member leading each part.
 								<br /> <br />
-								<span className="font-bold">Focus groups</span> were conducted to allow participants
-								share in depth their experiences while potentially relating to stories of other
-								participants.
-								<br /> <br />A <span className="font-bold">co-design session</span> was also conducted
-								in the focus group where participants would design screens they would like to see in our
-								game. This allowed us to understand features they’d like in the game as well as their
-								reasoning behind it.
+								The <span className="font-bold">focus groups</span> allowed participants share their own
+								experiences while also potentially relating to stories of other participants.
+								<br /> <br />
+								The <span className="font-bold">co-design session</span> had participants design screens
+								they would like to see in our game. This allowed us to understand features they’d like
+								in the game as well as their reasoning behind it.
 							</p>
 						</div>
 						<div className="col-span-7 md:col-span-12">
@@ -78,15 +126,7 @@ const socialhero = () => {
 								</div>
 							</div>
 						</div>
-						<div id="research" className="col-span-12">
-							<h3 className="font-bold">User Interview</h3>
-							<p>
-								User interviews were conducted to understand potential users’ thoughts on what are good
-								features by asking about their expectations of such a game. These user interviews had
-								opened a new avenue of thought - to foster social courage rather than to ‘fix social
-								anxiety’.
-							</p>
-						</div>
+
 						<div id="findings" className="col-span-12">
 							<h3 className="font-bold">Research Findings and Features</h3>
 							<h4>
@@ -94,32 +134,39 @@ const socialhero = () => {
 								created.
 							</h4>
 							<div className="flex mt-12 gap-12 md:flex-col">
-								<div className="w-[50%] md:w-full text-center border-2 border-dark rounded-2xl p-2 dark:border-light">
-									<h5 className=" underline underline-offset-4">Community</h5>
+								<div className="w-[50%] md:w-full border-2 border-dark rounded-2xl p-2 dark:border-light">
+									<h5 className=" underline underline-offset-4 text-primary dark:text-primaryDark">
+										Community
+									</h5>
 									<p>Need for human connection</p>
 									<p>Collaboration between users</p>
 								</div>
-								<div className="w-[50%] md:w-full text-center border-2 border-dark rounded-2xl p-2 dark:border-light">
-									<h5 className=" underline underline-offset-4">Safety</h5>
+								<div className="w-[50%] md:w-full border-2 border-dark rounded-2xl p-2 dark:border-light">
+									<h5 className=" underline underline-offset-4 text-primary dark:text-primaryDar">
+										Safety
+									</h5>
 									<p>Control of who they are interacting with</p>
 									<p>Control of who can see their information</p>
 								</div>
 							</div>
 							<div className="flex mt-12 gap-12 md:flex-col">
-								<div className="w-[50%] md:w-full text-center border-2 border-dark rounded-2xl p-2 dark:border-light">
-									<h5 className=" underline underline-offset-4">Aesthetics</h5>
+								<div className="w-[50%] md:w-full border-2 border-dark rounded-2xl p-2 dark:border-light">
+									<h5 className=" underline underline-offset-4 text-primary dark:text-primaryDar">
+										Aesthetics
+									</h5>
 									<p>Reminiscent and colorful 8-bit art style</p>
 									<p>World style differing from real life (Escapism)</p>
 								</div>
-								<div className="w-[50%] md:w-full text-center border-2 border-dark rounded-2xl p-2 dark:border-light">
-									<h5 className=" underline underline-offset-4">User</h5>
+								<div className="w-[50%] md:w-full border-2 border-dark rounded-2xl p-2 dark:border-light">
+									<h5 className=" underline underline-offset-4 text-primary dark:text-primaryDar">
+										User
+									</h5>
 									<p>Ability to express themselves</p>
 									<p>Having a sense of accomplishment</p>
 								</div>
 							</div>
 						</div>
-
-						<div className="col-span-12">
+						<div id="brainstorming" className="col-span-12">
 							<ul className="list-disc marker:text-primary">
 								<h3 className="font-bold">Brainstorming</h3>
 							</ul>
@@ -132,9 +179,8 @@ const socialhero = () => {
 								className=" w-auto max-h-[500px] rounded-lg border-2 border-solid border-dark p-4"
 							/>
 						</div>
-						<div className="col-span-12">
-							<h3 className="font-bold">Features</h3>
-							<h4>After further development of some ideas, we decided on the following features:</h4>
+						<div id="Finalized Features" className="col-span-12">
+							<h3>Finalized Features</h3>
 							<ul className="list-disc">
 								<li className="list-item">
 									Separated spaces for close friends and all players with the option to be set
@@ -152,7 +198,39 @@ const socialhero = () => {
 									currency earned through tasks
 								</li>
 							</ul>
-							<h4>App creation of mobile game interactive prototype coming soon</h4>
+						</div>
+						<div id="wireframe" className="col-span-12">
+							<h3 className="mt-4">Wireframe</h3>
+							<Image src={wireframe} className="w-auto max-h-[700px] m-auto" />
+						</div>
+						<div id="usability" className="col-span-12">
+							<h3 className="mt-4">Usability Testing</h3>
+							<p></p>
+						</div>
+						<div id="hifiprototype" className="col-span-12">
+							<h3 className="mt-4">High Fidelity Design</h3>
+							<h4>Landing Page</h4>
+							<p>The guide was added to help first time users better navigate the application.</p>
+							<Image src={landingpage} className="w-auto max-h-[700px] m-auto" />
+							<h4>Profile</h4>
+							<p>
+								Profile screen allows users to showcase their progress/achievements and customize their
+								avatar, display name and biography.
+							</p>
+							<Image src={profile} className="w-auto max-h-[700px] m-auto" />
+							<h4>Tavern (Online Forum)</h4>
+							<p>
+								Tavern was created as a place for all users to interact. Posts can be sorted and
+								filtered accordingly and can be anonymized as well.
+							</p>
+							<div className="flex md:flex-col">
+								<Image src={tavern1} className="w-auto max-h-[700px] m-auto" />
+								<Image src={tavern2} className="w-auto max-h-[700px] m-auto" />
+							</div>
+
+							<h4>Academy Log</h4>
+							<p>Academy log showcases achievements and tasks-related posts with in-game friends only.</p>
+							<Image src={academy} className="w-auto max-h-[700px] m-auto" />
 						</div>
 					</div>
 				</Layout>

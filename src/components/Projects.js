@@ -1,10 +1,6 @@
 import React from "react";
-import Head from "next/head";
-import Layout from "@/components/Layout";
-import AnimatedText from "@/components/AnimatedText";
 import Link from "next/link";
 import Image from "next/image";
-import { GithubIcon } from "@/components/Icons";
 import project1 from "../../public/images/work/h2games.jpg";
 import WSpic from "../../public/images/wspic.jpg";
 import socialheropic from "../../public/images/socialheropic.png";
@@ -150,11 +146,10 @@ const Projects = () => {
 	return (
 		<div className="grid grid-cols-12 gap-24 gap-y-24 xl:gap-x-16 lg:gap-x-8 md:gap-y-16 sm:gap-x-0">
 			<div className="col-span-6 md:col-span-12 ">
-				<Project2
+				<Project
 					title="Social Hero: Understanding and designing a virtual space"
 					img={socialheropic}
-					link1="/works/socialhero"
-					link2="/works/socialhero_p2"
+					link="/works/socialhero"
 					type="UI UX Research and Design Project"
 					summary="Ongoing research project that seeks to understand how a virtual playful environment can foster social interactions which we dubbed 'Social Hero'."
 				/>
