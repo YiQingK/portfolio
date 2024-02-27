@@ -46,7 +46,9 @@ const socialhero = () => {
 								</div>
 								<div className="w-[50%] md:w-full md:mt-12 md:px-4">
 									<h4>Team Members</h4>
-									<p>Yi Qing Khoo, Naomi Du, Francis Dominguez, Sid Siddharthum, Rebeka Asryan</p>
+									<p>
+										Yi Qing Khoo, Naomi Du, Francis Dominguez, Siddharth Subramanian, Rebeka Asryan
+									</p>
 									<h4 className="mt-4 md:mt-12">Skills showcased</h4>
 									<p>
 										Rapid Prototyping, User Testing, User Interivew, Focus Groups, Co-design,
