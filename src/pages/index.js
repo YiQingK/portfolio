@@ -24,7 +24,7 @@ export default function Home() {
 								text="Hi, I'm Yi Qing Khoo. "
 								className="!text-center !text-6xl xl:!text-5xl  lg:!text-6xl md:!text-5xl sm:!text-3xl"
 							/>
-							<p className="text-center text-2xl mb-4">
+							<p className="text-center text-2xl mb-12">
 								I'm a <span className=" text-primary dark:text-primaryDark">UI UX designer</span> who
 								has a background in Computer Science.
 								<br />

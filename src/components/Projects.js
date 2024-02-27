@@ -1,10 +1,6 @@
 import React from "react";
-import Head from "next/head";
-import Layout from "@/components/Layout";
-import AnimatedText from "@/components/AnimatedText";
 import Link from "next/link";
 import Image from "next/image";
-import { GithubIcon } from "@/components/Icons";
 import project1 from "../../public/images/work/h2games.jpg";
 import WSpic from "../../public/images/wspic.jpg";
 import socialheropic from "../../public/images/socialheropic.png";
@@ -132,16 +128,14 @@ const Project2 = ({ title, type, img, link1, link2, summary }) => {
 					>
 						View Research
 					</Link>
-					<div className=" mx-1 rounded-lg bg-slate-500 text-light p-1 px-6 text-lg font-semibold dark:bg-light dark:text-dark sm:px-4 sm:text-base">
-						Design Coming Soon
-					</div>
-					{/* 					<Link
+
+					<Link
 						href={link2}
 						target="_self"
 						className=" mx-1 rounded-lg bg-dark text-light p-1 px-6 text-lg font-semibold dark:bg-light dark:text-dark sm:px-4 sm:text-base"
 					>
-						Design Coming Soon
-					</Link>*/}
+						View Design
+					</Link>
 				</div>
 			</div>
 		</article>
@@ -151,26 +145,25 @@ const Project2 = ({ title, type, img, link1, link2, summary }) => {
 const Projects = () => {
 	return (
 		<div className="grid grid-cols-12 gap-24 gap-y-24 xl:gap-x-16 lg:gap-x-8 md:gap-y-16 sm:gap-x-0">
-			<div className="col-span-6 ">
-				<Project2
-					title="Social Hero: Understanding and design a virtual space"
+			<div className="col-span-6 md:col-span-12 ">
+				<Project
+					title="Social Hero: Understanding and designing a virtual space"
 					img={socialheropic}
-					link1="/works/socialhero"
-					link2="/"
+					link="/works/socialhero"
 					type="UI UX Research and Design Project"
 					summary="Ongoing research project that seeks to understand how a virtual playful environment can foster social interactions which we dubbed 'Social Hero'."
 				/>
 			</div>
-			<div className="col-span-6">
+			<div className="col-span-6 md:col-span-12">
 				<Project
-					title="Trustworthy and Assistive AI Chatbot"
+					title="Trustworthy and Assistive workplace AI Chatbot"
 					img={nvidiapic}
 					link="/works/assistantchatbot"
 					type="UI UX Research and Design Project"
 					summary="Graduate capstone project with Nvidia that seeks to design a trustworthy and assistive AI chatbot through prompt engineering and UX design."
 				/>
 			</div>
-			<div className="col-span-6 ">
+			<div className="col-span-6 md:col-span-12 ">
 				<Project
 					title="H2 Games Design Work"
 					img={project1}
@@ -179,7 +172,7 @@ const Projects = () => {
 					summary="Design work for H2 Games GameJam event with Nanyang Polytechnic (NYP) in Singapore."
 				/>
 			</div>
-			<div className="col-span-6 ">
+			<div className="col-span-6 md:col-span-12 ">
 				<Project
 					title="Work Scheduler Application"
 					img={WSpic}
