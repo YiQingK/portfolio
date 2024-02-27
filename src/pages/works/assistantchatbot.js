@@ -27,6 +27,25 @@ const assistantchatbot = () => {
 						<div id="title" className="col-span-12">
 							<h1>Trustworthy and Assistive AI Chatbot</h1>
 							<h2>A design concept for a more productive internal business support agent</h2>
+							<div className="mt-12 w-full flex gap-12 py-12 md:flex-col md:text-center border-b-2 border-black dark:border-light">
+								<div className="w-[50%] md:w-full md:px-4">
+									<h4>Overview</h4>
+									<p>
+										The goal of this project as to understand users expectations of AI chatbots in a
+										workplace setting as well as improve user's trust in the system through research
+										and follow up with designing a chatbot based on the research findings.
+									</p>
+								</div>
+								<div className="w-[50%] md:w-full md:mt-12 md:px-4">
+									<h4>Team Members</h4>
+									<p>Yi Qing Khoo, Jurine Gong, Shivani Birajdar, Tam Cao</p>
+									<h4 className="mt-4 md:mt-12">Skills showcased</h4>
+									<p>
+										Rapid Prototyping, User Testing, User Interivew, Prompt Engineering, Qualitative
+										Analysis, Surveys, Quantitative Analysis
+									</p>
+								</div>
+							</div>
 						</div>
 						<div id="problem" className="col-span-12">
 							<h3>The Problem</h3>
