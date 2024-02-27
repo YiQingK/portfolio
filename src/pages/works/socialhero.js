@@ -15,6 +15,9 @@ import tavern1 from "public/images/tavern_phone.png";
 import tavern2 from "public/images/tavernexpanded_phone.png";
 import profile from "public/images/profile_phone.png";
 import academy from "public/images/academy_phone.png";
+import fantasy from "public/images/fantasy.png";
+import modern from "public/images/modern.png";
+import farm from "public/images/farm.png";
 
 const socialhero = () => {
 	return (
@@ -231,15 +234,27 @@ const socialhero = () => {
 						<div id="concepts" className="col-span-12">
 							<h3 className="mt-4">Concept Designs</h3>
 							<p>
-								Each designer took it on thei own to create different concepts coming up with the
+								Each designer took it on their own to create different concepts coming up with the
 								modern, fantasy and farm concepts.
 							</p>
-							<h4>Concept 1 - Modern</h4>
-							<h4>Concept 2 - Fantasy</h4>
-							<h4>Concept 3 - Farm</h4>
-							<p>
-								We eventually decided on a mix of fantasy and farm, taking in the brighter colors of the
-								farm concept whilst keeping the escapsim/part from reality idea of fantasy.
+							<div className=" flex md:flex-col gap-12 md:gap-8 mt-12">
+								<div className="w-[33%] text-center md:w-full">
+									<h4>Concept 1 - Modern</h4>
+									<Image src={modern} className="w-auto max-h-[700px] m-auto" />
+								</div>
+								<div className="w-[33%] text-center md:w-full">
+									<h4>Concept 2 - Fantasy</h4>
+									<Image src={fantasy} className="w-auto max-h-[700px] m-auto" />
+								</div>
+								<div className="w-[33%] text-center md:w-full">
+									<h4>Concept 3 - Farm</h4>
+									<Image src={farm} className="w-auto max-h-[700px] m-auto" />
+								</div>
+							</div>
+							<p className="mt-12">
+								We eventually decided on a mix of all three concepts, taking in the brighter colors of
+								the farm/modern concept whilst keeping the escapsim/apart from reality idea of the
+								fantasy concept.
 							</p>
 						</div>
 						<div id="wireframe" className="col-span-12">
@@ -248,10 +263,28 @@ const socialhero = () => {
 						</div>
 						<div id="usability" className="col-span-12">
 							<h3 className="mt-4">Usability Testing</h3>
-							<p></p>
-						</div>
-						<div id="usability findings" className="col-span-12">
-							<h3>Usability Testing Findings</h3>
+							<p>
+								Usability testing with 5 users were conducted with the high fidelity figma prototype. We
+								had users intuitively navigate the prototype and only give hints when users were truly
+								stuck/unable to advance.
+							</p>
+							<h4 className="mt-8">Findings</h4>
+							<p>It led to 3 major findings.</p>
+							<ol className="list-decimal">
+								<li className="list-item">
+									Users reported that certain features to be illegible due to small font size and
+									images which led us to increase the font size to ensure the application is
+									accessible to all.
+								</li>
+								<li className="list-item">
+									Users showed us that there was a lack of clarity when launching the application
+									which led us to create a guide for users.
+								</li>
+								<li className="list-item">
+									Some interactions did not work as expected which led us to troubleshoot the problem
+									areas.
+								</li>
+							</ol>
 						</div>
 						<div id="hifidesign" className="col-span-12">
 							<h3 className="mt-4">High Fidelity Design</h3>
@@ -278,9 +311,7 @@ const socialhero = () => {
 							<p>Academy log showcases achievements and tasks-related posts with in-game friends only.</p>
 							<Image src={academy} className="w-auto max-h-[700px] m-auto" />
 						</div>
-						<div id="outcome" className="col-span-12">
-							<h3>If more time</h3>
-						</div>
+						<div id="outcome" className="col-span-12"></div>
 					</div>
 				</Layout>
 			</main>

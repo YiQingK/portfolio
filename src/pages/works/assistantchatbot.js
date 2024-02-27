@@ -232,8 +232,8 @@ const assistantchatbot = () => {
 							<h3>Sketches/Wireframes</h3>
 							<p>
 								The initial design was inspired by Chatgpt as it was what most users are expected to be
-								familiar with. Sketches by teammmates were collated and certain features were decided on
-								to proceed to the wireframing stage.
+								familiar with. Sketches by teammmates were collated and certain design of features were
+								decided on to proceed to the wireframing stage.
 							</p>
 							<div>
 								<Image src={chatbotsketch} />
@@ -243,12 +243,46 @@ const assistantchatbot = () => {
 								<Image src={wireframe} />
 								<p className="text-center">Wireframe</p>
 							</div>
-							<h3 className="mt-12">High Fidelity Interactive Prototype</h3>
+
+							<h3 className="mt-12">Usability Testing</h3>
+							<p>
+								3 rounds of usability testing were conducted - once with the wireframe, once with the
+								mid-fidelity design and once with the high-fidelity design, all with new participants as
+								we wanted to also see if useres will be able to intuitively use the system.
+							</p>
+							<h4 className="mt-8"> Round 1</h4>
+							<p>
+								Testing with the wireframe showed that users preferred to interact with the bot through
+								typing rather than using pre-generated templates when using its productivity features,
+								finding typing to be more efficient. A participant also mentioned for more integration
+								of productivity features which led us to include meeting calendar, to-do list and
+								notification as part of the features.
+							</p>
+							<h4 className="mt-4">Round 2</h4>
+							<p>
+								Testing with the mid-fidelity prototype showed that users preferred real-time editing of
+								task support as well as branded UI to show a better link of task and software. Another
+								finding was that the purpose of the bot was unclear which led us to add informational
+								buttons and a help page.
+							</p>
+							<h4 className="mt-4">Round 3</h4>
+							<p>
+								The main purpose of the final round was to identify any bugs as well as to help finalise
+								the design with validation that users were satisfied with the prototype.
+							</p>
+
+							<h3 className="mt-12">High Fidelity Design</h3>
 							<h4>Landing Page</h4>
-							<p></p>
+							<p>
+								An introductory message allowed for users to understand what the bot can help with as
+								well as guide them on how to interact/use it.
+							</p>
 							<Image src={landingpage} className="w-[75%] h-auto max-h-[700px] rounded-2xl m-auto" />
 							<h4>Request Processing</h4>
-							<p></p>
+							<p>
+								Integration of a split-screen to see information updated in real time as well as the UI
+								of the third-party software.
+							</p>
 							<Image src={requestpage} className="w-[75%] h-auto  max-h-[700px] rounded-2xl m-auto" />
 						</div>
 					</div>
