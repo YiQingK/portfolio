@@ -1,9 +1,7 @@
 import Head from "next/head";
 import Layout from "@/components/Layout";
 import AnimatedText from "@/components/AnimatedText";
-import HireMe from "@/components/HireMe";
 import TransitionEffect from "@/components/TransitionEffect";
-import Link from "next/link";
 import Projects from "../components/Projects";
 
 export default function Home() {
