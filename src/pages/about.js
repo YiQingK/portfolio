@@ -3,7 +3,6 @@ import Head from "next/head";
 import Layout from "@/components/Layout";
 import profilePic from "../../public/images/portfolio_small.jpg";
 import Image from "next/image";
-import { useInView, useMotionValue, useSpring } from "framer-motion";
 
 const about = () => {
 	return (
