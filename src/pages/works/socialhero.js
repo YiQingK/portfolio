@@ -18,6 +18,7 @@ import academy from "public/images/academy_phone.png";
 import fantasy from "public/images/fantasy.png";
 import modern from "public/images/modern.png";
 import farm from "public/images/farm.png";
+import store from "public/images/store_phone.png";
 
 const socialhero = () => {
 	return (
@@ -76,15 +77,17 @@ const socialhero = () => {
 								themselves using the application and some features that they would like to see.
 							</p>
 							<p>
-								From these interviews, we heard details such as "" and it had opened a new avenue of
-								thought - to foster social courage rather than to ‘fix social anxiety’.
+								From these interviews, we heard details such as "the idea of 'fixing social anxiety'
+								gives a negative connotation and instead should look at the concept from a positive
+								light" and it had opened a new avenue of thought - to foster social courage rather than
+								to ‘fix social anxiety’.
 							</p>
 						</div>
 						<div id="refinement" className="col-span-12">
 							<h3 className="font-bold">Problem Statement Refinement</h3>
 							<p>
 								With the new perspective introduced from the user interivew, we pivoted our research
-								from just looking at introverts to any who might want to be more sociable.
+								from just looking at introverts to any individuals who might want to be more sociable.
 							</p>
 						</div>
 						<div id="deepdive" className="col-span-12">
@@ -121,7 +124,8 @@ const socialhero = () => {
 								<br></br>
 								One thought that was commonly brought up amongst the different groups of workshops was
 								that online spaces is a great place for social interaction and finding others of the
-								same passion. Many agreed that having someone to faciliate interactions is also helpful.
+								same passion. Many agreed that having someone to faciliate these online interactions is
+								also helpful.
 							</p>
 							<h5 className="mt-8">Part 2: Co-design Session</h5>
 							<p>
@@ -210,6 +214,10 @@ const socialhero = () => {
 										className="w-auto max-h-[700px] mt-4 hidden dark:block"
 									/>
 								</div>
+								<p>
+									Findings from the competitive audit corrorated with the research findings which led
+									us to our finalized features.
+								</p>
 							</div>
 						</div>
 						<div id="Finalized Features" className="col-span-12">
@@ -255,12 +263,16 @@ const socialhero = () => {
 							</div>
 							<p className="mt-12">
 								We eventually decided on a mix of all three concepts, taking in the brighter colors of
-								the farm/modern concept whilst keeping the escapsim/apart from reality idea of the
+								the farm/modern concept whilst keeping the "escapsim/apart from reality" idea of the
 								fantasy concept.
 							</p>
 						</div>
 						<div id="wireframe" className="col-span-12">
 							<h3 className="mt-4">Wireframe</h3>
+							<p>
+								Creating a wireframe allowed the team to understand the user flow, faciliate early
+								feedback internally and plan content for the hi-fidelity design.
+							</p>
 							<Image src={wireframe} className="w-auto max-h-[700px] m-auto" />
 						</div>
 						<div id="usability" className="col-span-12">
@@ -312,6 +324,12 @@ const socialhero = () => {
 							<h4>Academy Log</h4>
 							<p>Academy log showcases achievements and tasks-related posts with in-game friends only.</p>
 							<Image src={academy} className="w-auto max-h-[700px] m-auto" />
+							<h4>Store</h4>
+							<p>
+								The store allows users to buy items to customize their character from in-game currency
+								earned through missions.
+							</p>
+							<Image src={store} className="w-auto max-h-[700px] m-auto" />
 						</div>
 						<div id="outcome" className="col-span-12"></div>
 					</div>

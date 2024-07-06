@@ -21,11 +21,15 @@ const about = () => {
 								<br />
 								You can also call me Haru.
 							</h2>
-							<p>I am a UI UX designer from Singapore.</p>
+							<p>I am a UI UX designer currently based in Singapore, open to working abroad.</p>
 							<p>
 								My experience in UI UX design comes from projects and work in university while my visual
 								design skills come from being self-taught through my experience running my own small
 								business and freelance work.
+							</p>
+							<p>
+								I look to transform research findings to user-friendly designs for all. I enjoy
+								continous learning and staying updated on the latest UX & design trends.
 							</p>
 						</div>
 						<div className="col-span-4 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8 dark:border-light dark:bg-dark md:order-1 md:col-span-12">
