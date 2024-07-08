@@ -53,7 +53,7 @@ const socialhero = () => {
 									<h4 className="mt-4 md:mt-12">Skills showcased</h4>
 									<p>
 										Rapid Prototyping, User Testing, User Interivew, Focus Groups, Co-design,
-										Qualitative Analysis
+										Qualitative Data Analysis
 									</p>
 								</div>
 							</div>
@@ -193,7 +193,7 @@ const socialhero = () => {
 								tasks to understand features that are already successful with users as well as areas of
 								improvements that could be applied to the design we were building. These applications
 								include <span className="text-primary dark:text-primaryDark">‘Habitica’</span> and
-								<span className="text-primary dark:text-primaryDark">‘Level-up Life’</span>. For this
+								<span className="text-primary dark:text-primaryDark"> ‘Level-up Life’</span>. For this
 								competitive audit, we synthesized app store reviews as well as play-tested the
 								applications.
 							</p>
@@ -331,7 +331,22 @@ const socialhero = () => {
 							</p>
 							<Image src={store} className="w-auto max-h-[700px] m-auto" />
 						</div>
-						<div id="outcome" className="col-span-12"></div>
+						<div id="outcome" className="col-span-12">
+							<h3 className="mt-4">Outcome</h3>
+							<p>
+								This project resulted in high fidelity design and design suggestions of a mobile game
+								that can act as a medium for promoting socialization in users. Through this project, I
+								have furthered my technical abilities in ux research and design by designing research
+								protocols, co-conducting in-person workshops and designing low to high fidelity designs.
+							</p>
+							<h4 className="mt-8">With more time</h4>
+							<p>
+								The team would have liked to conduct more usability testing to gather more data and
+								feedback on the current work, further research on understanding the types of tasks that
+								can be included to motivate socialization and engagement as well as eventually creating
+								our own design assets for the final product.
+							</p>
+						</div>
 					</div>
 				</Layout>
 			</main>

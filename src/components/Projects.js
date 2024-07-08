@@ -58,7 +58,7 @@ const Projects = () => {
 					img={socialheropic}
 					link="/works/socialhero"
 					type="UI UX Research and Design Project"
-					summary="Ongoing research project that seeks to understand how a virtual playful environment can foster social interactions which we dubbed 'Social Hero'."
+					summary="Research project that seeks to understand how a virtual playful environment can foster social interactions which we dubbed 'Social Hero'."
 				/>
 			</div>
 			<div className="col-span-6 md:col-span-12">
