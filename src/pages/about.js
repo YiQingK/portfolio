@@ -29,7 +29,7 @@ const about = () => {
 							</p>
 							<p>
 								I look to transform research findings to user-friendly designs for all. I enjoy
-								continous learning and staying updated on the latest UX & design trends.
+								continuous learning and staying updated on the latest UX & design trends.
 							</p>
 						</div>
 						<div className="col-span-4 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8 dark:border-light dark:bg-dark md:order-1 md:col-span-12">
