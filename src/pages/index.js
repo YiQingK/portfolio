@@ -22,12 +22,13 @@ export default function Home() {
 								text="Hi, I'm Yi Qing Khoo. "
 								className="!text-center !text-6xl xl:!text-5xl  lg:!text-6xl md:!text-5xl sm:!text-3xl"
 							/>
-							<p className="text-center text-2xl mb-12">
-								I'm a <span className=" text-primary dark:text-primaryDark">UI UX designer</span> who
-								has a background in Computer Science.
-								<br />
-								Human-Computer Interaction Masters Student that recently graduated in Dec 2023, <br />
-								open to work opportunities
+							<p className="text-center text-2xl pb-6 border-b-2 border-black dark:border-light">
+								With an M.S. in Human-Computer Interaction and B.S. in Computer Science, I am looking to
+								leverage my skills in the tech industry.
+							</p>
+							<p className="text-center text-xl mb-12 pt-2">
+								View projects below where I showcase my ability in prototyping, designing and conducting
+								mixed-method user research and testing.
 							</p>
 
 							{/*<h5 className=" mb-4 md:text-sm sm:text-xs text-center">
