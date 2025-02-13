@@ -1,10 +1,11 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import project1 from "../../public/images/work/h2games.jpg";
+import h2games from "../../public/images/work/h2games.jpg";
 import WSpic from "../../public/images/wspic.jpg";
 import socialheropic from "../../public/images/socialheropic.png";
 import nvidiapic from "../../public/images/nvidialogo.png";
+import vpdpic from "../../public/images/vantapd.png";
 import { motion } from "framer-motion";
 
 const FramerImage = motion(Image);
@@ -73,7 +74,7 @@ const Projects = () => {
 			<div className="col-span-6 md:col-span-12 ">
 				<Project
 					title="Pro bono Design Work"
-					img={socialheropic}
+					img={vpdpic}
 					link="/works/vantapd"
 					type="Design Project"
 					summary="Design work for Vantacrew Project Department including layout design for e-cookbook and logo design."
@@ -82,7 +83,7 @@ const Projects = () => {
 			<div className="col-span-6 md:col-span-12 ">
 				<Project
 					title="H2 Games Design Work"
-					img={project1}
+					img={h2games}
 					link="/works/h2games"
 					type="Client Visual Design Work"
 					summary="Design work for H2 Games GameJam event with Nanyang Polytechnic (NYP) in Singapore."

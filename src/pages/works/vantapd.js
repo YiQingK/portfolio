@@ -2,10 +2,8 @@ import React from "react";
 import Head from "next/head";
 import Layout from "@/components/Layout";
 import Image from "next/image";
-import ShirtMockup from "public/images/H2games_shirtmockup.png";
-import BannerMockup from "public/images/H2games_bannermockup.png";
-import MainDesign from "public/images/H2_NYP.png";
-import WebsiteDesign from "public/images/GAMEJAM Poster XS.png";
+import DiscoCrewLogo from "public/images/discocrewlogo.jpeg";
+import MerryKrisis from "public/images/merrykrisis.png";
 
 const vantapd = () => {
 	return (
@@ -23,32 +21,16 @@ const vantapd = () => {
 						<div className="col-span-12">
 							<h2>Merry Krisis cookbook design</h2>
 							<h4>Overview:</h4>
-							<p>In-charge of layout design of recipe pages</p>
+							<p>In-charge of layout design of recipe pages (total 15 recipes, 34 pages)</p>
 							<p>
 								Responsibilites include creating main graphic (banner) for recipe page, ensuring
 								readbility and consistency of text in the recipe and general cohesion of various page
 								elements like mini character artwork and main dish artwork.
 							</p>
 						</div>
-						<div className="col-span-6 md:col-span-12">
-							<Image
-								src={MainDesign}
-								alt="Main Event Design"
-								className="w-full h-auto rounded-xl "
-								priority
-								sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-							/>
-							<p className="text-center">Main Event design</p>
-						</div>
-						<div className="col-span-6 md:col-span-12">
-							<Image
-								src={ShirtMockup}
-								alt="Mockup of Event Shirt"
-								className="w-full h-auto rounded-xl "
-								priority
-								sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-							/>
-							<p className="text-center">Mockup of Event Shirt</p>
+						<div className="col-span-12">
+							<Image src={MerryKrisis} alt="Extracted example of recipe page design" className="w-auto" />
+							<p className="text-center">Example Recipe Page</p>
 						</div>
 						<div className="col-span-12">
 							<h2>Disco Crew Trivia Bash Logo Design</h2>
@@ -61,13 +43,13 @@ const vantapd = () => {
 						</div>
 						<div className="col-span-12">
 							<Image
-								src={BannerMockup}
-								alt="Mockup of Retractable Banner"
+								src={DiscoCrewLogo}
+								alt="Disco Crew Trivia Bash Logo"
 								className="w-1/2 h-auto rounded-xl m-auto md:w-full "
 								priority
 								sizes="(max-width: 1200px) 50vw, 33vw"
 							/>
-							<p className="text-center">Mockup of Event Retractable Banner</p>
+							<p className="text-center">Final Logo</p>
 						</div>
 					</div>
 				</Layout>
