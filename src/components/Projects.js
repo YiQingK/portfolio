@@ -72,6 +72,15 @@ const Projects = () => {
 			</div>
 			<div className="col-span-6 md:col-span-12 ">
 				<Project
+					title="Pro bono Design Work"
+					img={socialheropic}
+					link="/works/vantapd"
+					type="Design Project"
+					summary="Design work for Vantacrew Project Department including layout design for e-cookbook and logo design."
+				/>
+			</div>
+			<div className="col-span-6 md:col-span-12 ">
+				<Project
 					title="H2 Games Design Work"
 					img={project1}
 					link="/works/h2games"
